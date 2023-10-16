@@ -107,6 +107,7 @@ Setelah pengguna memilih produk dan toko online, mereka akan dialihkan ke aplika
 **2.7	Asumsi dan Ketergantungan**
 
 Dalam pengembangan website Hijabista Insights - Hijab Fashion and Hijab Consultation, terdapat beberapa asumsi dan dependensi yang perlu dipertimbangkan. Asumsi dan Ketergantungan memberikan kerangka kerja untuk memahami kondisi dan ketergantungan yang mungkin mempengaruhi pengembangan dan operasionalisasi platform "Hijabista Insights". Memahami asumsi dan ketergantungan ini adalah kunci untuk mengelola risiko dan memastikan platform berfungsi sebagaimana mestinya.
+
 _a. Asumsi_
 1. Asumsi Umum
 Pengguna memiliki akses internet stabil untuk mengakses platform.
@@ -120,6 +121,7 @@ Pihak yang menyediakan API toko online memiliki sistem yang dapat diakses dan do
 Toko online yang diarahkan pengguna memiliki persediaan hijab yang mencukupi dan aktual.
 6. Pembaruan dan Penyelenggaraan
 Platform dapat diperbarui dan diselenggarakan tanpa gangguan signifikan terhadap pengguna.
+
 _b. Ketergantungan_
 1. Ketergantungan Eksternal
 Platform mengandalkan API dari toko online mitra untuk menyediakan rekomendasi produk dan harga.
