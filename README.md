@@ -171,11 +171,11 @@ Fitur "Pilih Model Hijab" adalah sebuah fitur yang memungkinkan pengguna untuk m
 Stimulus untuk menggunakan fitur "Pilih Model Hijab" dapat berasal dari pengguna yang ingin untuk membeli atau mencari inspirasi hijab, untuk menyesuaikan penampilan dengan pakaian tertentu, dan untuk menemukan hijab yang sesuai dengan bentuk wajah. Ketika pengguna memilih fitur "Pilih Model Hijab," akan muncul model hijab berdasarkan kriteria tertentu dan dapat melihat gambaran visual model hijab. 
 3. Kebutuhan Fungsional:
    
-REQ-1 : Mencari model hijab berdasarkan berbagai kriteria
+	REQ-1 : Mencari model hijab berdasarkan berbagai kriteria
 
-REQ-2 : Menampilkan gambaran visual yang jelas dari model hijab
+	REQ-2 : Menampilkan gambaran visual yang jelas dari model hijab
 
-REQ-3 : Membandingkan beberapa model hijab sekaligus
+	REQ-3 : Membandingkan beberapa model hijab sekaligus
 
 
 **4.2	Pilih Warna Kulit**
@@ -184,13 +184,14 @@ Fitur "Pilih Warna Kulit" memungkinkan pengguna untuk menyesuaikan warna kulit d
 2. Stimulus dan Respon:
 Stimulus untuk menggunakan fitur "Pilih Warna Kulit" dapat berasal dari pengguna yang ingin mencerminkan diri mereka sendiri dalam karakter atau avatar mereka, atau untuk menyesuaikan karakter dengan preferensi estetika mereka. Ketika pengguna memilih fitur "Pilih Warna Kulit," mereka biasanya akan dihadapkan dengan sebuah palet warna atau pilihan yang memungkinkan mereka untuk memilih warna kulit yang diinginkan. 
 3. Kebutuhan Fungsional:
-REQ-1 : Tampilan yang responsif dan adaptif
 
-REQ-2 : Menyediakan palet warna yang beragam
+	REQ-1 : Tampilan yang responsif dan adaptif
 
-REQ-3 : Menyimpan preferensi warna kulit pengguna
+	REQ-2 : Menyediakan palet warna yang beragam
 
-REQ-4 : Melihat pratinjau langsung dari avatar dengan warna kulit yang telah mereka pilih.
+	REQ-3 : Menyimpan preferensi warna kulit pengguna
+
+	REQ-4 : Melihat pratinjau langsung dari avatar dengan warna kulit yang telah mereka pilih.
 
 
 **4.3	Pilih Bahan Hijab**
@@ -198,14 +199,15 @@ REQ-4 : Melihat pratinjau langsung dari avatar dengan warna kulit yang telah mer
 Fitur "Pilih Bahan Hijab" memungkinkan pengguna untuk memilih bahan atau jenis kain dari hijab yang mereka inginkan. Tingkat prioritas untuk fitur "Pilih Bahan Hijab" dapat bervariasi tergantung pada tujuan bisnis, pasar target, dan kebijakan pengembangan produk. 
 2. Stimulus dan Respon 
 Pengguna mengunjungi halaman produk hijab apabila ingin memilih hijab dengan bahan yang sesuai dengan kebutuhan mereka. Saat pengguna memilih opsi "Pilih Bahan Hijab," akan muncul daftar atau galeri berbagai jenis bahan hijab yang akan disertai dengan gambar, dan deskripsi. 
-3. Kebutuhan Fungsional 
-REQ-1 : Memuat gambar-gambar bahan hijab dengan resolusi tinggi dan warna yang akurat
+3. Kebutuhan Fungsional
 
-REQ-2 : Menyediakan deskripsi lengkap tentang karakteristik bahan
+	REQ-1 : Memuat gambar-gambar bahan hijab dengan resolusi tinggi dan warna yang akurat
 
-REQ-3 : Memungkinkan pengguna untuk mencari bahan hijab berdasarkan jenis bahan atau kata kunci
+	REQ-2 : Menyediakan deskripsi lengkap tentang karakteristik bahan
 
-REQ-4 : Memungkinkan pengguna untuk mengklik atau menyentuh bahan hijab untuk memilihnya
+	REQ-3 : Memungkinkan pengguna untuk mencari bahan hijab berdasarkan jenis bahan atau kata kunci
+
+	REQ-4 : Memungkinkan pengguna untuk mengklik atau menyentuh bahan hijab untuk memilihnya
 
 
 
