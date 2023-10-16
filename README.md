@@ -17,22 +17,29 @@ Fakultas Vokasi
 Universitas Negeri Surabaya Tahun 2023
 
 
+
 **1.	PENDAHULUAN**
+
    
 **1.1	Tujuan Penulisan Dokumen**
+
 Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini bertujuan sebagai panduan atau acuan baik bagi pengembang sistem maupun pengguna. Bagi pihak pengembang, dokumen ini berperan sebagai pedoman dasar yang membantu dalam perencanaan dan pelaksanaan aktivitas pengujian sistem, serta memberikan arahan untuk melakukan perbaikan dan perubahan pada sistem guna memenuhi kebutuhan pengguna dan tujuan dari website itu sendiri. Sedangkan bagi pihak pengguna, dokumen ini digunakan untuk mencatat semua spesifikasi kebutuhan dari website yang dikembangkan dan harapan yang diinginkan. Dokumen ini disusun dengan tujuan untuk mendukung proses pembuatan spesifikasi sistem informasi yang berkaitan dengan rekomendasi model, warna, dan bentuk hijab yang sesuai dengan karakteristik pengguna. Pada prinsipnya, hasil analisis sistem informasi dengan rancangan ini, diuraikan sebagai sekumpulan proses yang terorganisasi secara hierarkis memberikan solusi dan menetapkan batasan masalah agar proyek tidak menyimpang terlalu jauh dari tujuan awal atau manfaat dari website yang akan dibangun.
 
 **1.2	Konvensi Dokumen**
+
 Standar penulisan dokumen ini disesuaikan dengan template yang diberikan. Pada dokumen ini terdapat beberapa kata yang dicetak miring digunakan untuk menunjukan bahwa kata tersebut berasal dari bahasa asing, sedangkan penulisan dengan cetak tebal sebagai petunjuk memasuki bab atau sub bab baru dan tidak ada format khusus untuk menandai bagian terpenting dokumen.
 
 **1.3	Audiens yang Dituju dan Pembaca yang Disarankan**
+
 Audiens: Audiens yang dituju dari website ini adalah para wanita Muslim yang menggunakan hijab atau berencana untuk memulai mengenakan hijab. Wanita yang berminat dalam fashion dan hijab. Menyesuaikan hijab dari bentuk wajah dan warna kulit dan sebagai platform secara online untuk keperluan fashion. Beberapa dari mereka memiliki berbagai latar belakang dan tingkat pengalaman dalam memilih hijab.
 Saran: Dokumen SKPL Website Hijabista Insights - Hijab Fashion and Hijab Consultation ini digunakan untuk menyediakan rekomendasi hijab yang cocok berdasarkan bentuk wajah dan warna kulit pengguna. Oleh karena itu, kami menyarankan kepada pembaca untuk membaca dokumen SKPL ini dengan seksama terlebih dahulu.
 
 **1.4	Lingkup Produk**
+
 Website ini berfungsi sebagai sebuah platform yang menyediakan berbagai rekomendasi mengenai hijab, termasuk model, warna, dan jenis bahan yang dapat disesuaikan dengan kebutuhan penggunanya. Untuk mencapai hal ini, website ini harus memiliki kemampuan untuk menampilkan berbagai kemungkinan pilihan bentuk wajah dan warna kulit, sehingga pengguna dapat menyesuaikan pilihan hijab sesuai dengan bentuk wajah dan warna kulit mereka. Dengan begitu, website ini dapat memberikan beberapa rekomendasi mengenai model dan warna hijab yang sesuai dengan preferensi pengguna. Selain itu, website ini juga harus mampu mengumpulkan data dari pengguna, dimana pengguna dapat memberikan informasi mengenai penggunaan hijab dalam kehidupan sehari-hari mereka. Hal ini akan memungkinkan website untuk memberikan rekomendasi mengenai jenis bahan hijab yang cocok untuk digunakan oleh pengguna tersebut. Setelah pengguna mendapatkan model, warna, dan bahan hijab yang sesuai, website ini juga harus mampu menampilkan rekomendasi beberapa toko online yang menjual hijab tersebut dengan berbagai macam harga. Hal ini bertujuan agar pengguna dapat membeli hijab tersebut dengan mudah. 
 
 **1.5	Referensi**
+
 Dokumen-dokumen yang digunakan sebagai referensi dalam pembuatan SKPL ini adalah sebagai berikut:
 [1]	“Spesifikasi Kebutuhan Perangkat Lunak Sistem Informasi Mahasiswa Berprestasi Universitas Palangka Raya.” [Online]. Available: https://www.researchgate.net/publication/365977478
 [2]	“SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK.”
@@ -41,23 +48,26 @@ Dokumen-dokumen yang digunakan sebagai referensi dalam pembuatan SKPL ini adalah
 [5]	A. T. M. Anjungan, T. Mandiri, and M. Kuliah, “SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK ATM (Anjungan Tunai Mandiri) BANK-XXX,” pp. 1–24.
 
 
-
 **2.	DESKRIPSI KESELURUHAN**
    
 **2.1	Perspektif Produk**
+
 Hijabista Insights: Hijab Fashion and Hijab Consultation" adalah platform interaktif yang dirancang untuk memberikan rekomendasi hijab yang sesuai dengan bentuk wajah dan warna  kulit dari pengguna dan juga memberikan rekomendasi bahan hijab yang sesuai dengan keseharian pengguna. Dengan desain dan isi yang menarik dan informatif, website ini digunakan untuk menyediakan rekomendasi hijab yang cocok berdasarkan bentuk wajah dan warna kulit pengguna, memfasilitasi pengguna untuk memilih bahan hijab sesuai dengan keperluan (sehari-hari atau acara khusus), serta mengarahkan pengguna ke toko online yang menjual hijab dengan pilihan harga berbeda.
 
 **2.2	Fungsi Produk**
+
 Website Hijab insights memiliki beragam fungsi yang bermanfaat, khususnya bagi para wanita yang memakai hijab dikesehariannya. Berikut adalah beberapa fungsi utama dari website ini:
 Website ini memberikan rekomendasi berbagai model hijab kepada pengguna. Ini akan membantu pengguna dalam memilih model hijab yang sesuai dengan preferensi mereka.
 Selain model, website ini juga memberikan rekomendasi berbagai warna hijab yang dapat disesuaikan dengan kebutuhan pengguna. Pengguna dapat memilih warna hijab yang cocok dengan warna kulit mereka atau sesuai dengan acara tertentu. Website ini memberikan rekomendasi mengenai bahan hijab yang sesuai dengan kebutuhan pengguna. Bahan hijab dapat beragam, seperti katun, satin, sutra, dll. Rekomendasi ini membantu pengguna dalam memilih bahan hijab yang nyaman dan sesuai dengan keperluan mereka. Website ini memberikan beberapa rekomendasi toko online yang menyediakan produk hijab sesuai dengan hasil analisis sistem. Beberapa di antaranya termasuk Shopee, Tokopedia, Lazada, Bukalapak, dan lainnya. Dengan fungsi-fungsi ini, website ini bertujuan untuk memberikan rekomendasi hijab yang lebih personal dan sesuai dengan preferensi serta kebutuhan pengguna.
 
 **2.3	Kelas dan Karakteristik Pengguna**
+
 Analisis pengguna sistem dimaksudkan untuk mengetahui siapa saja aktor yang terlibat dalam menjalankan sistem. Sistem informasi aplikasi fasilitas umum ini sendiri menggunakan website. Pengguna sistem dibagi atas dua bagian, yaitu : 
 1. Pengguna aplikasi fasilitas umum atau end user yaitu para pengguna website. Dalam menggunakan sistem ini, pengguna diharuskan memiliki koneksi GPRS / EDGE / UMTS / HSDPA dan fasilitas kamera untuk bisa menyesuaikan bentuk wajah mereka dengan hijab yang direkomendasikan. 
 2. Admin sebagai pengelola konten secara keseluruhan memiliki fungsi- fungsi seperti menambah, mengubah dan menghapus konten informasi dalam menjalankan sistem. 
 
 **2.4	Lingkungan Operasi**
+
 1. Server Side
 Perangkat yang kami gunakan adalah Windows sebagai Operating System (Sistem Operasi)
 2. Client Side
@@ -72,12 +82,14 @@ Bahasa pemrograman menggunakan PHP, JS, CSS, HTML.
 Browser dan Development sebagai pengujian dan debug.
 
 **2.5	Kendala Desain dan Implementasi**
+
 Pengembangan sistem Hijab Insights ini memiliki keterbatasan-keterbatasan yaitu sebagai berikut:
 Sistem yang dibangun belum terintegrasi secara utuh.
 Keamanan website adalah hal yang penting. Pastikan untuk menginstal pembaruan keamanan secara berkala dan menggunakan alat keamanan yang sesuai untuk melindungi website dari serangan dan ancaman siber.
 Sekalipun website telah dibangun, jika tidak dipromosikan dengan baik, mungkin akan kurang dikenal oleh masyarakat umum.
 
-**2.6	Dokumentasi Pengguna**Z
+**2.6	Dokumentasi Pengguna**
+
 Berikut panduan penggunaan aplikasi bagi pengguna tentang fitur-fitur penting pada aplikasi berbasis website Hijabista Insights: 
 1. Pilih Bentuk Wajah dan Warna Kulit:
 Platform akan menggunakan kamera untuk mengidentifikasi dan menganalisis bentuk wajah dan warna kulit pengguna. Informasi ini akan menjadi dasar untuk merekomendasikan hijab yang sesuai.
@@ -93,9 +105,9 @@ Pengguna akan dapat membandingkan harga produk hijab dari berbagai toko online, 
 Setelah pengguna memilih produk dan toko online, mereka akan dialihkan ke aplikasi toko terkait jika mereka ingin melakukan pembelian.
 
 **2.7	Asumsi dan Ketergantungan**
-Dalam pengembangan website Hijabista Insights - Hijab Fashion and Hijab Consultation, terdapat beberapa asumsi dan dependensi yang perlu dipertimbangkan. Asumsi dan Ketergantungan memberikan kerangka kerja untuk memahami kondisi dan ketergantungan yang mungkin mempengaruhi pengembangan dan operasionalisasi platform "Hijabista Insights". Memahami asumsi dan ketergantungan ini adalah kunci untuk mengelola risiko dan memastikan platform berfungsi sebagaimana mestinya.
 
-a. Asumsi
+Dalam pengembangan website Hijabista Insights - Hijab Fashion and Hijab Consultation, terdapat beberapa asumsi dan dependensi yang perlu dipertimbangkan. Asumsi dan Ketergantungan memberikan kerangka kerja untuk memahami kondisi dan ketergantungan yang mungkin mempengaruhi pengembangan dan operasionalisasi platform "Hijabista Insights". Memahami asumsi dan ketergantungan ini adalah kunci untuk mengelola risiko dan memastikan platform berfungsi sebagaimana mestinya.
+_a. Asumsi_
 1. Asumsi Umum
 Pengguna memiliki akses internet stabil untuk mengakses platform.
 2. Data Pengguna
@@ -108,8 +120,7 @@ Pihak yang menyediakan API toko online memiliki sistem yang dapat diakses dan do
 Toko online yang diarahkan pengguna memiliki persediaan hijab yang mencukupi dan aktual.
 6. Pembaruan dan Penyelenggaraan
 Platform dapat diperbarui dan diselenggarakan tanpa gangguan signifikan terhadap pengguna.
-
-b. Ketergantungan
+_b. Ketergantungan_
 1. Ketergantungan Eksternal
 Platform mengandalkan API dari toko online mitra untuk menyediakan rekomendasi produk dan harga.
 2. Pengembangan Bahasa Pemrograman
@@ -126,33 +137,44 @@ Algoritma rekomendasi harus dapat diintegrasikan dengan platform dan berjalan de
 
 
 **3.	KEBUTUHAN ANTARMUKA EKSTERNAL**
+
    
 **3.1	Antarmuka Pengguna**
+
 Aplikasi ini  menggunakan antarmuka berbasis web, dan pengguna mengoperasikannya dengan menggunakan keyboard dan mouse di sistem operasi windows. Pengguna utama aplikasi ini adalah semua wanita yang memakai hijab, yang memiliki tingkat kemampuan bervariasi dalam menggunakan aplikasi tersebut. oleh karena itu, aplikasi ini dirancang dengan konsep desain yang ramah untuk pengguna. Aksesnya cukup mudah dan pengguna tidak akan kesulitan dalam berpindah halaman. Warna-warna yang digunakan dalam aplikasi ini dibuat dengan hangat sehingga nyaman bagi pengguna dalam pemilihan hijab. 
 
 **3.2	Antarmuka Perangkat Keras**
+
 Aplikasi ini dapat diakses dengan menggunakan beberapa perangkat keras seperti mouse sebagai pointer, keyboard sebagai tombol input, dan yang terpenting yaitu handphone atau laptop untuk mengakses aplikasi dengan terhubung ke internet. Kecepatan aplikasi berbasis website ini pada saat digunakan tergantung pada juga kecepatan internet yang digunakan dan kondisi perangkat. 
 
 **3.3	Antarmuka Perangkat Lunak**
+
 Aplikasi diakses menggunakan web browser.
 Dikembangkan menggunakan bahasa pemrograman html, css, java script.
 Database yang digunakan adalah mysql.
 
 **3.4	Antarmuka Komunikasi**
+
 website ini memerlukan perangkat berupa laptop, PC, atau smartphone yang terhubung ke jaringan internet. Aplikasi ini dapat dijalankan melalui web browser Google Chrome dan menggunakan formulir elektronik HTML untuk mengumpulkan data dari pengguna dengan batasan maksimal 1000 kata. Komunikasi data dalam proses pertukaran informasi antar perangkat yang terhubung dalam jaringan menggunakan protokol jaringan berbasis TCP/IP sebagai standar komunikasi jaringan.
 
 
+
 **4.	FITUR SISTEM DAN KERANGKA DESAIN FITUR**
-   
+
+
 **4.1	Pilih Model Hijab**
 1. Deskripsi dan Prioritas:
 Fitur "Pilih Model Hijab" adalah sebuah fitur yang memungkinkan pengguna untuk mencari, melihat, dan memilih berbagai model hijab sesuai dengan berbagai kriteria. Tingkat prioritas fitur "Pilih Model Hijab" akan tergantung pada berbagai faktor, seperti tujuan, anggaran, sumber daya, dan preferensi pengguna.
 2. Stimulus dan Respon:
 Stimulus untuk menggunakan fitur "Pilih Model Hijab" dapat berasal dari pengguna yang ingin untuk membeli atau mencari inspirasi hijab, untuk menyesuaikan penampilan dengan pakaian tertentu, dan untuk menemukan hijab yang sesuai dengan bentuk wajah. Ketika pengguna memilih fitur "Pilih Model Hijab," akan muncul model hijab berdasarkan kriteria tertentu dan dapat melihat gambaran visual model hijab. 
 3. Kebutuhan Fungsional:
+   
 REQ-1 : Mencari model hijab berdasarkan berbagai kriteria
+
 REQ-2 : Menampilkan gambaran visual yang jelas dari model hijab
+
 REQ-3 : Membandingkan beberapa model hijab sekaligus
+
 
 **4.2	Pilih Warna Kulit**
 1. Deskripsi dan Prioritas:
@@ -160,10 +182,14 @@ Fitur "Pilih Warna Kulit" memungkinkan pengguna untuk menyesuaikan warna kulit d
 2. Stimulus dan Respon:
 Stimulus untuk menggunakan fitur "Pilih Warna Kulit" dapat berasal dari pengguna yang ingin mencerminkan diri mereka sendiri dalam karakter atau avatar mereka, atau untuk menyesuaikan karakter dengan preferensi estetika mereka. Ketika pengguna memilih fitur "Pilih Warna Kulit," mereka biasanya akan dihadapkan dengan sebuah palet warna atau pilihan yang memungkinkan mereka untuk memilih warna kulit yang diinginkan. 
 3. Kebutuhan Fungsional:
-REQ-1 : Tampilan yang responsif dan adaptif. 
+REQ-1 : Tampilan yang responsif dan adaptif
+
 REQ-2 : Menyediakan palet warna yang beragam
+
 REQ-3 : Menyimpan preferensi warna kulit pengguna
+
 REQ-4 : Melihat pratinjau langsung dari avatar dengan warna kulit yang telah mereka pilih.
+
 
 **4.3	Pilih Bahan Hijab**
 1. Deskripsi dan Prioritas 
@@ -172,14 +198,19 @@ Fitur "Pilih Bahan Hijab" memungkinkan pengguna untuk memilih bahan atau jenis k
 Pengguna mengunjungi halaman produk hijab apabila ingin memilih hijab dengan bahan yang sesuai dengan kebutuhan mereka. Saat pengguna memilih opsi "Pilih Bahan Hijab," akan muncul daftar atau galeri berbagai jenis bahan hijab yang akan disertai dengan gambar, dan deskripsi. 
 3. Kebutuhan Fungsional 
 REQ-1 : Memuat gambar-gambar bahan hijab dengan resolusi tinggi dan warna yang akurat
+
 REQ-2 : Menyediakan deskripsi lengkap tentang karakteristik bahan
-REQ-3 : Memungkinkan pengguna untuk mencari bahan hijab berdasarkan jenis bahan atau kata kunci.
-REQ-4 : Memungkinkan pengguna untuk mengklik atau menyentuh bahan hijab untuk memilihnya.
+
+REQ-3 : Memungkinkan pengguna untuk mencari bahan hijab berdasarkan jenis bahan atau kata kunci
+
+REQ-4 : Memungkinkan pengguna untuk mengklik atau menyentuh bahan hijab untuk memilihnya
+
 
 
 **5. 	PERSYARATAN NON FUNGSIONAL LAINNYA**
    
 **5.1	Persyaratan Kinerja**
+
 Persyaratan kinerja yang harus dipenuhi untuk memastikan performa dan responsivitas yang baik dari Website Hijab Insight, sebagai berikut:
 Waktu Respon Halaman
 Setiap halaman website harus dimuat dalam waktu maksimum 2 detik.
@@ -196,9 +227,11 @@ Kinerja pada jaringan lambat
 Website harus dapat diakses dengan baik pada koneksi berkecepatan rendah tanpa mengorbankan kualitas konten.
 
 **5.2	Persyaratan Keselamatan**
+
 Website Hijabista Insights - Hijab Fashion and Hijab Consultation memberikan tindakan keamanan yang akan diimplementasikan. Keamanan data pengguna, transmisi, dan integrasi keamanan adalah prioritas utama. Perlindungan privasi dan ketersediaan layanan juga merupakan fokus penting. Pembaruan dan pemeliharaan keamanan secara teratur adalah bagian integral dari strategi keamanan keseluruhan. Dengan mengimplementasikan langkah-langkah ini, kami bertujuan untuk memberikan pengalaman pengguna yang aman dan terpercaya.
 
 **5.3	Persyaratan Keamanan**
+
 Persyaratan keamanan website hijab insights  sangat penting untuk melindungi data dari pengguna, mencegah ancaman siber, serta menjaga integritas dan ketersediaan website. Berikut adalah beberapa persyaratan keamanan yang perlu dipertimbangkan dalam pengembangan dan pengelolaan website tersebut:
 Proteksi Data Pengguna
 Website harus memiliki mekanisme enkripsi data (HTTPS) untuk melindungi data pribadi dan sensitif pengguna, seperti informasi penggunaan hijab untuk keseharian user yang seperti apa.
@@ -215,6 +248,7 @@ Tingkat pemberi posting, yang memberikan akses khusus kepada fungsionalitas pemb
 Tingkat pengguna, yang memberikan akses untuk melihat dan menggunakan informasi yang ada."
 
 **5.4	Atribut Kualitas Perangkat Lunak**
+
 Berikut adalah contoh atribut kualitas perangkat lunak dalam konteks sebuah website Hijabista Insights:
 Keandalan 
 Aplikasi harus memberikan hasil yang akurat dan dapat diandalkan dalam menampilkan pilihan bentuk wajah dan warna kulit, dan informasi lainnya kepada pengguna. 
@@ -234,6 +268,7 @@ Semua data pengguna harus disandikan (encrypted) menggunakan protokol HTTPS.
 Perlindungan terhadap serangan SQL Injection, Cross-Site Scripting (XSS), dan serangan umum lainnya harus ada.
 
 **5.5	Atribut Bisnis**
+
 1. Mengoptimalisasi Pengalaman Pengguna:
 Platform bertujuan untuk memberikan pengalaman pengguna yang intuitif dan memuaskan dalam memilih hijab sesuai dengan preferensi dan karakteristik fisik pengguna.
 Meningkatkan Keterlibatan Pengguna:
@@ -242,7 +277,6 @@ Meningkatkan Keterlibatan Pengguna:
 Dengan memberikan rekomendasi model hijab dan perbandingan harga dari berbagai toko online, platform membantu pengguna dalam mengambil keputusan pembelian yang cerdas.
 4. Kolaborasi dengan Toko Online:
 Platform berusaha untuk memperluas jangkauan dan mendukung industri hijab dengan mengarahkan pengguna ke toko online mitra.
-
 II. Metrik Kinerja Utama
 1. Peningkatan Pengguna Aktif:
 Tujuan untuk meningkatkan jumlah dan tingkat keterlibatan pengguna aktif setiap bulannya.
@@ -252,12 +286,12 @@ Memonitor tingkat konversi dari pengguna yang menggunakan platform menjadi pembe
 Melakukan survei kepuasan pengguna untuk memantau tingkat kepuasan dan menerima umpan balik untuk perbaikan.
 4. Waktu Respons Server:
 Memantau dan memastikan bahwa platform memberikan waktu respons yang cepat untuk mempertahankan pengalaman pengguna yang mulus.
-
 III. Model Bisnis
 1. Kerjasama dengan Toko Online:
 Platform dapat memperoleh pendapatan dari kemitraan dengan toko online melalui program afiliasi atau model pembagian keuntungan.
 2. Berbasis Iklan:
 Menyediakan ruang iklan untuk merek hijab atau produk terkait di platform.
+
 
 
 **6.	PERSYARATAN LAINNYA**
@@ -273,6 +307,8 @@ CDM dan PDM
 
 
 **PENJELASAN WEB**
+
+
 **A. HTML**
 
 *1) Login*
@@ -589,16 +625,16 @@ CDM dan PDM
 	
 	            </div>
 	
-	1. `<!-- slide 1 (kerja) -->`: Komentar HTML yang memberikan penjelasan bahwa ini adalah slide pertama dan mungkin terkait dengan kategori "kerja". Komentar ini tidak akan ditampilkan di halaman web tetapi berguna 	untuk memberikan konteks kepada pengembang atau orang lain yang membaca kode. (penjelasan ini berlaku semua ‘slide’ dan menyesuaikan)
-	2. `<div class="swiper-slide">`: Elemen `<div>` dengan kelas CSS "swiper-slide". Ini menunjukkan bahwa elemen ini adalah satu slide dalam galeri Swiper. Slide ini mungkin akan berisi beberapa informasi atau elemen 	terkait dengan kategori "kerja".
-	3. Setiap bagian berikutnya adalah konten dari slide tersebut, termasuk gambar, judul, penjelasan, dan tombol "pilih". Semuanya dibungkus dalam elemen `<div>` dengan kelas "box".
-	   - `<div class="box">`: Elemen `<div>` dengan kelas CSS "box". Ini mungkin digunakan untuk mengelompokkan dan memformat konten dalam slide.
-	   - `<img src="img/katun.jpg" alt="katun" class="img">`: Elemen gambar (`<img>`) yang menunjukkan gambar katun. `src` adalah atribut yang menunjukkan lokasi gambar (dalam hal ini, berkas "katun.jpg" dalam 		direktori "img"). `alt` adalah teks alternatif yang akan ditampilkan jika gambar tidak dapat dimuat. Kelas "img" mungkin digunakan untuk memberikan gaya atau pengaturan khusus pada gambar.
-	   - `<div class="content">`: Elemen `<div>` dengan kelas CSS "content". Ini mungkin digunakan untuk mengelompokkan dan memformat konten teks dalam slide.
-	   - `<h2 class="title">Katun</h2>`: Elemen judul level 2 (`<h2>`) yang menunjukkan judul "Katun". Kelas "title" mungkin digunakan untuk memberikan gaya atau tata letak khusus pada judul.
-	   - `<p class="penjelasan">ringan, mudah diatur, dan tidak membuat panas.</p>`: Elemen paragraf (`<p>`) yang berisi penjelasan tentang kategori "Katun". Kelas "penjelasan" mungkin digunakan untuk memberikan gaya 	atau tata letak khusus pada teks penjelasan.
-	   - `<a href="#" class="btn">pilih</a>`: Ini adalah elemen tautan (`<a>`) yang menunjukkan tautan dengan teks "pilih". `href="#"` menunjukkan bahwa tautan tidak akan mengarahkan ke halaman lain, dan `class="btn"` 	mungkin digunakan untuk memberikan gaya atau tata letak khusus pada tautan.
-	4. `<h3>kerja</h3>`: Ini adalah elemen judul level 3 (`<h3>`) yang menunjukkan teks "kerja". Ini mungkin memberikan informasi tambahan atau label terkait dengan kategori "kerja".
+1. `<!-- slide 1 (kerja) -->`: Komentar HTML yang memberikan penjelasan bahwa ini adalah slide pertama dan mungkin terkait dengan kategori "kerja". Komentar ini tidak akan ditampilkan di halaman web tetapi berguna 	untuk memberikan konteks kepada pengembang atau orang lain yang membaca kode. (penjelasan ini berlaku semua ‘slide’ dan menyesuaikan)
+2. `<div class="swiper-slide">`: Elemen `<div>` dengan kelas CSS "swiper-slide". Ini menunjukkan bahwa elemen ini adalah satu slide dalam galeri Swiper. Slide ini mungkin akan berisi beberapa informasi atau elemen 	terkait dengan kategori "kerja".
+3. Setiap bagian berikutnya adalah konten dari slide tersebut, termasuk gambar, judul, penjelasan, dan tombol "pilih". Semuanya dibungkus dalam elemen `<div>` dengan kelas "box".
+	- `<div class="box">`: Elemen `<div>` dengan kelas CSS "box". Ini mungkin digunakan untuk mengelompokkan dan memformat konten dalam slide.
+	- `<img src="img/katun.jpg" alt="katun" class="img">`: Elemen gambar (`<img>`) yang menunjukkan gambar katun. `src` adalah atribut yang menunjukkan lokasi gambar (dalam hal ini, berkas "katun.jpg" dalam 		direktori "img"). `alt` adalah teks alternatif yang akan ditampilkan jika gambar tidak dapat dimuat. Kelas "img" mungkin digunakan untuk memberikan gaya atau pengaturan khusus pada gambar.
+	- `<div class="content">`: Elemen `<div>` dengan kelas CSS "content". Ini mungkin digunakan untuk mengelompokkan dan memformat konten teks dalam slide.
+	- `<h2 class="title">Katun</h2>`: Elemen judul level 2 (`<h2>`) yang menunjukkan judul "Katun". Kelas "title" mungkin digunakan untuk memberikan gaya atau tata letak khusus pada judul.
+	- `<p class="penjelasan">ringan, mudah diatur, dan tidak membuat panas.</p>`: Elemen paragraf (`<p>`) yang berisi penjelasan tentang kategori "Katun". Kelas "penjelasan" mungkin digunakan untuk memberikan gaya 	atau tata letak khusus pada teks penjelasan.
+	- `<a href="#" class="btn">pilih</a>`: Ini adalah elemen tautan (`<a>`) yang menunjukkan tautan dengan teks "pilih". `href="#"` menunjukkan bahwa tautan tidak akan mengarahkan ke halaman lain, dan `class="btn"` 	mungkin digunakan untuk memberikan gaya atau tata letak khusus pada tautan.
+4. `<h3>kerja</h3>`: Ini adalah elemen judul level 3 (`<h3>`) yang menunjukkan teks "kerja". Ini mungkin memberikan informasi tambahan atau label terkait dengan kategori "kerja".
 	
 	            <div class="swipUer-button-next"></div>
 	            <div class="swiper-button-prev"></div>
@@ -607,22 +643,23 @@ CDM dan PDM
 	        </div>
 	    </div>
 	   <!-- container akhir -->
-	1. `<div class="swiper-button-next"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-button-next". Elemen ini mungkin terkait dengan tombol navigasi untuk melihat slide berikutnya dalam galeri Swiper. 	Kustomisasi dari gaya atau perilaku tombol ini kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
-	2. `<div class="swiper-button-prev"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-button-prev". Elemen ini mungkin terkait dengan tombol navigasi untuk melihat slide sebelumnya dalam galeri Swiper. 	Seperti sebelumnya, kustomisasi dari gaya atau perilaku tombol ini kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
-	3. `<div class="swiper-pagination"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-pagination". Elemen ini mungkin terkait dengan indikator paginasi atau navigasi untuk galeri Swiper. Ini bisa berupa 	titik-titik atau angka yang menunjukkan posisi slide saat ini. Gaya atau perilaku dari elemen ini juga kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
-	4. `</div>`: Penutup dari elemen dengan kelas "swiper", yang menandakan akhir dari galeri Swiper. 
-	5. `</div>`:Penutup dari elemen dengan kelas "container", yang menandakan akhir dari konten di dalam container.
-	6. `<!-- container akhir -->`: Komentar HTML yang memberikan penjelasan bahwa ini adalah akhir dari container. Komentar ini tidak akan ditampilkan di halaman web tetapi berguna untuk memberikan konteks kepada 	pengembang atau orang lain yang membaca kode.
+1. `<div class="swiper-button-next"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-button-next". Elemen ini mungkin terkait dengan tombol navigasi untuk melihat slide berikutnya dalam galeri Swiper. 	Kustomisasi dari gaya atau perilaku tombol ini kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
+2. `<div class="swiper-button-prev"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-button-prev". Elemen ini mungkin terkait dengan tombol navigasi untuk melihat slide sebelumnya dalam galeri Swiper. 	Seperti sebelumnya, kustomisasi dari gaya atau perilaku tombol ini kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
+3. `<div class="swiper-pagination"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-pagination". Elemen ini mungkin terkait dengan indikator paginasi atau navigasi untuk galeri Swiper. Ini bisa berupa 	titik-titik atau angka yang menunjukkan posisi slide saat ini. Gaya atau perilaku dari elemen ini juga kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
+4. `</div>`: Penutup dari elemen dengan kelas "swiper", yang menandakan akhir dari galeri Swiper. 
+5. `</div>`:Penutup dari elemen dengan kelas "container", yang menandakan akhir dari konten di dalam container.
+6. `<!-- container akhir -->`: Komentar HTML yang memberikan penjelasan bahwa ini adalah akhir dari container. Komentar ini tidak akan ditampilkan di halaman web tetapi berguna untuk memberikan konteks kepada 	pengembang atau orang lain yang membaca kode.
 	<!-- Swiper JS -->
 	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 	<!-- script js  -->
 	<script src="js/script_divana.js"></script>
 	</body>
 	</html>
-	1. `<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript dari URL yang diberikan. Dalam hal ini, itu menghubungkan ke 	berkas "swiper-bundle.min.js" dari pustaka Swiper yang disediakan oleh jsDelivr. Pustaka Swiper adalah kumpulan alat untuk membuat galeri atau slide-show interaktif.
-	2. `<script src="js/script_divana.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript, tetapi kali ini itu merujuk ke berkas "script_divana.js" yang berada dalam direktori "js" di situs 	web. Berkas ini mungkin berisi kode JavaScript khusus yang ditulis oleh pengembang untuk menambahkan fungsionalitas atau interaktivitas tertentu pada halaman web.
-	3. `</body>`: Penutup dari elemen `<body>`, menandakan akhir dari konten yang akan ditampilkan di halaman web.
-	4. `</html>`: Penutup dari elemen `<html>`, menandakan akhir dari dokumen HTML.
+1. `<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript dari URL yang diberikan. Dalam hal ini, itu menghubungkan ke 	berkas "swiper-bundle.min.js" dari pustaka Swiper yang disediakan oleh jsDelivr. Pustaka Swiper adalah kumpulan alat untuk membuat galeri atau slide-show interaktif.
+2. `<script src="js/script_divana.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript, tetapi kali ini itu merujuk ke berkas "script_divana.js" yang berada dalam direktori "js" di situs 	web. Berkas ini mungkin berisi kode JavaScript khusus yang ditulis oleh pengembang untuk menambahkan fungsionalitas atau interaktivitas tertentu pada halaman web.
+3. `</body>`: Penutup dari elemen `<body>`, menandakan akhir dari konten yang akan ditampilkan di halaman web.
+4. `</html>`: Penutup dari elemen `<html>`, menandakan akhir dari dokumen HTML.
+
 
 *4) fitur pilih model hijab*
 	•	<!DOCTYPE html> Digunakan untuk deklarasi tipe dokumen HTML 
@@ -662,7 +699,9 @@ CDM dan PDM
 	•	Elemen-elemen `<div>` berkelas `img-container-cerah`, `img-container-tengah`, dan `img-container-gelap`: Ini adalah elemen-elemen `<div>` yang digunakan untuk mengelompokkan gambar-gambar yang sesuai dengan warna kulit tertentu.
 
 
+
 **B. CSS**
+
 
 *1) Login*
 	* {
@@ -671,11 +710,11 @@ CDM dan PDM
 	    box-sizing: border-box;
 	    font-family: 'Open Sans', sans-serif;
 	}
-	1. `padding: 0;`: Ini mengatur nilai padding (ruang di sekitar konten) dari semua elemen menjadi 0. Padding adalah ruang di sekitar isi dari elemen.
-	2. `margin: 0;`: Ini mengatur nilai margin (ruang di sekitar elemen) dari semua elemen menjadi 0. Margin adalah ruang di luar elemen.
-	3. `box-sizing: border-box;`: Ini mengatur model kotak (box model) untuk semua elemen. Dalam model kotak "border-box", ukuran total elemen termasuk padding dan border, tetapi tidak termasuk margin.
-	4. `font-family: 'Open Sans', sans-serif;`: Ini menentukan jenis font yang akan digunakan di seluruh halaman web. Pertama, mencoba menggunakan font "Open Sans". Jika font ini tidak tersedia, maka font sans-serif 	    cadangan yang umum akan digunakan. Jadi, jika "Open Sans" tidak dapat dimuat, browser akan mencari font sans-serif lainnya.
-	
+1. `padding: 0;`: Ini mengatur nilai padding (ruang di sekitar konten) dari semua elemen menjadi 0. Padding adalah ruang di sekitar isi dari elemen.
+2. `margin: 0;`: Ini mengatur nilai margin (ruang di sekitar elemen) dari semua elemen menjadi 0. Margin adalah ruang di luar elemen.
+3. `box-sizing: border-box;`: Ini mengatur model kotak (box model) untuk semua elemen. Dalam model kotak "border-box", ukuran total elemen termasuk padding dan border, tetapi tidak termasuk margin.
+4. `font-family: 'Open Sans', sans-serif;`: Ini menentukan jenis font yang akan digunakan di seluruh halaman web. Pertama, mencoba menggunakan font "Open Sans". Jika font ini tidak tersedia, maka font sans-serif cadangan yang umum akan digunakan. Jadi, jika "Open Sans" tidak dapat dimuat, browser akan mencari font sans-serif lainnya.
+
 	body {
 	    display: flex;
 	    align-items: center;
@@ -684,12 +723,12 @@ CDM dan PDM
 	    min-height: 100vh;
 	    background-color: #fff9ec;
 	}
-	1. `display: flex;`: Ini mengatur elemen body untuk menggunakan model tata letak Flexbox. Flexbox adalah metode tata letak yang memungkinkan pengaturan elemen dalam container dengan cara yang responsif dan 			fleksibel.
-	2. `align-items: center;`: Ini mengatur bagaimana elemen di sepanjang sumbu vertikal akan diatur. Dalam hal ini, elemen akan diatur di tengah-tengah secara vertikal.
-	3. `justify-content: center;`: Ini mengatur bagaimana elemen di sepanjang sumbu horizontal akan diatur. Dalam hal ini, elemen akan diatur di tengah-tengah secara horizontal.
-	4. `flex-direction: column;`: Ini mengatur arah tata letak Flexbox. Dalam hal ini, elemen akan diatur dalam kolom, artinya elemen-elemen akan ditumpuk satu di atas yang lain.
-	5. `min-height: 100vh;`: Ini mengatur tinggi minimum dari elemen body sebesar 100% dari tinggi viewport (vh). Ini memastikan bahwa elemen body selalu memiliki tinggi setidaknya setara dengan tinggi tampilan 			pengguna.
-	6. `background-color: #fff9ec;`: Ini menetapkan warna latar belakang untuk elemen body. Dalam hal ini, latar belakang akan berwarna #fff9ec, yang merupakan nilai hex untuk warna krem muda.
+1. `display: flex;`: Ini mengatur elemen body untuk menggunakan model tata letak Flexbox. Flexbox adalah metode tata letak yang memungkinkan pengaturan elemen dalam container dengan cara yang responsif dan 			fleksibel.
+2. `align-items: center;`: Ini mengatur bagaimana elemen di sepanjang sumbu vertikal akan diatur. Dalam hal ini, elemen akan diatur di tengah-tengah secara vertikal.
+3. `justify-content: center;`: Ini mengatur bagaimana elemen di sepanjang sumbu horizontal akan diatur. Dalam hal ini, elemen akan diatur di tengah-tengah secara horizontal.
+4. `flex-direction: column;`: Ini mengatur arah tata letak Flexbox. Dalam hal ini, elemen akan diatur dalam kolom, artinya elemen-elemen akan ditumpuk satu di atas yang lain.
+5. `min-height: 100vh;`: Ini mengatur tinggi minimum dari elemen body sebesar 100% dari tinggi viewport (vh). Ini memastikan bahwa elemen body selalu memiliki tinggi setidaknya setara dengan tinggi tampilan 			pengguna.
+6. `background-color: #fff9ec;`: Ini menetapkan warna latar belakang untuk elemen body. Dalam hal ini, latar belakang akan berwarna #fff9ec, yang merupakan nilai hex untuk warna krem muda.
 	
 	main {
 	    width: 100%;
@@ -704,15 +743,15 @@ CDM dan PDM
 	    max-width: 300px;
 	}
 	 Aturan untuk Elemen `<main>`:
-	1. `width: 100%;`: Ini mengatur lebar elemen `<main>` untuk mengisi seluruh lebar dari kontainer induknya (biasanya lebar tampilan pengguna atau elemen yang memuat `<main>`).
-	2. `max-width: 800px;`: Ini membatasi lebar maksimum dari elemen `<main>` hingga 800 piksel. Ini berarti elemen `<main>` tidak akan melebihi lebar 800 piksel, bahkan jika tampilan pengguna lebih lebar.
-	3. `padding: 32px;`: Ini menetapkan jarak antara tepi konten di dalam elemen `<main>`. Padding adalah ruang di sekitar isi dari elemen.
+1. `width: 100%;`: Ini mengatur lebar elemen `<main>` untuk mengisi seluruh lebar dari kontainer induknya (biasanya lebar tampilan pengguna atau elemen yang memuat `<main>`).
+2. `max-width: 800px;`: Ini membatasi lebar maksimum dari elemen `<main>` hingga 800 piksel. Ini berarti elemen `<main>` tidak akan melebihi lebar 800 piksel, bahkan jika tampilan pengguna lebih lebar.
+3. `padding: 32px;`: Ini menetapkan jarak antara tepi konten di dalam elemen `<main>`. Padding adalah ruang di sekitar isi dari elemen.
 	
 	Aturan untuk Elemen `<img>` yang berada dalam `<main>`:
-	1. `display: block;`: Ini mengatur elemen gambar (`<img>`) untuk memiliki tata letak "block". Ini berarti elemen gambar akan memulai baris baru dan mengisi seluruh lebar elemen yang memuatnya.
-	2. `margin: 0 auto 16px auto;`: Ini mengatur margin (ruang di sekitar elemen) dari atas ke bawah, dan dari kiri ke kanan. Nilai "0" pada bagian atas dan bawah berarti tidak ada margin di atas dan bawah elemen. 	    "auto" pada sisi kiri dan kanan mengatur elemen untuk ditempatkan di tengah secara horizontal di dalam elemen yang memuatnya.
-	3. `width: 100%;`: Ini mengatur lebar elemen gambar untuk mengisi seluruh lebar dari elemen yang memuatnya.
-	4. `max-width: 300px;`: Ini membatasi lebar maksimum dari elemen gambar hingga 300 piksel. Ini berarti elemen gambar tidak akan melebihi lebar 300 piksel, bahkan jika gambar aslinya lebih lebar.
+1. `display: block;`: Ini mengatur elemen gambar (`<img>`) untuk memiliki tata letak "block". Ini berarti elemen gambar akan memulai baris baru dan mengisi seluruh lebar elemen yang memuatnya.
+2. `margin: 0 auto 16px auto;`: Ini mengatur margin (ruang di sekitar elemen) dari atas ke bawah, dan dari kiri ke kanan. Nilai "0" pada bagian atas dan bawah berarti tidak ada margin di atas dan bawah elemen. 	    "auto" pada sisi kiri dan kanan mengatur elemen untuk ditempatkan di tengah secara horizontal di dalam elemen yang memuatnya.
+3. `width: 100%;`: Ini mengatur lebar elemen gambar untuk mengisi seluruh lebar dari elemen yang memuatnya.
+4. `max-width: 300px;`: Ini membatasi lebar maksimum dari elemen gambar hingga 300 piksel. Ini berarti elemen gambar tidak akan melebihi lebar 300 piksel, bahkan jika gambar aslinya lebih lebar.
 	
 	.login-input {
 	    padding: 32px;
@@ -746,33 +785,33 @@ CDM dan PDM
 	    cursor: pointer;
 	}
 	Aturan untuk Kelas ".login-input":
-	1. `padding: 32px;`: Ini memberikan jarak di dalam elemen dengan kelas "login-input". Ini akan membuat konten di dalam elemen terdistribusi secara merata dari tepi dalam.
-	2. `background-color: #fb6376;`: Ini menetapkan latar belakang elemen dengan warna #fb6376, yang merupakan nilai hex.
-	3. `border-radius: 10px;`: Ini membulatkan sudut-sudut elemen, memberikan efek sudut melengkung.
-	4. `box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);`: Ini menambahkan bayangan pada elemen. Bayangan ini akan memberikan elemen sedikit dimensi dan terlihat seperti melayang di atas latar belakang.
-	5. `overflow: auto;`: Jika konten dalam elemen melebihi ukuran elemen itu sendiri, maka elemen akan memungkinkan pengguna untuk menggulir untuk melihat seluruh konten.
+1. `padding: 32px;`: Ini memberikan jarak di dalam elemen dengan kelas "login-input". Ini akan membuat konten di dalam elemen terdistribusi secara merata dari tepi dalam.
+2. `background-color: #fb6376;`: Ini menetapkan latar belakang elemen dengan warna #fb6376, yang merupakan nilai hex.
+3. `border-radius: 10px;`: Ini membulatkan sudut-sudut elemen, memberikan efek sudut melengkung.
+4. `box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);`: Ini menambahkan bayangan pada elemen. Bayangan ini akan memberikan elemen sedikit dimensi dan terlihat seperti melayang di atas latar belakang.
+5. `overflow: auto;`: Jika konten dalam elemen melebihi ukuran elemen itu sendiri, maka elemen akan memungkinkan pengguna untuk menggulir untuk melihat seluruh konten.
 	
 	Aturan untuk Elemen Input dalam Kelas ".login-input":
-	1. `display: block;`: Ini mengubah elemen input menjadi elemen blok, sehingga elemen input akan memulai baris baru dan mengisi seluruh lebar yang tersedia.
-	2. `width: 100%;`: Ini mengatur lebar input menjadi 100% dari lebar kontainer yang memuatnya.
-	3. `font-size: 16px;`: Ini menetapkan ukuran font untuk input menjadi 16 piksel.
-	4. `padding: 8px;`: Ini menambahkan jarak di dalam elemen input, memberikan ruang sekitar teks di dalamnya.
-	5. `margin: 8px 0 8px 0;`: Ini menetapkan margin di sekitar elemen input. Urutan margin adalah atas, kanan, bawah, kiri.
-	6. `border: 1px solid #000000;`: Ini menetapkan garis batas (border) dengan ketebalan 1 piksel dan warna hitam (#000000).
-	7. `border-radius: 8px;`: Ini membulatkan sudut-sudut elemen input.
+1. `display: block;`: Ini mengubah elemen input menjadi elemen blok, sehingga elemen input akan memulai baris baru dan mengisi seluruh lebar yang tersedia.
+2. `width: 100%;`: Ini mengatur lebar input menjadi 100% dari lebar kontainer yang memuatnya.
+3. `font-size: 16px;`: Ini menetapkan ukuran font untuk input menjadi 16 piksel.
+4. `padding: 8px;`: Ini menambahkan jarak di dalam elemen input, memberikan ruang sekitar teks di dalamnya.
+5. `margin: 8px 0 8px 0;`: Ini menetapkan margin di sekitar elemen input. Urutan margin adalah atas, kanan, bawah, kiri.
+6. `border: 1px solid #000000;`: Ini menetapkan garis batas (border) dengan ketebalan 1 piksel dan warna hitam (#000000).
+7. `border-radius: 8px;`: Ini membulatkan sudut-sudut elemen input.
 	
 	Aturan untuk Tombol dalam Kelas ".login-input"
-	1. `margin-top: 32px;`: Ini menetapkan jarak atas dari tombol.
-	2. `padding: 8px 32px;`: Ini memberikan jarak di dalam tombol.
-	3. `background-color: #fcb1a6;`: Ini menetapkan latar belakang tombol dengan warna #fcb1a6.
-	4. `border: 0;`: Ini menghilangkan batas (border) dari tombol.
-	5. `border-radius: 8px;`: Ini membulatkan sudut-sudut tombol.
-	6. `font-size: 16px;`: Ini menetapkan ukuran font untuk teks di dalam tombol menjadi 16 piksel.
-	7. `color: #000000;`: Ini menetapkan warna teks di dalam tombol menjadi hitam (#000000).
-	8. `font-weight: normal;`: Ini menetapkan ketebalan font teks normal.
-	9. `text-transform: uppercase;`: Ini mengubah teks di dalam tombol menjadi huruf besar.
-	10. `float: right;`: Ini membuat tombol mengambang ke kanan.
-	11. `cursor: pointer;`: Ini mengubah penunjuk mouse menjadi ikon tangan saat diarahkan ke tombol, menunjukkan bahwa itu dapat diklik.
+1. `margin-top: 32px;`: Ini menetapkan jarak atas dari tombol.
+2. `padding: 8px 32px;`: Ini memberikan jarak di dalam tombol.
+3. `background-color: #fcb1a6;`: Ini menetapkan latar belakang tombol dengan warna #fcb1a6.
+4. `border: 0;`: Ini menghilangkan batas (border) dari tombol.
+5. `border-radius: 8px;`: Ini membulatkan sudut-sudut tombol.
+6. `font-size: 16px;`: Ini menetapkan ukuran font untuk teks di dalam tombol menjadi 16 piksel.
+7. `color: #000000;`: Ini menetapkan warna teks di dalam tombol menjadi hitam (#000000).
+8. `font-weight: normal;`: Ini menetapkan ketebalan font teks normal.
+9. `text-transform: uppercase;`: Ini mengubah teks di dalam tombol menjadi huruf besar.
+10. `float: right;`: Ini membuat tombol mengambang ke kanan.
+11. `cursor: pointer;`: Ini mengubah penunjuk mouse menjadi ikon tangan saat diarahkan ke tombol, menunjukkan bahwa itu dapat diklik.
 	
 	.pop-up-modal {
 	    position: fixed;
@@ -802,28 +841,28 @@ CDM dan PDM
 	    opacity: 1;
 	}
 	Aturan untuk Kelas ".pop-up-modal":
-	1. `position: fixed;`: Ini mengatur elemen menjadi posisi tetap (fixed) di dalam tampilan pengguna, sehingga akan tetap berada di posisi yang sama bahkan jika halaman digulir.
-	2. `padding: 8px 32px;`: Ini memberikan jarak di dalam elemen, dengan 8 piksel di atas dan bawah, serta 32 piksel di kiri dan kanan.
-	3. `background-color: red;`: Ini menetapkan latar belakang elemen dengan warna merah.
-	4. `color: white;`: Ini menetapkan warna teks menjadi putih.
-	5. `bottom: -100px;`: Ini mengatur jarak antara elemen dengan bagian bawah tampilan pengguna. Posisi ini membuat elemen berada di luar tampilan.
-	6. `opacity: 0;`: Ini membuat elemen tidak terlihat dengan pengaturan kejernihan (transparansi) 0 (elemen sepenuhnya transparan).
-	7. `text-transform: capitalize;`: Ini mengubah teks di dalam elemen menjadi huruf kapital di awal setiap kata.
-	8. `box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);`: Ini menambahkan bayangan pada elemen. Bayangan ini akan memberikan elemen sedikit dimensi dan terlihat seperti melayang di atas latar belakang.
-	9. `border-radius: 10px;`: Ini membulatkan sudut-sudut elemen, memberikan efek sudut melengkung.
-	10. `text-align: center;`: Ini mengatur teks di dalam elemen untuk berada di tengah.
-	11. `transition: bottom ease-in-out 0.3s, opacity ease-in-out 0.3s;`: Ini menetapkan transisi animasi ketika nilai dari properti "bottom" dan "opacity" berubah. Transisi ini memiliki durasi 0.3 detik dengan efek 	    "ease-in-out" (percepatan dan perlambatan di awal dan akhir animasi).
+1. `position: fixed;`: Ini mengatur elemen menjadi posisi tetap (fixed) di dalam tampilan pengguna, sehingga akan tetap berada di posisi yang sama bahkan jika halaman digulir.
+2. `padding: 8px 32px;`: Ini memberikan jarak di dalam elemen, dengan 8 piksel di atas dan bawah, serta 32 piksel di kiri dan kanan.
+3. `background-color: red;`: Ini menetapkan latar belakang elemen dengan warna merah.
+4. `color: white;`: Ini menetapkan warna teks menjadi putih.
+5. `bottom: -100px;`: Ini mengatur jarak antara elemen dengan bagian bawah tampilan pengguna. Posisi ini membuat elemen berada di luar tampilan.
+6. `opacity: 0;`: Ini membuat elemen tidak terlihat dengan pengaturan kejernihan (transparansi) 0 (elemen sepenuhnya transparan).
+7. `text-transform: capitalize;`: Ini mengubah teks di dalam elemen menjadi huruf kapital di awal setiap kata.
+8. `box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);`: Ini menambahkan bayangan pada elemen. Bayangan ini akan memberikan elemen sedikit dimensi dan terlihat seperti melayang di atas latar belakang.
+9. `border-radius: 10px;`: Ini membulatkan sudut-sudut elemen, memberikan efek sudut melengkung.
+10. `text-align: center;`: Ini mengatur teks di dalam elemen untuk berada di tengah.
+11. `transition: bottom ease-in-out 0.3s, opacity ease-in-out 0.3s;`: Ini menetapkan transisi animasi ketika nilai dari properti "bottom" dan "opacity" berubah. Transisi ini memiliki durasi 0.3 detik dengan efek 	    "ease-in-out" (percepatan dan perlambatan di awal dan akhir animasi).
 	
 	Aturan untuk Elemen `<h2>` dalam Kelas ".pop-up-modal":
-	1. `padding: 6px;`: Ini memberikan jarak di dalam elemen `<h2>`, dengan 6 piksel di atas dan bawah, serta 0 piksel di kiri dan kanan.
+1. `padding: 6px;`: Ini memberikan jarak di dalam elemen `<h2>`, dengan 6 piksel di atas dan bawah, serta 0 piksel di kiri dan kanan.
 	
 	Aturan untuk Elemen `<p>` dalam Kelas ".pop-up-modal":
-	1. `font-size: 14px;`: Ini menetapkan ukuran font untuk teks di dalam elemen `<p>` menjadi 14 piksel.
-	2. `margin-bottom: 6px;`: Ini memberikan jarak di bawah elemen `<p>`, dengan 6 piksel.
+1. `font-size: 14px;`: Ini menetapkan ukuran font untuk teks di dalam elemen `<p>` menjadi 14 piksel.
+2. `margin-bottom: 6px;`: Ini memberikan jarak di bawah elemen `<p>`, dengan 6 piksel.
 	
 	Aturan untuk Kelas ".pop-up-modal.display":
-	1. `bottom: 32px;`: Ini mengubah posisi elemen dengan kelas "pop-up-modal" menjadi 32 piksel dari bagian bawah tampilan pengguna.
-	2. `opacity: 1;`: Ini membuat elemen terlihat dengan pengaturan kejernihan (transparansi) 1 (elemen sepenuhnya terlihat).
+1. `bottom: 32px;`: Ini mengubah posisi elemen dengan kelas "pop-up-modal" menjadi 32 piksel dari bagian bawah tampilan pengguna.
+2. `opacity: 1;`: Ini membuat elemen terlihat dengan pengaturan kejernihan (transparansi) 1 (elemen sepenuhnya terlihat).
 
 
 *2) Index*
@@ -908,7 +947,7 @@ CDM dan PDM
 
 *3) Fitur Pilih Bahan Hijab -style divana*
 	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-	
+
 	/* Same Color Variables */
 	:root {
 	    --main-color: #FB6376;
@@ -928,18 +967,18 @@ CDM dan PDM
 	    text-transform: capitalize;
 	    transition: all .2s linear;
 	}
-	Mendefinisikan Font:
+Mendefinisikan Font:
 	@importurl('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 	Kode ini mengimpor font "Nunito" dari Google Fonts. Font ini memiliki berbagai bobot (weight) yang tersedia, mulai dari 200 hingga 700.
 	
-	Variabel Warna:
+Variabel Warna:
 	Variabel-variabel warna didefinisikan dalam akar dokumen (`:root`). Variabel ini dapat digunakan di seluruh halaman web, memudahkan penggunaan warna yang konsisten.
 	- `--main-color`: Digunakan untuk warna utama, dengan nilai hex #FB6376 (merah muda).
 	- `--body-color`: Digunakan untuk warna latar belakang tubuh (body), dengan nilai hex #FCB1a6 (oranye muda).
 	- `--container-color`: Digunakan untuk warna latar belakang elemen dengan kelas "container", dengan nilai hex #FFDCCC (kuning muda).
 	- `--text-color`: Digunakan untuk warna teks, dengan nilai hex #5D2A42 (ungu tua).
 	
-	Aturan Global:
+Aturan Global:
 	- `font-family`: Mengatur font default untuk seluruh halaman web menjadi 'Nunito' (font yang diimpor).
 	- `margin`, `padding`, `box-sizing`: Mengatur pengaturan margin, padding, dan model kotak (box-sizing) untuk seluruh elemen di halaman web.
 	- `text-decoration`, `outline`, `border`: Menghilangkan efek dekoratif default seperti garis bawah untuk tautan, garis pinggir (outline), dan batas elemen.
@@ -962,16 +1001,16 @@ CDM dan PDM
 	    color: var(--text-color);
 	    background: var(--body-color);
 	}
-	 Aturan untuk Elemen `<img>`:
+Aturan untuk Elemen `<img>`:
 	- `width: 50%;`: Ini mengatur lebar elemen gambar (`<img>`) menjadi 50% dari lebar elemen yang memuatnya. Dengan kata lain, gambar akan diukur ulang untuk mencakup setengah dari lebar kotak yang memuatnya.
 	
-	Aturan untuk Tautan `<a>`:
+Aturan untuk Tautan `<a>`:
 	- `text-decoration: none;`: Ini menghilangkan dekorasi tautan bawaan, seperti garis bawah.
 	
-	Aturan untuk Elemen `<html>`:
+Aturan untuk Elemen `<html>`:
 	- `font-size: 70%;`: Ini mengatur ukuran font untuk elemen `<html>`. Ukuran font diukur sebagai persentase dari ukuran font default. Dalam hal ini, font pada elemen `<html>` diatur menjadi 70% dari ukuran font 	default.
 	
-	Aturan untuk Elemen `<body>`:
+Aturan untuk Elemen `<body>`:
 	- `color: var(--text-color);`: Ini mengatur warna teks di dalam elemen `<body>` dengan menggunakan variabel CSS yang telah didefinisikan sebelumnya. `var(--text-color)` mengacu pada warna yang didefinisikan 		sebagai `--text-color`.
 	- `background: var(--body-color);`: Ini mengatur warna latar belakang elemen `<body>` dengan menggunakan variabel CSS yang telah didefinisikan sebelumnya. `var(--body-color)` mengacu pada warna yang didefinisikan 	sebagai `--body-color`.
 	
@@ -1021,7 +1060,7 @@ CDM dan PDM
 	    width: 40%;
 	    border-radius: 10px;
 	}
-	Aturan untuk Elemen `<h3>` di dalam `.swiper-slide` yang berada di dalam `.container`:
+Aturan untuk Elemen `<h3>` di dalam `.swiper-slide` yang berada di dalam `.container`:
 	- `text-align: center;`: Ini mengatur teks di dalam elemen `<h3>` agar berada di tengah.
 	- `justify-content: center;`: Ini mengatur konten di dalam elemen `<h3>` agar berada di tengah secara horizontal.
 	- `font-size: 2rem;`: Ini menetapkan ukuran font untuk elemen `<h3>` menjadi 2 rem.
@@ -1030,20 +1069,20 @@ CDM dan PDM
 	- `position: relative;`: Ini mengatur posisi elemen relatif terhadap posisinya sendiri.
 	- `left: 12rem;`: Ini memindahkan elemen sejauh 12 rem ke kiri dari posisinya yang sebenarnya.
 	
-	Aturan untuk Elemen dengan kelas `.container`:
+Aturan untuk Elemen dengan kelas `.container`:
 	- `padding: 6rem 9%;`: Ini memberikan jarak di dalam elemen dengan kelas "container", dengan 6 rem di atas dan bawah, serta 9% di kiri dan kanan.
 	
-	Aturan untuk Elemen dengan kelas `.swiper-wrapper` di dalam `.container`:
+Aturan untuk Elemen dengan kelas `.swiper-wrapper` di dalam `.container`:
 	- `width: 5000px;`: Ini mengatur lebar elemen dengan kelas "swiper-wrapper" menjadi 5000 piksel.
 	
-	Aturan untuk Elemen dengan kelas `.swiper-slide` di dalam `.container`:
+Aturan untuk Elemen dengan kelas `.swiper-slide` di dalam `.container`:
 	- `padding: 2rem 5%;`: Ini memberikan jarak di dalam elemen dengan kelas "swiper-slide", dengan 2 rem di atas dan bawah, serta 5% di kiri dan kanan.
 	- `display: grid;`: Ini mengatur elemen untuk menggunakan tata letak grid.
 	- `grid-template-columns: repeat(2, .2fr);`: Ini mengatur jumlah kolom dan fraksi ruang yang akan diisi oleh setiap kolom pada tata letak grid. Dalam hal ini, ada dua kolom dengan masing-masing mengisi 20% dari 		ruang yang tersedia.
 	- `grid-template-rows: repeat(2, .2fr);`: Sama seperti sebelumnya, tetapi untuk baris. Ada dua baris, masing-masing mengisi 20% dari ruang yang tersedia.
 	- `gap: 2rem;`: Ini menetapkan jarak antara elemen-elemen di dalam grid.
 	
-	Aturan untuk Elemen dengan kelas `.box` di dalam `.swiper-slide` di dalam `.container`:
+Aturan untuk Elemen dengan kelas `.box` di dalam `.swiper-slide` di dalam `.container`:
 	- `background: #FB6376;`: Ini menetapkan warna latar belakang elemen dengan kelas "box" menjadi #FB6376 (merah muda).
 	- `border-radius: 10px;`: Ini membulatkan sudut-sudut elemen "box".
 	- `border: .1rem solid #5d2a42;`: Ini menetapkan garis batas dengan ketebalan 0.1 rem dan warna #5d2a42 (ungu tua).
@@ -1052,10 +1091,10 @@ CDM dan PDM
 	- `padding: 10px;`: Ini memberikan jarak di dalam elemen dengan kelas "box".
 	- `width: 250px;`: Ini menetapkan lebar elemen dengan kelas "box" menjadi 250 piksel.
 	
-	Aturan untuk Elemen dengan kelas `.content` di dalam `.box` di dalam `.swiper-slide` di 
+Aturan untuk Elemen dengan kelas `.content` di dalam `.box` di dalam `.swiper-slide` di 
 	- `margin-left: 2rem;`: Ini memberikan jarak di kiri elemen dengan kelas "content".
 	
-	Aturan untuk Elemen `<img>` di dalam `.box` di dalam `.swiper-slide` di dalam `.
+Aturan untuk Elemen `<img>` di dalam `.box` di dalam `.swiper-slide` di dalam `.
 	- `height: 10rem;`: Ini menetapkan tinggi elemen gambar (`<img>`) menjadi 10 rem (100 piksel).
 	- `width: 40%;`: Ini menetapkan lebar elemen gambar menjadi 40% dari lebar elemen yang memuatnya.
 	- `border-radius: 10px;`: Ini membulatkan sudut-sudut elemen gambar.
@@ -1073,13 +1112,13 @@ CDM dan PDM
 	    margin-bottom: 400;
 	    color: black;
 	}
-	Aturan untuk Elemen dengan kelas `.title`:
+Aturan untuk Elemen dengan kelas `.title`:
 	- `font-size: 15px;`: Ini menetapkan ukuran font untuk elemen dengan kelas "title" menjadi 15 piksel.
 	- `font-weight: 600;`: Ini mengatur ketebalan font menjadi 600 (tebal).
 	- `text-transform: capitalize;`: Ini mengubah teks di dalam elemen untuk menggunakan huruf kapital di awal setiap kata.
 	- `color: black;`: Ini menetapkan warna teks menjadi hitam.
 	
-	Aturan untuk Elemen dengan kelas `.penjelasan`:
+Aturan untuk Elemen dengan kelas `.penjelasan`:
 	- `font-size: 10px;`: Ini menetapkan ukuran font untuk elemen dengan kelas "penjelasan" menjadi 10 piksel.
 	- `margin-top: 200;` dan `margin-bottom: 400;`: Ini mengatur margin atas dan bawah elemen dengan kelas "penjelasan". Namun, nilai yang diberikan sepertinya tidak valid karena tidak ada satuan seperti piksel atau 		persen. Harap pastikan untuk menyertakan satuan (misalnya, piksel atau persen) setelah angka.
 	- `color: black;`: Ini menetapkan warna teks menjadi hitam.
@@ -1105,7 +1144,7 @@ CDM dan PDM
 	.swiper-pagination-bullet-active {
 	    background: #5d2a42;
 	}
-	Aturan untuk Elemen dengan kelas `.btn`:
+Aturan untuk Elemen dengan kelas `.btn`:
 	- `margin-top: 1rem;`: Ini memberikan jarak atas sebesar 1 rem pada elemen dengan kelas "btn".
 	- `display: inline-block;`: Ini membuat elemen menjadi blok inline, sehingga akan memulai baris baru tetapi tetap memungkinkan elemen lain untuk berada di sampingnya.
 	- `font-size: 1rem;`: Ini menetapkan ukuran font untuk elemen dengan kelas "btn" menjadi 1 rem.
@@ -1116,32 +1155,33 @@ CDM dan PDM
 	- `cursor: pointer;`: Ini mengubah penunjuk mouse menjadi ikon tangan saat diarahkan ke elemen, menunjukkan bahwa itu dapat diklik.
 	- `padding: .5rem 1rem;`: Ini memberikan jarak di dalam elemen dengan kelas "btn", dengan 0.5 rem di atas dan bawah, serta 1 rem di kiri dan kanan.
 	
-	Aturan untuk Elemen dengan kelas `.btn` saat Hover (`.btn:hover`):
+Aturan untuk Elemen dengan kelas `.btn` saat Hover (`.btn:hover`):
 	- `background: #5d2a42;`: Ini mengubah latar belakang elemen saat dihover menjadi warna #5d2a42 (ungu tua).
 	- `letter-spacing: .1rem;`: Ini menambahkan spasi antarhuruf sebanyak 0.1 rem. Ini akan memberikan sedikit jarak ekstra antar huruf.
 	- `color: #fff;`: Ini mengubah warna teks saat dihover menjadi putih (#fff).
 	
-	Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
+Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 	- `background: #5d2a42;`: Ini menetapkan latar belakang elemen dengan kelas "swiper-pagination-bullet-active" menjadi warna #5d2a42 (ungu tua).
+
 
 *4) fitur model hijab -yanna_style*
 	•	@import: Ini adalah aturan CSS yang digunakan untuk mengimpor file eksternal, dalam hal ini, file font dari Google Fonts. Ini akan mengimpor font Nunito dengan berbagai varian berat yang akan digunakan di 		seluruh halaman.
 	•	*{ ... }: Ini adalah pemilih universal. Ini akan memengaruhi semua elemen di halaman web. Properti yang didefinisikan di sini termasuk:
-			o	font-family: Mengatur font yang digunakan untuk semua elemen ke "Nunito" dengan alternatif "sans-serif".
-			o	margin: Menghapus margin di sekitar semua elemen.
-			o	padding: Menghapus padding di sekitar semua elemen.
-			o	box-sizing: Mengatur model kotak ke "border-box", yang berarti lebar dan tinggi elemen sekarang termasuk padding dan border (bukan hanya konten).
+		o	font-family: Mengatur font yang digunakan untuk semua elemen ke "Nunito" dengan alternatif "sans-serif".
+		o	margin: Menghapus margin di sekitar semua elemen.
+		o	padding: Menghapus padding di sekitar semua elemen.
+		o	box-sizing: Mengatur model kotak ke "border-box", yang berarti lebar dan tinggi elemen sekarang termasuk padding dan border (bukan hanya konten).
 	•	body{ ... }: Ini adalah aturan untuk elemen <body> halaman web. Properti yang didefinisikan di sini termasuk:
-			o	display: Mengatur tampilan menjadi flex, sehingga isi halaman berada di tengah vertikal dan horizontal.
-			o	align-items: Mengatur konten halaman untuk berada di tengah vertikal.
-			o	justify-content: Mengatur konten halaman untuk berada di tengah horizontal.
-			o	min-height: Menetapkan ketinggian minimum elemen <body> ke 100% dari tinggi tampilan (viewport).
-			o	padding: Memberikan padding sebesar 0 pada sisi atas dan bawah, dan 210 piksel pada sisi kanan dan kiri.
-			o	background: Mengatur latar belakang menjadi warna #ffdccc.
+		o	display: Mengatur tampilan menjadi flex, sehingga isi halaman berada di tengah vertikal dan horizontal.
+		o	align-items: Mengatur konten halaman untuk berada di tengah vertikal.
+		o	justify-content: Mengatur konten halaman untuk berada di tengah horizontal.
+		o	min-height: Menetapkan ketinggian minimum elemen <body> ke 100% dari tinggi tampilan (viewport).
+		o	padding: Memberikan padding sebesar 0 pada sisi atas dan bawah, dan 210 piksel pada sisi kanan dan kiri.
+		o	background: Mengatur latar belakang menjadi warna #ffdccc.
 	•	.wrapper{ ... }: Ini adalah kelas CSS yang digunakan untuk elemen dengan kelas "wrapper". Properti yang didefinisikan di sini termasuk:
-			o	max-width: Mengatur lebar maksimum elemen ke 1100 piksel.
-			o	width: Mengatur lebar elemen menjadi 100%.
-			o	position: Mengatur posisi elemen ke "relative".
+		o	max-width: Mengatur lebar maksimum elemen ke 1100 piksel.
+		o	width: Mengatur lebar elemen menjadi 100%.
+		o	position: Mengatur posisi elemen ke "relative".
 	•	.wrapper i { ... }: Ini adalah aturan untuk elemen <i> yang berada dalam elemen dengan kelas "wrapper". Properti yang didefinisikan di sini mencakup gaya ikon, seperti ukuran, warna latar belakang, 			bayangan, dll.
 	•	.wrapper .carousel { ... }: Ini adalah aturan untuk elemen dengan kelas "carousel" dalam elemen dengan kelas "wrapper". Properti yang didefinisikan di sini mengatur tampilan untuk elemen galeri atau 			carousel, seperti tata letak, grid, penggunaan scroll, dan lainnya.
 	•	.carousel::-webkit-scrollbar: Ini adalah aturan khusus untuk menghilangkan scrollbar pada elemen dengan kelas "carousel" di browser yang mendukung WebKit (seperti Chrome).
@@ -1184,6 +1224,7 @@ CDM dan PDM
 	•	`.img-container-cerah img`, `.img-container-tengah img`, `.img-container-gelap img` Selectors: Ini adalah tiga aturan yang memilih elemen gambar `<img>` yang berada di dalam elemen dengan kelas "img-container-cerah," "img-container-tengah," dan "img-container-gelap" secara berturut-turut.
 
 
+
 **C. JS**
 
 
@@ -1196,10 +1237,11 @@ CDM dan PDM
 	    menu.classList.toggle('fa-times');
 	    navbar.classList.toggle('active');
 	}
-	- Pertama, kode ini menangkap elemen dengan ID "menu-bars" dan elemen dengan kelas "navbar".
-	- Kemudian, saat elemen dengan ID "menu-bars" diklik, sebuah fungsi arrow (=>) dijalankan.
-	- Fungsi tersebut melakukan dua hal:
-	   1. Menggunakan `.classList.toggle()` untuk memicu perubahan pada kelas "fa-times" pada elemen dengan ID "menu-bars". Jadi, jika kelas tersebut ada, itu akan dihapus; jika tidak ada, itu akan ditambahkan.
+- Pertama, kode ini menangkap elemen dengan ID "menu-bars" dan elemen dengan kelas "navbar".
+- Kemudian, saat elemen dengan ID "menu-bars" diklik, sebuah fungsi arrow (=>) dijalankan.
+- Fungsi tersebut melakukan dua hal:
+ 
+	1. Menggunakan `.classList.toggle()` untuk memicu perubahan pada kelas "fa-times" pada elemen dengan ID "menu-bars". Jadi, jika kelas tersebut ada, itu akan dihapus; jika tidak ada, itu akan ditambahkan.
 	   2. Sama halnya dengan di atas, namun pada elemen dengan kelas "navbar". Ini akan membuat navbar muncul atau menghilang saat tombol menu diklik.
 	
 	2.	Hide Menu Bar on Scroll:
@@ -1227,6 +1269,7 @@ CDM dan PDM
 	- Pertama, kode ini menangkap elemen dengan ID "close".
 	- Kemudian, saat elemen ini diklik, sebuah fungsi dijalankan.
 	- Fungsi tersebut mengambil elemen dengan ID "search-form" dan menghapus kelas "active", sehingga menutup formulir pencarian.
+
 
 *2) Fitur Bahan hijab -script_divana*
 	`var swiper = new Swiper(".mySwiper", {...});`: Ini membuat instance baru dari Swiper dengan selector ".mySwiper". Ini berarti Swiper akan diterapkan pada elemen HTML dengan kelas "mySwiper".
