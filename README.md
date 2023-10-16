@@ -376,52 +376,36 @@ Menyediakan ruang iklan untuk merek hijab atau produk terkait di platform.
 			~	`<i class="fas fa-times" id="close"></i>`: Ikon silang yang mungkin digunakan untuk menutup formulir pencarian.
 		o	Section
 			~	Home
-				-	`<section class="home" id="home">`: Ini adalah bagian "home" dari halaman web dengan atribut id "home".
-				-	`<div class="container-home">`: Ini adalah div kontainer untuk konten bagian "home".
-				-	`<div class="wrapper">`: Ini adalah div pembungkus untuk mengelompokkan konten.
-				-	`<div class="content">`: Ini adalah div yang berisi konten teks.
-				-	`<h3>Hijab Fashion and Hijab Consultation</h3>`: Teks judul.
-				-	`<p>Temukan gaya hijab yang paling sesuai dengan kebutuhan dan karakteristikmu sekarang!</p>`: Paragraf deskripsi.
-				-	`<a href="#about_us" class="btn">read more</a>`: Tautan "read more" dengan atribut href ke bagian "about us" dan atribut class "btn".
-				-	`<div class="image">`: Ini adalah div yang berisi gambar.
-				-	`<img src="img/logoutama.png" alt="logo utama hijab">`: Gambar dengan atribut src dan alt.
+				`<section class="home" id="home">`: Ini adalah bagian "home" dari halaman web dengan atribut id "home".
+				`<div class="container-home">`: Ini adalah div kontainer untuk konten bagian "home".
+				`<div class="wrapper">`: Ini adalah div pembungkus untuk mengelompokkan konten.
+				`<div class="content">`: Ini adalah div yang berisi konten teks.
+				`<h3>Hijab Fashion and Hijab Consultation</h3>`: Teks judul.
+				`<p>Temukan gaya hijab yang paling sesuai dengan kebutuhan dan karakteristikmu sekarang!</p>`: Paragraf deskripsi.
+				`<a href="#about_us" class="btn">read more</a>`: Tautan "read more" dengan atribut href ke bagian "about us" dan atribut class "btn".
+				`<div class="image">`: Ini adalah div yang berisi gambar.
+				`<img src="img/logoutama.png" alt="logo utama hijab">`: Gambar dengan atribut src dan alt.
 			~	About Us
-				-	<section class="about_us" id="about_us"> : Ini adalah bagian "About Us" dari halaman web. `class="about_us"` adalah kelas CSS untuk gaya, dan `id="about_us"` adalah ID yang dapat digunakan untuk menghubungkan tautan di halaman.
-				-	<h3 class="heading">about us</h3> : Terdapat judul "about us" yang dibungkus dalam tag `<h3>`.
-				-	<div class="row">
-				-	<div class="img">
-				-	<img src="img/logodua.png" alt="logo about us"> : Ada gambar logo (`<img>`) yang ditautkan ke "img/logodua.png" dan memiliki atribut "alt" untuk deskripsi gambar.
-				-	</div>
-				-	<div class="content">
-				-	<!-- Konten teks tentang perusahaan atau organisasi -->
-				-	</div>
-				-	</div>
-				-	</section>
+				`<section class="about_us" id="about_us">` : Ini adalah bagian "About Us" dari halaman web. `class="about_us"` adalah kelas CSS untuk gaya, dan `id="about_us"` adalah ID yang dapat digunakan untuk menghubungkan tautan di halaman.
+				`<h3 class="heading">about us</h3>` : Terdapat judul "about us" yang dibungkus dalam tag `<h3>`.
+				`<div class="row">` dan `<div class="img">`
+				`<img src="img/logodua.png" alt="logo about us">` : Ada gambar logo (`<img>`) yang ditautkan ke "img/logodua.png" dan memiliki atribut "alt" untuk deskripsi gambar.
+				`<div class="content">`
 			~	Rekomendasi
-				-	<section class="rekomendasi" id="rekomendasi"> : Ini adalah bagian "Rekomendasi" dari halaman web.
-				-	<h3 class="heading">rekomendasi</h3> : Ada judul "rekomendasi" dalam tag `<h3>`.
-				-	<div class="box-container"> : Di dalam `div` dengan kelas "box-container", terdapat tiga kotak (`<div class="box2">`) yang berisi gambar, judul, deskripsi, dan tautan ke halaman-halaman terkait.
-				-	<!-- Tiga kotak (box) yang masing-masing berisi gambar, judul, deskripsi, dan tautan -->
-				-	</div>
-				-	</section>
+				`<section class="rekomendasi" id="rekomendasi">` : Ini adalah bagian "Rekomendasi" dari halaman web.
+				`<h3 class="heading">rekomendasi</h3>` : Ada judul "rekomendasi" dalam tag `<h3>`.
+				`<div class="box-container">` : Di dalam `div` dengan kelas "box-container", terdapat tiga kotak (`<div class="box2">`) yang berisi gambar, judul, deskripsi, dan tautan ke halaman-halaman terkait.
 			~	Shop
-				-	<section class="shop" id="shop"> : Ini adalah bagian "Shop" dari halaman web.
-				-	<h3 class="heading">shop</h3> : Terdapat judul "shop" dalam tag `<h3>`.
-				-	<div class="container-shop"> : Di dalam `div` dengan kelas "container-shop", terdapat daftar toko online dengan gambar dan tautan ke situs web toko online.
-				-	<!-- Pilihan toko online dengan gambar dan tautan ke situs web toko online -->
-				-	</div>
-				-	</section>
+				`<section class="shop" id="shop">` : Ini adalah bagian "Shop" dari halaman web.
+				`<h3 class="heading">shop</h3>` : Terdapat judul "shop" dalam tag `<h3>`.
+				`<div class="container-shop">` : Di dalam `div` dengan kelas "container-shop", terdapat daftar toko online dengan gambar dan tautan ke situs web toko online.
 			~	Contact
-				-	<section class="contact" id="contact"> : Ini adalah bagian "Contact" dari halaman web.
-				-	<div class="contactus">
-				-	<h3 class="heading">contact us</h3> : Terdapat judul "contact us" dalam tag `<h3>`.
-				-	<div class="box"> : Di dalam `div` dengan kelas "box", terdapat tiga sub-bagian: formulir kontak, informasi kontak, dan peta Google Maps.
-				-	<!-- Konten kontak, termasuk formulir, informasi kontak, dan peta Google Maps -->
-				-	</div>
-				-	</div>
-				-	</section>
+				`<section class="contact" id="contact">` : Ini adalah bagian "Contact" dari halaman web.
+				`<div class="contactus">`
+				`<h3 class="heading">contact us</h3>` : Terdapat judul "contact us" dalam tag `<h3>`.
+				`<div class="box">` : Di dalam `div` dengan kelas "box", terdapat tiga sub-bagian: formulir kontak, informasi kontak, dan peta Google Maps.
 			~	Javascript
-				-	<script src="js/script_yanna.js"></script> : Ini adalah tautan ke file JavaScript "script_yanna.js". File JavaScript ini akan digunakan untuk mengendalikan perilaku dinamis halaman web.
+				`<script src="js/script_yanna.js"></script>` : Ini adalah tautan ke file JavaScript "script_yanna.js". File JavaScript ini akan digunakan untuk mengendalikan perilaku dinamis halaman web.
 
 
 3) Fitur Pilih Bahan Hijab
@@ -924,61 +908,61 @@ Aturan untuk Kelas ".pop-up-modal.display":
 	•	Gaya untuk elemen-elemen di bagian "home", "about us", "rekomendasi", "shop", dan "contact style". Setiap bagian memiliki aturan CSS khusus untuk mengatur tampilan elemen-elemen yang ada dalam masing-masing bagian halaman.
 		o	Home Style
 			~	`.home`: Ini adalah selektor untuk elemen dengan kelas "home".
-				-	`background-color`: Mengatur warna latar belakang menjadi merah muda (#fb6376).
-				-	`padding`: Memberikan padding sebesar 2 rem (16 piksel) di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+				`background-color`: Mengatur warna latar belakang menjadi merah muda (#fb6376).
+				`padding`: Memberikan padding sebesar 2 rem (16 piksel) di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
 			~	`.home .container-home .wrapper`: Ini adalah selektor untuk elemen dengan kelas "wrapper" yang berada dalam elemen dengan kelas "container-home" yang berada dalam elemen dengan kelas "home".
-				-	`display`: Mengatur tampilan menjadi flex (membuat elemen dalam satu baris dan dapat diatur ulang).
-				-	`align-items`: Mengatur seluruh item (flex) untuk berada di tengah secara vertikal.
-				-	`flex-wrap`: Memungkinkan item-item tersebut untuk melintasi beberapa baris jika tidak cukup ruang.
-				-	`gap`: Memberikan jarak antara elemen-elemen dalam "wrapper" sebesar 2 rem.
-				-	`padding-top`: Memberikan padding sebesar 9 rem di bagian atas.
+				`display`: Mengatur tampilan menjadi flex (membuat elemen dalam satu baris dan dapat diatur ulang).
+				`align-items`: Mengatur seluruh item (flex) untuk berada di tengah secara vertikal.
+				`flex-wrap`: Memungkinkan item-item tersebut untuk melintasi beberapa baris jika tidak cukup ruang.
+				`gap`: Memberikan jarak antara elemen-elemen dalam "wrapper" sebesar 2 rem.
+				`padding-top`: Memberikan padding sebesar 9 rem di bagian atas.
 			~	`.home .container-home .wrapper .content`: Ini adalah selektor untuk elemen dengan kelas "content" yang berada dalam "wrapper".
-				-	`flex`: Mengatur flex-grow, flex-shrink, dan flex-basis, dalam hal ini, flex-grow adalah 1, flex-shrink adalah 1, dan flex-basis adalah 45 rem.
+				-`flex`: Mengatur flex-grow, flex-shrink, dan flex-basis, dalam hal ini, flex-grow adalah 1, flex-shrink adalah 1, dan flex-basis adalah 45 rem.
 			~	`.home .container-home .wrapper .image`: Ini adalah selektor untuk elemen dengan kelas "image" yang berada dalam "wrapper".
-				-	`flex`: Seperti sebelumnya, mengatur properti flex.
+				`flex`: Seperti sebelumnya, mengatur properti flex.
 			~	`.home .container-home .wrapper .image img`: Ini adalah selektor untuk elemen gambar (img) yang berada dalam elemen dengan kelas "image".
-				-	`width`: Mengatur lebar gambar menjadi 400 piksel.
-				-	`position`: Mengatur posisi gambar menjadi relatif.
-				-	`top`: Menggeser gambar sebesar 24 piksel dari atas.
+				`width`: Mengatur lebar gambar menjadi 400 piksel.
+				`position`: Mengatur posisi gambar menjadi relatif.
+				`top`: Menggeser gambar sebesar 24 piksel dari atas.
 			~	`.home .container-home .wrapper .content h3`: Ini adalah selektor untuk elemen h3 yang berada dalam elemen dengan kelas "content".
-				-	`color`: Mengatur warna teks menjadi hitam (#000000).
-				-	`font-size`: Mengatur ukuran font menjadi 5 rem.
+				`color`: Mengatur warna teks menjadi hitam (#000000).
+				`font-size`: Mengatur ukuran font menjadi 5 rem.
 			~	`.home .container-home .wrapper p`: Ini adalah selektor untuk elemen paragraf (p) dalam "wrapper".
-				-	`color`: Mengatur warna teks menjadi hitam.
-				-	`font-size`: Mengatur ukuran font menjadi 1.5 rem.
-				-	`padding`: Memberikan padding 1 rem di atas dan bawah.
-				-	`line-height`: Mengatur tinggi baris menjadi 2 rem.
+				`color`: Mengatur warna teks menjadi hitam.
+				`font-size`: Mengatur ukuran font menjadi 1.5 rem.
+				`padding`: Memberikan padding 1 rem di atas dan bawah.
+				`line-height`: Mengatur tinggi baris menjadi 2 rem.
 		o	About Us Style
 			~	`.about_us`: Ini adalah selektor untuk elemen dengan kelas "about_us".
-				-	`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
-				-	`background-color`: Mengatur warna latar belakang menjadi merah muda muda (#ffdccc).
+				`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+				`background-color`: Mengatur warna latar belakang menjadi merah muda muda (#ffdccc).
 			~	`.about_us .row`: Ini adalah selektor untuk elemen dengan kelas "row" yang berada dalam "about_us".
-				-	`display`: Mengatur tampilan menjadi flex.
-				-	`flex-wrap`: Memungkinkan item-item tersebut untuk melintasi beberapa baris jika tidak cukup ruang.
-				-	`gap`: Memberikan jarak antara elemen-elemen dalam "row" sebesar 1.5 rem.
-				-	`align-items`: Mengatur seluruh item (flex) untuk berada di tengah secara vertikal.
+				`display`: Mengatur tampilan menjadi flex.
+				`flex-wrap`: Memungkinkan item-item tersebut untuk melintasi beberapa baris jika tidak cukup ruang.
+				`gap`: Memberikan jarak antara elemen-elemen dalam "row" sebesar 1.5 rem.
+				`align-items`: Mengatur seluruh item (flex) untuk berada di tengah secara vertikal.
 			~	Selektor-selektor lain dalam "about_us" memiliki properti serupa dengan yang ada di "home" (seperti flex, font-size, warna teks, dsb.), tetapi mereka diterapkan pada elemen-elemen yang sesuai dalam "about_us".
 		o	Rekomendasi Style
 			~	`.rekomendasi`: Ini adalah selektor untuk elemen dengan kelas "rekomendasi".
-				-	`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
-				-	`background-color`: Mengatur warna latar belakang menjadi merah muda (#fb6376).
+				`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+				`background-color`: Mengatur warna latar belakang menjadi merah muda (#fb6376).
 			~	`.rekomendasi .box-container`: Ini adalah selektor untuk elemen dengan kelas "box-container" dalam "rekomendasi".
-				-	`display`: Mengatur tampilan menjadi grid dengan beberapa kolom, sesuai dengan lebar elemen.
-				-	`grid-template-columns`: Mengatur lebar kolom sesuai dengan konten, dengan ukuran minimal 28 rem dan sebesar 1 fr (fr adalah fraksi dari ruang yang tersedia).
-				-	`gap`: Memberikan jarak antara elemen-elemen dalam "box-container" sebesar 5 rem.
+				`display`: Mengatur tampilan menjadi grid dengan beberapa kolom, sesuai dengan lebar elemen.
+				`grid-template-columns`: Mengatur lebar kolom sesuai dengan konten, dengan ukuran minimal 28 rem dan sebesar 1 fr (fr adalah fraksi dari ruang yang tersedia).
+				`gap`: Memberikan jarak antara elemen-elemen dalam "box-container" sebesar 5 rem.
 			~	Selektor-selektor lain dalam "rekomendasi" mengatur properti-properti seperti warna, ukuran font, dan efek bayangan (box-shadow) pada elemen-elemen dalam "box-container".
 		o	Shop Style
 			~	`.shop`: Ini adalah selektor untuk elemen dengan kelas "shop".
-				-	`display`: Mengatur tampilan menjadi flex.
-				-	`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
-				-	`background-color`: Mengatur warna latar belakang menjadi merah muda muda (#fcb1a6).
+				`display`: Mengatur tampilan menjadi flex.
+				`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+				`background-color`: Mengatur warna latar belakang menjadi merah muda muda (#fcb1a6).
 			~	Selektor-selektor lain dalam "shop" mengatur properti-properti seperti warna, ukuran font, dan posisi elemen dalam "shop".
 		o	Contact Style
 			~	`.contactus`: Ini adalah selektor untuk elemen dengan kelas "contactus".
-				-	`position`: Mengatur posisi elemen menjadi relatif.
-				-	`width`: Mengatur lebar elemen menjadi 100%.
-				-	`padding`: Memberikan padding sebesar 40 piksel di atas dan bawah serta 20 piksel di sisi kiri dan kanan.
-				-	`background-color`: Mengatur warna latar belakang menjadi coklat tua (#5d2a42).
+				`position`: Mengatur posisi elemen menjadi relatif.
+				`width`: Mengatur lebar elemen menjadi 100%.
+				`padding`: Memberikan padding sebesar 40 piksel di atas dan bawah serta 20 piksel di sisi kiri dan kanan.
+				-`background-color`: Mengatur warna latar belakang menjadi coklat tua (#5d2a42).
 			~	Selektor-selektor lain dalam "contactus" mengatur properti-properti seperti warna teks, font-size, dan tampilan grid untuk mengatur susunan elemen-elemen di dalamnya.
    
 	•	Header dan search form: Kode ini mengatur tampilan header dan kotak pencarian.
