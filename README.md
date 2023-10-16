@@ -301,12 +301,10 @@ Menyediakan ruang iklan untuk merek hijab atau produk terkait di platform.
 **6.	PERSYARATAN LAINNYA**
 
 *Analisa Model*
-Flowchart
-Entity Relationship Diagram
-Use Case
-CDM dan PDM
-
-
+1. Flowchart
+2. Entity Relationship Diagram
+3. Use Case
+4. CDM dan PDM
 
 
 
@@ -315,14 +313,18 @@ CDM dan PDM
 
 **A. HTML**
 
-*1) Login*
-	•	<!DOCTYPE html> Digunakan untuk deklarasi tipe dokumen HTML 
+1) Login
+
+	•	<!DOCTYPE html> Digunakan untuk deklarasi tipe dokumen HTML
+
 	•	<html lang="en"> Merupakan sebuah tag pembuka elemen HTML dengan atribut bahasa "en"
-	•	<head></head> Merupakan sebuah tag wadah atau penampung untuk elemen HTML yang lain, dan ditempatkan di antara tag <html> dan tag <body> . didalam tag ini terdapat beberapa isi yang berisi metadata halaman 		yaitu:
+
+	•	<head></head> Merupakan sebuah tag wadah atau penampung untuk elemen HTML yang lain, dan ditempatkan di antara tag <html> dan tag <body> . didalam tag ini terdapat beberapa isi yang berisi metadata halaman yaitu:
 		o	<meta charset="UTF-8"> Merupaka pengaturan karakter set dokumen ke UTF-8 (Unicode)
 		o	<meta name="viewport" content="width=device-width, initial-scaled=1.0*">  Digunakan untuk  pengaturan tampilan halaman web 
 		o	<title>Login Apps</title>  Merupakan tag untuk judul halaman web yang ditampilkan di tab browser
 		o	<link rel="stylesheet" href="css/login.css">   Digunakan untuk menambahkan tautan ke file CSS eksternal untuk mengatur gaya halaman. Disini saya menggunakan file login.css yang berada didalam 			folder css.
+
 	•	<body></body> Merupakan elemen "body" yang berisi konten halaman, yaitu:
 		o	<main></main> Elemen main digunakan untuk konten utama halaman dan didalamnya terdapat beberapa elemen lain untuk mengisi konten web yaitu tag header dan tag form.
 		o	<header></header>  Elemen "header" untuk judul atau kepala halaman. Disini saya memberi foto untuk tampilan atas halaman dengan menggunakan tag <img src="img/logofixx.png">. foto yang saya 				tampilkan bernama logofixx.png dan berada dalam folder img.
@@ -331,21 +333,26 @@ CDM dan PDM
 		o	<input id="inputEmail" type="email" required>  Input email dengan ID
 		o	<label for="inputPassword">Password</label> Label untuk input password
 		o	<input id="inputPassword" type="password" required>  Input password dengan ID
-		o	<button id="buttonLogin" type="submit">Login</button>  Tombol submit untuk login dengan ID 
+		o	<button id="buttonLogin" type="submit">Login</button>  Tombol submit untuk login dengan ID
+
 	•	<div id="modal" class="pop-up-modal"></div>  kemudian terdapat elemen "div" dengan ID dan kelas untuk popup modal dan didalamnya terdapat tag lagi untuk menampilkan text gagal login.
 		o	<h2>Login gagal!</h2>  Judul popup modal yang dicetak dengan huruf heading h2.
 		o	<p>Silakan coba lagi</p>  Pesan dalam popup modal yang dicetak sebagai paragraf.
 
    
-*2) Index*
+3) Index
+
 	•	`<!DOCTYPE html>`: Ini adalah deklarasi dokumen HTML yang menunjukkan jenis dokumen HTML yang digunakan, yaitu HTML5.
+
 	•	`<html lang="en">`: Ini adalah elemen root (akar) dari dokumen HTML. `lang="en"` menunjukkan bahwa bahasa yang digunakan dalam dokumen ini adalah bahasa Inggris.
+
 	•	`<head>`: Ini adalah bagian kepala dokumen HTML, di mana Anda dapat menambahkan metadata, tautan stylesheet, dan skrip JavaScript. Dalam bagian ini, Anda akan menemukan:
 		o	`<meta charset="UTF-8">`: Mendefinisikan set karakter UTF-8 untuk mengakomodasi karakter internasional dalam dokumen.
 		o	`<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Menyediakan instruksi untuk mengatur tampilan halaman agar sesuai dengan lebar perangkat dan memastikan skala awal adalah 1:1.
 		o	`<title>Hijabista.com</title>`: Menentukan judul halaman web yang akan muncul di tab peramban.
 		o	`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">`: Ini adalah tautan ke Font Awesome, yang memungkinkan penggunaan ikon di halaman web.
 		o	`<link rel="stylesheet" href="css/style_yanaa.css">`: Ini adalah tautan ke file CSS yang digunakan untuk mengatur tampilan dan gaya halaman web.
+
 	•	`<body>`: Ini adalah elemen tubuh dokumen HTML, di mana konten utama halaman web ditempatkan. Di dalam elemen `<body>`, Anda akan menemukan:
 		o	Header 
 			~	`<header>`: Ini adalah elemen header halaman web yang berisi logo, menu navigasi, dan ikon-ikon.
@@ -417,7 +424,8 @@ CDM dan PDM
 				-	<script src="js/script_yanna.js"></script> : Ini adalah tautan ke file JavaScript "script_yanna.js". File JavaScript ini akan digunakan untuk mengendalikan perilaku dinamis halaman web.
 
 
-*3) Fitur Pilih Bahan Hijab*
+3) Fitur Pilih Bahan Hijab
+   
 	<!DOCTYPE html>
 	<html lang="en">
 	<head>
@@ -633,10 +641,10 @@ CDM dan PDM
 2. `<div class="swiper-slide">`: Elemen `<div>` dengan kelas CSS "swiper-slide". Ini menunjukkan bahwa elemen ini adalah satu slide dalam galeri Swiper. Slide ini mungkin akan berisi beberapa informasi atau elemen 	terkait dengan kategori "kerja".
 3. Setiap bagian berikutnya adalah konten dari slide tersebut, termasuk gambar, judul, penjelasan, dan tombol "pilih". Semuanya dibungkus dalam elemen `<div>` dengan kelas "box".
 	- `<div class="box">`: Elemen `<div>` dengan kelas CSS "box". Ini mungkin digunakan untuk mengelompokkan dan memformat konten dalam slide.
-	- `<img src="img/katun.jpg" alt="katun" class="img">`: Elemen gambar (`<img>`) yang menunjukkan gambar katun. `src` adalah atribut yang menunjukkan lokasi gambar (dalam hal ini, berkas "katun.jpg" dalam 		direktori "img"). `alt` adalah teks alternatif yang akan ditampilkan jika gambar tidak dapat dimuat. Kelas "img" mungkin digunakan untuk memberikan gaya atau pengaturan khusus pada gambar.
+	- `<img src="img/katun.jpg" alt="katun" class="img">`: Elemen gambar (`<img>`) yang menunjukkan gambar katun. `src` adalah atribut yang menunjukkan lokasi gambar (dalam hal ini, berkas "katun.jpg" dalam direktori "img"). `alt` adalah teks alternatif yang akan ditampilkan jika gambar tidak dapat dimuat. Kelas "img" mungkin digunakan untuk memberikan gaya atau pengaturan khusus pada gambar.
 	- `<div class="content">`: Elemen `<div>` dengan kelas CSS "content". Ini mungkin digunakan untuk mengelompokkan dan memformat konten teks dalam slide.
 	- `<h2 class="title">Katun</h2>`: Elemen judul level 2 (`<h2>`) yang menunjukkan judul "Katun". Kelas "title" mungkin digunakan untuk memberikan gaya atau tata letak khusus pada judul.
-	- `<p class="penjelasan">ringan, mudah diatur, dan tidak membuat panas.</p>`: Elemen paragraf (`<p>`) yang berisi penjelasan tentang kategori "Katun". Kelas "penjelasan" mungkin digunakan untuk memberikan gaya 	atau tata letak khusus pada teks penjelasan.
+	- `<p class="penjelasan">ringan, mudah diatur, dan tidak membuat panas.</p>`: Elemen paragraf (`<p>`) yang berisi penjelasan tentang kategori "Katun". Kelas "penjelasan" mungkin digunakan untuk memberikan gaya atau tata letak khusus pada teks penjelasan.
 	- `<a href="#" class="btn">pilih</a>`: Ini adalah elemen tautan (`<a>`) yang menunjukkan tautan dengan teks "pilih". `href="#"` menunjukkan bahwa tautan tidak akan mengarahkan ke halaman lain, dan `class="btn"` 	mungkin digunakan untuk memberikan gaya atau tata letak khusus pada tautan.
 4. `<h3>kerja</h3>`: Ini adalah elemen judul level 3 (`<h3>`) yang menunjukkan teks "kerja". Ini mungkin memberikan informasi tambahan atau label terkait dengan kategori "kerja".
 	
@@ -647,45 +655,51 @@ CDM dan PDM
 	        </div>
 	    </div>
 	   <!-- container akhir -->
-1. `<div class="swiper-button-next"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-button-next". Elemen ini mungkin terkait dengan tombol navigasi untuk melihat slide berikutnya dalam galeri Swiper. 	Kustomisasi dari gaya atau perilaku tombol ini kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
+1. `<div class="swiper-button-next"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-button-next". Elemen ini mungkin terkait dengan tombol navigasi untuk melihat slide berikutnya dalam galeri Swiper. Kustomisasi dari gaya atau perilaku tombol ini kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
 2. `<div class="swiper-button-prev"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-button-prev". Elemen ini mungkin terkait dengan tombol navigasi untuk melihat slide sebelumnya dalam galeri Swiper. 	Seperti sebelumnya, kustomisasi dari gaya atau perilaku tombol ini kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
-3. `<div class="swiper-pagination"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-pagination". Elemen ini mungkin terkait dengan indikator paginasi atau navigasi untuk galeri Swiper. Ini bisa berupa 	titik-titik atau angka yang menunjukkan posisi slide saat ini. Gaya atau perilaku dari elemen ini juga kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
+3. `<div class="swiper-pagination"></div>`: Elemen `<div>` yang memiliki kelas CSS "swiper-pagination". Elemen ini mungkin terkait dengan indikator paginasi atau navigasi untuk galeri Swiper. Ini bisa berupa titik-titik atau angka yang menunjukkan posisi slide saat ini. Gaya atau perilaku dari elemen ini juga kemungkinan telah diatur di dalam berkas CSS atau oleh pustaka Swiper.
 4. `</div>`: Penutup dari elemen dengan kelas "swiper", yang menandakan akhir dari galeri Swiper. 
 5. `</div>`:Penutup dari elemen dengan kelas "container", yang menandakan akhir dari konten di dalam container.
-6. `<!-- container akhir -->`: Komentar HTML yang memberikan penjelasan bahwa ini adalah akhir dari container. Komentar ini tidak akan ditampilkan di halaman web tetapi berguna untuk memberikan konteks kepada 	pengembang atau orang lain yang membaca kode.
+6. `<!-- container akhir -->`: Komentar HTML yang memberikan penjelasan bahwa ini adalah akhir dari container. Komentar ini tidak akan ditampilkan di halaman web tetapi berguna untuk memberikan konteks kepada pengembang atau orang lain yang membaca kode.
 	<!-- Swiper JS -->
 	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 	<!-- script js  -->
 	<script src="js/script_divana.js"></script>
 	</body>
 	</html>
-1. `<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript dari URL yang diberikan. Dalam hal ini, itu menghubungkan ke 	berkas "swiper-bundle.min.js" dari pustaka Swiper yang disediakan oleh jsDelivr. Pustaka Swiper adalah kumpulan alat untuk membuat galeri atau slide-show interaktif.
-2. `<script src="js/script_divana.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript, tetapi kali ini itu merujuk ke berkas "script_divana.js" yang berada dalam direktori "js" di situs 	web. Berkas ini mungkin berisi kode JavaScript khusus yang ditulis oleh pengembang untuk menambahkan fungsionalitas atau interaktivitas tertentu pada halaman web.
+1. `<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript dari URL yang diberikan. Dalam hal ini, itu menghubungkan ke berkas "swiper-bundle.min.js" dari pustaka Swiper yang disediakan oleh jsDelivr. Pustaka Swiper adalah kumpulan alat untuk membuat galeri atau slide-show interaktif.
+2. `<script src="js/script_divana.js"></script>`: Tag `<script>` yang digunakan untuk memuat berkas JavaScript, tetapi kali ini itu merujuk ke berkas "script_divana.js" yang berada dalam direktori "js" di situs web. Berkas ini mungkin berisi kode JavaScript khusus yang ditulis oleh pengembang untuk menambahkan fungsionalitas atau interaktivitas tertentu pada halaman web.
 3. `</body>`: Penutup dari elemen `<body>`, menandakan akhir dari konten yang akan ditampilkan di halaman web.
 4. `</html>`: Penutup dari elemen `<html>`, menandakan akhir dari dokumen HTML.
 
 
-*4) fitur pilih model hijab*
-	•	<!DOCTYPE html> Digunakan untuk deklarasi tipe dokumen HTML 
+4) fitur pilih model hijab
+
+	•	<!DOCTYPE html> Digunakan untuk deklarasi tipe dokumen HTML
+ 
 	•	<html lang="en"> Merupakan sebuah tag pembuka elemen HTML dengan atribut bahasa "en"
-	•	<head></head> Merupakan sebuah tag wadah atau penampung untuk elemen HTML yang lain, dan ditempatkan di antara tag <html> dan tag <body> . didalam tag ini terdapat beberapa isi yang berisi metadata halaman 		yaitu:
+
+	•	<head></head> Merupakan sebuah tag wadah atau penampung untuk elemen HTML yang lain, dan ditempatkan di antara tag <html> dan tag <body> . didalam tag ini terdapat beberapa isi yang berisi metadata halaman yaitu:
 		o	<meta charset="UTF-8"> Merupaka pengaturan karakter set dokumen ke UTF-8 (Unicode)
 		o	<meta name="viewport" content="width=device-width, initial-scaled=1.0*">  Digunakan untuk  pengaturan tampilan halaman web 
 		o	<title>rekomendasi model hijab</title>  Merupakan tag untuk judul halaman web yang ditampilkan di tab browser
-		o	<link rel="stylesheet" href="css/yanna_style.css"> Digunakan untuk menambahkan tautan ke file CSS eksternal untuk mengatur gaya halaman. Disini saya menggunakan file yanna_tyle.css yang berada 			didalam folder css.
+		o	<link rel="stylesheet" href="css/yanna_style.css"> Digunakan untuk menambahkan tautan ke file CSS eksternal untuk mengatur gaya halaman. Disini saya menggunakan file yanna_tyle.css yang berada didalam folder css.
 		o	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> Tautan ini merupakan ikon yang dapat digunakan dalam halaman web.
-		•	<body></body> Merupakan elemen "body" yang berisi konten halaman, yaitu:
+
+	•	<body></body> Merupakan elemen "body" yang berisi konten halaman, yaitu:
 		o	<div class="wrapper"></div> Pertama saya memberikan sebuah tag div dengan kelas “wrapper” untuk membungkus konten utama yang akan disajikan.
 		o	<i id="left" class="fa-solid fa-angle-left"></i> 
 			<i id="right" class="fa-solid fa-angle-right"></i>
-			elemen <i> digunakan untuk menambahkan ikon dengan beberapa atribut. Atribut id="left" dan “right”: Ini memberikan elemen <i> sebuah ID dengan nilai "left" dan “right” . Kemudian juga terdapat  			atribut class="fa-solid fa-angle-left" dan  Ini memberikan elemen <i> beberapa kelas dengan nilai "fa-solid" dan "fa-angle-left"dan juga "fa-solid fa-angle-right". Kelas ini akan digunakan untuk 			merujuk ke ikon sebuah panah yang akan diatur oleh CSS dan JavaScript yang digunakan untuk user dapat melihat slide selanjutnya dengan icon tersebut.
-		o	<ul class="carousel"></ul> Ini adalah elemen yang digunakan untuk membuat daftar tidak terurut (unordered list). Elemen <ul> digunakan untuk membuat daftar yang berisi elemen-elemen lainnya seperti 			elemen <li> untuk membuat item dalam daftar. Kemudian terdapat atribut class="carousel": Ini memberikan elemen <ul> sebuah kelas dengan nilai "carousel". Kelas ini akan digunakan untuk 				mengaplikasikan gaya tertentu atau logika JavaScript ke daftar ini.
-		o	<li class="card"></li> Elemen ini mewakili satu item dalam daftar. Dan memiliki sebuah atribut class="card untuk dapat digunakan dalam gaya tertentu pada css atau logika pada js. Disini saya 				membuat 5 elemen tersebut untuk dapat menampilkan semua konten secara berkelompok.
-		o	Kemudian didalam setiap elemen <li> tersebut terdapat 2 elemen <div> yang pertama digunakan untuk menampilkan foto bentuk wajah, lalu yang kedua digunakan untuk menampilkan 3 foto untuk model 			hijab. 
-	•	<script src="js/yanna_script.js"></script>  Digunakan untuk menambahkan tautan ke file JS eksternal untuk mengatur logika pada halaman web. Disini saya menggunakan file yanna_script.js yang berada didalam 		folder js.
+			elemen <i> digunakan untuk menambahkan ikon dengan beberapa atribut. Atribut id="left" dan “right”: Ini memberikan elemen <i> sebuah ID dengan nilai "left" dan “right” . Kemudian juga terdapat  atribut class="fa-solid fa-angle-left" dan  Ini memberikan elemen <i> beberapa kelas dengan nilai "fa-solid" dan "fa-angle-left"dan juga "fa-solid fa-angle-right". Kelas ini akan digunakan untuk merujuk ke ikon sebuah panah yang akan diatur oleh CSS dan JavaScript yang digunakan untuk user dapat melihat slide selanjutnya dengan icon tersebut.
+		o	<ul class="carousel"></ul> Ini adalah elemen yang digunakan untuk membuat daftar tidak terurut (unordered list). Elemen <ul> digunakan untuk membuat daftar yang berisi elemen-elemen lainnya seperti 	elemen <li> untuk membuat item dalam daftar. Kemudian terdapat atribut class="carousel": Ini memberikan elemen <ul> sebuah kelas dengan nilai "carousel". Kelas ini akan digunakan untuk mengaplikasikan gaya tertentu atau logika JavaScript ke daftar ini.
+		o	<li class="card"></li> Elemen ini mewakili satu item dalam daftar. Dan memiliki sebuah atribut class="card untuk dapat digunakan dalam gaya tertentu pada css atau logika pada js. Disini saya membuat 5 elemen tersebut untuk dapat menampilkan semua konten secara berkelompok.
+		o	Kemudian didalam setiap elemen <li> tersebut terdapat 2 elemen <div> yang pertama digunakan untuk menampilkan foto bentuk wajah, lalu yang kedua digunakan untuk menampilkan 3 foto untuk model hijab.
+
+	•	<script src="js/yanna_script.js"></script>  Digunakan untuk menambahkan tautan ke file JS eksternal untuk mengatur logika pada halaman web. Disini saya menggunakan file yanna_script.js yang berada didalam folder js.
 
    
-*5) fitur pilih warna hijab*
+6) fitur pilih warna hijab
+
 	•	`<!DOCTYPE html>`: Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman web menggunakan standar HTML.
 	•	`<html lang="en">`: Ini adalah elemen `<html>` yang mengawali dokumen HTML. `lang="en"` mengindikasikan bahwa bahasa yang digunakan dalam halaman web ini adalah bahasa Inggris.
 	•	`<head>`: Bagian ini berisi elemen-elemen yang memberikan informasi tentang dokumen, seperti metadata dan tautan ke berkas CSS. Berikut adalah elemen-elemen dalam `<head>`:
@@ -693,40 +707,45 @@ CDM dan PDM
 		o	`<meta name="viewport" content="width=device-width, initial-scale=1.0*">`: Ini adalah elemen meta yang digunakan untuk mengatur tampilan halaman web pada perangkat berbasis ponsel. Ini memungkinkan halaman untuk menyesuaikan lebar tampilan dengan lebar perangkat dan mengatur faktor skala awal.
 		o	`<title>Rekomendasi Model Hijab</title>`: Ini adalah judul halaman web yang akan ditampilkan di bilah judul browser.
 		o	`<link rel="stylesheet" href="css/style_eva.css">`: Ini adalah tautan ke berkas CSS eksternal yang digunakan untuk mengatur tampilan dan gaya halaman web.
+
 	•	`<body>`: Ini adalah bagian utama halaman web yang berisi konten yang akan ditampilkan kepada pengguna. Bagian `<body>` berisi beberapa elemen:
 		o	Section
 			~	`<section class="fiturwarna" id="fiturwarna">`: Ini adalah elemen `<section>` yang memiliki atribut `class` dan `id`. `class` digunakan untuk merujuk elemen ini dalam CSS atau JavaScript, sementara `id` adalah identifikasi unik untuk elemen ini.
 			~	`<h3>Pilih warna kulit yang sesuai dengan wajah Anda!</h3>`: Ini adalah elemen heading level 3 yang berisi judul bagian.
 			~	`<p>Pilih Rekomendasi Warna Kulit Dibawah Ini Yang Sesuai Dengan Warna Kulit Anda Untuk Melihat Rekomendasi Warna Hijab</p>`: Ini adalah elemen paragraf yang memberikan deskripsi atau petunjuk kepada pengguna.
 			~	`<div class="img-container">`: Ini adalah elemen `<div>` yang digunakan untuk mengelompokkan elemen-elemen gambar bersamaan dengan deskripsi. Ini membungkus semua gambar dan deskripsi warna kulit.
+   
 	•	Gambar-gambar: Digunakan untuk menampilkan gambar wajah dengan berbagai warna kulit, seperti kulit cerah, kulit tengah, dan kulit gelap.
+
 	•	Elemen-elemen `<div>` berkelas `img-container-cerah`, `img-container-tengah`, dan `img-container-gelap`: Ini adalah elemen-elemen `<div>` yang digunakan untuk mengelompokkan gambar-gambar yang sesuai dengan warna kulit tertentu.
 
 
 
 **B. CSS**
 
+1) Login
 
-*1) Login*
 	* {
 	    padding: 0;
 	    margin: 0;
 	    box-sizing: border-box;
 	    font-family: 'Open Sans', sans-serif;
 	}
+
 1. `padding: 0;`: Ini mengatur nilai padding (ruang di sekitar konten) dari semua elemen menjadi 0. Padding adalah ruang di sekitar isi dari elemen.
 2. `margin: 0;`: Ini mengatur nilai margin (ruang di sekitar elemen) dari semua elemen menjadi 0. Margin adalah ruang di luar elemen.
 3. `box-sizing: border-box;`: Ini mengatur model kotak (box model) untuk semua elemen. Dalam model kotak "border-box", ukuran total elemen termasuk padding dan border, tetapi tidak termasuk margin.
 4. `font-family: 'Open Sans', sans-serif;`: Ini menentukan jenis font yang akan digunakan di seluruh halaman web. Pertama, mencoba menggunakan font "Open Sans". Jika font ini tidak tersedia, maka font sans-serif cadangan yang umum akan digunakan. Jadi, jika "Open Sans" tidak dapat dimuat, browser akan mencari font sans-serif lainnya.
 
-	body {
+		body {
 	    display: flex;
 	    align-items: center;
 	    justify-content: center;
 	    flex-direction: column;
 	    min-height: 100vh;
 	    background-color: #fff9ec;
-	}
+		}
+
 1. `display: flex;`: Ini mengatur elemen body untuk menggunakan model tata letak Flexbox. Flexbox adalah metode tata letak yang memungkinkan pengaturan elemen dalam container dengan cara yang responsif dan 			fleksibel.
 2. `align-items: center;`: Ini mengatur bagaimana elemen di sepanjang sumbu vertikal akan diatur. Dalam hal ini, elemen akan diatur di tengah-tengah secara vertikal.
 3. `justify-content: center;`: Ini mengatur bagaimana elemen di sepanjang sumbu horizontal akan diatur. Dalam hal ini, elemen akan diatur di tengah-tengah secara horizontal.
@@ -734,38 +753,42 @@ CDM dan PDM
 5. `min-height: 100vh;`: Ini mengatur tinggi minimum dari elemen body sebesar 100% dari tinggi viewport (vh). Ini memastikan bahwa elemen body selalu memiliki tinggi setidaknya setara dengan tinggi tampilan 			pengguna.
 6. `background-color: #fff9ec;`: Ini menetapkan warna latar belakang untuk elemen body. Dalam hal ini, latar belakang akan berwarna #fff9ec, yang merupakan nilai hex untuk warna krem muda.
 	
-	main {
+		main {
 	    width: 100%;
 	    max-width: 800px;
 	    padding: 32px;
-	}
+		}
 	
-	main img {
+		main img {
 	    display: block;
 	    margin: 0 auto 16px auto;
 	    width: 100%;
 	    max-width: 300px;
-	}
-	 Aturan untuk Elemen `<main>`:
+		}
+
+Aturan untuk Elemen `<main>`:
+
 1. `width: 100%;`: Ini mengatur lebar elemen `<main>` untuk mengisi seluruh lebar dari kontainer induknya (biasanya lebar tampilan pengguna atau elemen yang memuat `<main>`).
 2. `max-width: 800px;`: Ini membatasi lebar maksimum dari elemen `<main>` hingga 800 piksel. Ini berarti elemen `<main>` tidak akan melebihi lebar 800 piksel, bahkan jika tampilan pengguna lebih lebar.
 3. `padding: 32px;`: Ini menetapkan jarak antara tepi konten di dalam elemen `<main>`. Padding adalah ruang di sekitar isi dari elemen.
 	
-	Aturan untuk Elemen `<img>` yang berada dalam `<main>`:
+
+Aturan untuk Elemen `<img>` yang berada dalam `<main>`:
+
 1. `display: block;`: Ini mengatur elemen gambar (`<img>`) untuk memiliki tata letak "block". Ini berarti elemen gambar akan memulai baris baru dan mengisi seluruh lebar elemen yang memuatnya.
 2. `margin: 0 auto 16px auto;`: Ini mengatur margin (ruang di sekitar elemen) dari atas ke bawah, dan dari kiri ke kanan. Nilai "0" pada bagian atas dan bawah berarti tidak ada margin di atas dan bawah elemen. 	    "auto" pada sisi kiri dan kanan mengatur elemen untuk ditempatkan di tengah secara horizontal di dalam elemen yang memuatnya.
 3. `width: 100%;`: Ini mengatur lebar elemen gambar untuk mengisi seluruh lebar dari elemen yang memuatnya.
 4. `max-width: 300px;`: Ini membatasi lebar maksimum dari elemen gambar hingga 300 piksel. Ini berarti elemen gambar tidak akan melebihi lebar 300 piksel, bahkan jika gambar aslinya lebih lebar.
 	
-	.login-input {
+		.login-input {
 	    padding: 32px;
 	    background-color: #fb6376;
 	    border-radius: 10px;
 	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 	    overflow: auto;
-	}
+		}
 	
-	.login-input input {
+		.login-input input {
 	    display: block;
 	    width: 100%;
 	    font-size: 16px;
@@ -773,9 +796,9 @@ CDM dan PDM
 	    margin: 8 px 0 8px 0;
 	    border: 1px solid #000000;
 	    border-radius: 8px;
-	}
+		}
 	
-	.login-input button {
+		.login-input button {
 	    margin-top: 32px;
 	    padding: 8px 32px;
 	    background-color: #fcb1a6;
@@ -787,15 +810,18 @@ CDM dan PDM
 	    text-transform: uppercase;
 	    float: right;
 	    cursor: pointer;
-	}
-	Aturan untuk Kelas ".login-input":
+		}
+
+Aturan untuk Kelas ".login-input":
+
 1. `padding: 32px;`: Ini memberikan jarak di dalam elemen dengan kelas "login-input". Ini akan membuat konten di dalam elemen terdistribusi secara merata dari tepi dalam.
 2. `background-color: #fb6376;`: Ini menetapkan latar belakang elemen dengan warna #fb6376, yang merupakan nilai hex.
 3. `border-radius: 10px;`: Ini membulatkan sudut-sudut elemen, memberikan efek sudut melengkung.
 4. `box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);`: Ini menambahkan bayangan pada elemen. Bayangan ini akan memberikan elemen sedikit dimensi dan terlihat seperti melayang di atas latar belakang.
 5. `overflow: auto;`: Jika konten dalam elemen melebihi ukuran elemen itu sendiri, maka elemen akan memungkinkan pengguna untuk menggulir untuk melihat seluruh konten.
-	
-	Aturan untuk Elemen Input dalam Kelas ".login-input":
+
+Aturan untuk Elemen Input dalam Kelas ".login-input":
+
 1. `display: block;`: Ini mengubah elemen input menjadi elemen blok, sehingga elemen input akan memulai baris baru dan mengisi seluruh lebar yang tersedia.
 2. `width: 100%;`: Ini mengatur lebar input menjadi 100% dari lebar kontainer yang memuatnya.
 3. `font-size: 16px;`: Ini menetapkan ukuran font untuk input menjadi 16 piksel.
@@ -804,7 +830,8 @@ CDM dan PDM
 6. `border: 1px solid #000000;`: Ini menetapkan garis batas (border) dengan ketebalan 1 piksel dan warna hitam (#000000).
 7. `border-radius: 8px;`: Ini membulatkan sudut-sudut elemen input.
 	
-	Aturan untuk Tombol dalam Kelas ".login-input"
+Aturan untuk Tombol dalam Kelas ".login-input"
+
 1. `margin-top: 32px;`: Ini menetapkan jarak atas dari tombol.
 2. `padding: 8px 32px;`: Ini memberikan jarak di dalam tombol.
 3. `background-color: #fcb1a6;`: Ini menetapkan latar belakang tombol dengan warna #fcb1a6.
@@ -817,7 +844,7 @@ CDM dan PDM
 10. `float: right;`: Ini membuat tombol mengambang ke kanan.
 11. `cursor: pointer;`: Ini mengubah penunjuk mouse menjadi ikon tangan saat diarahkan ke tombol, menunjukkan bahwa itu dapat diklik.
 	
-	.pop-up-modal {
+		.pop-up-modal {
 	    position: fixed;
 	    padding: 8px 32px;
 	    background-color: red;
@@ -829,22 +856,24 @@ CDM dan PDM
 	    border-radius: 10px;
 	    text-align: center;
 	    transition: bottom ease-in-out 0.3s, opacity ease-in-out 0.3s;
-	}
+		}
 	
-	.pop-up-modal h2 {
+		.pop-up-modal h2 {
 	    padding: 6px;
-	}
+		}
 	
-	.pop-up-modal p{
+		.pop-up-modal p{
 	    font-size: 14px;
 	    margin-bottom: 6px;
-	}
+		}
 	
-	.pop-up-modal.display {
+		.pop-up-modal.display {
 	    bottom: 32px;
 	    opacity: 1;
-	}
-	Aturan untuk Kelas ".pop-up-modal":
+		}
+
+Aturan untuk Kelas ".pop-up-modal":
+
 1. `position: fixed;`: Ini mengatur elemen menjadi posisi tetap (fixed) di dalam tampilan pengguna, sehingga akan tetap berada di posisi yang sama bahkan jika halaman digulir.
 2. `padding: 8px 32px;`: Ini memberikan jarak di dalam elemen, dengan 8 piksel di atas dan bawah, serta 32 piksel di kiri dan kanan.
 3. `background-color: red;`: Ini menetapkan latar belakang elemen dengan warna merah.
@@ -857,30 +886,41 @@ CDM dan PDM
 10. `text-align: center;`: Ini mengatur teks di dalam elemen untuk berada di tengah.
 11. `transition: bottom ease-in-out 0.3s, opacity ease-in-out 0.3s;`: Ini menetapkan transisi animasi ketika nilai dari properti "bottom" dan "opacity" berubah. Transisi ini memiliki durasi 0.3 detik dengan efek 	    "ease-in-out" (percepatan dan perlambatan di awal dan akhir animasi).
 	
-	Aturan untuk Elemen `<h2>` dalam Kelas ".pop-up-modal":
+Aturan untuk Elemen `<h2>` dalam Kelas ".pop-up-modal":
+
 1. `padding: 6px;`: Ini memberikan jarak di dalam elemen `<h2>`, dengan 6 piksel di atas dan bawah, serta 0 piksel di kiri dan kanan.
 	
-	Aturan untuk Elemen `<p>` dalam Kelas ".pop-up-modal":
+Aturan untuk Elemen `<p>` dalam Kelas ".pop-up-modal":
+
 1. `font-size: 14px;`: Ini menetapkan ukuran font untuk teks di dalam elemen `<p>` menjadi 14 piksel.
 2. `margin-bottom: 6px;`: Ini memberikan jarak di bawah elemen `<p>`, dengan 6 piksel.
 	
-	Aturan untuk Kelas ".pop-up-modal.display":
+Aturan untuk Kelas ".pop-up-modal.display":
+
 1. `bottom: 32px;`: Ini mengubah posisi elemen dengan kelas "pop-up-modal" menjadi 32 piksel dari bagian bawah tampilan pengguna.
 2. `opacity: 1;`: Ini membuat elemen terlihat dengan pengaturan kejernihan (transparansi) 1 (elemen sepenuhnya terlihat).
 
 
-*2) Index*
+2) Index
+
 	•	`@import`: `@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400 ;600;700&display=swap');`: Ini adalah aturan CSS yang mengimpor font dari Google Fonts dengan nama "Nunito" dalam berbagai bobot (weight) yang disediakan. Font ini akan digunakan di seluruh situs web.
+
 	•	`:root`: Ini adalah kelas yang digunakan untuk menentukan variabel CSS yang akan digunakan dalam seluruh situs web. Dalam contoh ini, variabel yang ditetapkan adalah:
 		o	`--green`: Warna hijau
 		o	`--black`: Warna hitam
 		o	`--light-color`: Warna terang
 		o	`--box-shadow`: Sifat bayangan kotak yang digunakan untuk efek bayangan.
+
 	•	`*` (selektor universal): Ini memengaruhi semua elemen HTML di halaman web. Aturan-aturan yang diterapkan di sini termasuk mengatur font, margin, padding, box-sizing, dekorasi teks, penghapusan batas, mengubah teks menjadi huruf kapital, dan efek transisi.
+
 	•	`html`: Ini mengatur beberapa sifat untuk elemen `html`, termasuk ukuran font, menghilangkan overflow horizontal, mengatur perilaku scrolling, dan pengaturan lainnya.
+
 	•	`.btn`: Ini adalah aturan untuk elemen-elemen dengan kelas "btn". Ini mengatur tampilan tombol, termasuk margin, font size, warna teks, latar belakang, border, dan lainnya.
+
 	•	`.btn:hover`: Ini adalah aturan yang berlaku ketika tombol dengan kelas "btn" disorot oleh kursor mouse. Ini mengubah tampilan tombol saat dihover, seperti mengubah warna latar belakang, jarak antar huruf, dan warna teks.
+
 	•	`.heading`: Ini adalah aturan untuk elemen dengan kelas "heading". Ini mengatur tampilan elemen judul, seperti teks tengah, warna teks, ukuran font, transformasi teks menjadi huruf kapital, padding, dan posisi elemen.
+
 	•	Gaya untuk elemen-elemen di bagian "home", "about us", "rekomendasi", "shop", dan "contact style". Setiap bagian memiliki aturan CSS khusus untuk mengatur tampilan elemen-elemen yang ada dalam masing-masing bagian halaman.
 		o	Home Style
 			~	`.home`: Ini adalah selektor untuk elemen dengan kelas "home".
@@ -940,16 +980,19 @@ CDM dan PDM
 				-	`padding`: Memberikan padding sebesar 40 piksel di atas dan bawah serta 20 piksel di sisi kiri dan kanan.
 				-	`background-color`: Mengatur warna latar belakang menjadi coklat tua (#5d2a42).
 			~	Selektor-selektor lain dalam "contactus" mengatur properti-properti seperti warna teks, font-size, dan tampilan grid untuk mengatur susunan elemen-elemen di dalamnya.
+   
 	•	Header dan search form: Kode ini mengatur tampilan header dan kotak pencarian.
 		o	`header`: Mengatur header situs.
 		o	`img`: Mengatur gaya gambar dalam header.
 		o	`.navbar`: Mengatur tautan navigasi di header.
 		o	`#search-form`: Mengatur tampilan kotak pencarian yang muncul saat pencarian aktif.
 		o	`.active`: Mengatur tampilan untuk elemen yang aktif.
+
 	•	Media Queries: Terdapat beberapa media queries yang digunakan untuk mengatur tampilan situs web pada berbagai lebar layar. Ini termasuk mengatur ukuran font, tata letak elemen, dan beberapa perubahan gaya lainnya sesuai dengan lebar layar tertentu.
 
 
-*3) Fitur Pilih Bahan Hijab -style divana*
+3) Fitur Pilih Bahan Hijab -style divana
+
 	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 	/* Same Color Variables */
@@ -971,6 +1014,7 @@ CDM dan PDM
 	    text-transform: capitalize;
 	    transition: all .2s linear;
 	}
+
 Mendefinisikan Font:
 	@importurl('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 	Kode ini mengimpor font "Nunito" dari Google Fonts. Font ini memiliki berbagai bobot (weight) yang tersedia, mulai dari 200 hingga 700.
@@ -1005,6 +1049,7 @@ Aturan Global:
 	    color: var(--text-color);
 	    background: var(--body-color);
 	}
+
 Aturan untuk Elemen `<img>`:
 	- `width: 50%;`: Ini mengatur lebar elemen gambar (`<img>`) menjadi 50% dari lebar elemen yang memuatnya. Dengan kata lain, gambar akan diukur ulang untuk mencakup setengah dari lebar kotak yang memuatnya.
 	
@@ -1064,6 +1109,7 @@ Aturan untuk Elemen `<body>`:
 	    width: 40%;
 	    border-radius: 10px;
 	}
+
 Aturan untuk Elemen `<h3>` di dalam `.swiper-slide` yang berada di dalam `.container`:
 	- `text-align: center;`: Ini mengatur teks di dalam elemen `<h3>` agar berada di tengah.
 	- `justify-content: center;`: Ini mengatur konten di dalam elemen `<h3>` agar berada di tengah secara horizontal.
@@ -1116,6 +1162,7 @@ Aturan untuk Elemen `<img>` di dalam `.box` di dalam `.swiper-slide` di dalam `.
 	    margin-bottom: 400;
 	    color: black;
 	}
+
 Aturan untuk Elemen dengan kelas `.title`:
 	- `font-size: 15px;`: Ini menetapkan ukuran font untuk elemen dengan kelas "title" menjadi 15 piksel.
 	- `font-weight: 600;`: Ini mengatur ketebalan font menjadi 600 (tebal).
@@ -1148,6 +1195,7 @@ Aturan untuk Elemen dengan kelas `.penjelasan`:
 	.swiper-pagination-bullet-active {
 	    background: #5d2a42;
 	}
+
 Aturan untuk Elemen dengan kelas `.btn`:
 	- `margin-top: 1rem;`: Ini memberikan jarak atas sebesar 1 rem pada elemen dengan kelas "btn".
 	- `display: inline-block;`: Ini membuat elemen menjadi blok inline, sehingga akan memulai baris baru tetapi tetap memungkinkan elemen lain untuk berada di sampingnya.
@@ -1168,13 +1216,16 @@ Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 	- `background: #5d2a42;`: Ini menetapkan latar belakang elemen dengan kelas "swiper-pagination-bullet-active" menjadi warna #5d2a42 (ungu tua).
 
 
-*4) fitur model hijab -yanna_style*
+4) fitur model hijab -yanna_style
+
 	•	@import: Ini adalah aturan CSS yang digunakan untuk mengimpor file eksternal, dalam hal ini, file font dari Google Fonts. Ini akan mengimpor font Nunito dengan berbagai varian berat yang akan digunakan di 		seluruh halaman.
+
 	•	*{ ... }: Ini adalah pemilih universal. Ini akan memengaruhi semua elemen di halaman web. Properti yang didefinisikan di sini termasuk:
 		o	font-family: Mengatur font yang digunakan untuk semua elemen ke "Nunito" dengan alternatif "sans-serif".
 		o	margin: Menghapus margin di sekitar semua elemen.
 		o	padding: Menghapus padding di sekitar semua elemen.
 		o	box-sizing: Mengatur model kotak ke "border-box", yang berarti lebar dan tinggi elemen sekarang termasuk padding dan border (bukan hanya konten).
+
 	•	body{ ... }: Ini adalah aturan untuk elemen <body> halaman web. Properti yang didefinisikan di sini termasuk:
 		o	display: Mengatur tampilan menjadi flex, sehingga isi halaman berada di tengah vertikal dan horizontal.
 		o	align-items: Mengatur konten halaman untuk berada di tengah vertikal.
@@ -1182,21 +1233,31 @@ Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 		o	min-height: Menetapkan ketinggian minimum elemen <body> ke 100% dari tinggi tampilan (viewport).
 		o	padding: Memberikan padding sebesar 0 pada sisi atas dan bawah, dan 210 piksel pada sisi kanan dan kiri.
 		o	background: Mengatur latar belakang menjadi warna #ffdccc.
+
 	•	.wrapper{ ... }: Ini adalah kelas CSS yang digunakan untuk elemen dengan kelas "wrapper". Properti yang didefinisikan di sini termasuk:
 		o	max-width: Mengatur lebar maksimum elemen ke 1100 piksel.
 		o	width: Mengatur lebar elemen menjadi 100%.
 		o	position: Mengatur posisi elemen ke "relative".
-	•	.wrapper i { ... }: Ini adalah aturan untuk elemen <i> yang berada dalam elemen dengan kelas "wrapper". Properti yang didefinisikan di sini mencakup gaya ikon, seperti ukuran, warna latar belakang, 			bayangan, dll.
-	•	.wrapper .carousel { ... }: Ini adalah aturan untuk elemen dengan kelas "carousel" dalam elemen dengan kelas "wrapper". Properti yang didefinisikan di sini mengatur tampilan untuk elemen galeri atau 			carousel, seperti tata letak, grid, penggunaan scroll, dan lainnya.
+
+	•	.wrapper i { ... }: Ini adalah aturan untuk elemen <i> yang berada dalam elemen dengan kelas "wrapper". Properti yang didefinisikan di sini mencakup gaya ikon, seperti ukuran, warna latar belakang, bayangan, dll.
+
+	•	.wrapper .carousel { ... }: Ini adalah aturan untuk elemen dengan kelas "carousel" dalam elemen dengan kelas "wrapper". Properti yang didefinisikan di sini mengatur tampilan untuk elemen galeri atau carousel, seperti tata letak, grid, penggunaan scroll, dan lainnya.
+
 	•	.carousel::-webkit-scrollbar: Ini adalah aturan khusus untuk menghilangkan scrollbar pada elemen dengan kelas "carousel" di browser yang mendukung WebKit (seperti Chrome).
+
 	•	.carousel.no-transition dan .carousel.dragging: Ini adalah aturan CSS yang mengatur perilaku scroll saat elemen dengan kelas "carousel" sedang dalam mode tanpa transisi atau sedang ditarik (dragging).
-	•	.card { ... }: Ini adalah aturan untuk elemen dengan kelas "card" dalam elemen dengan kelas "carousel". Properti yang didefinisikan di sini mencakup tampilan kartu dalam galeri, seperti ukuran, warna, dan 		lainnya.
+
+	•	.card { ... }: Ini adalah aturan untuk elemen dengan kelas "card" dalam elemen dengan kelas "carousel". Properti yang didefinisikan di sini mencakup tampilan kartu dalam galeri, seperti ukuran, warna, dan lainnya.
+
 	•	.card .img img dan .card .content img: Ini adalah aturan CSS yang memengaruhi gambar dalam elemen dengan kelas "card".
+
 	•	.card .content { ... }: Ini adalah aturan untuk konten dalam kartu. Ini mengatur tampilan konten, seperti tata letak, bayangan, dan warna latar belakang.
-	•	@media screen and (max-width: 900px) { ... } dan @media screen and (max-width: 600px) { ... }: Ini adalah aturan media query yang mengubah tampilan elemen dengan kelas "carousel" dalam elemen dengan kelas 		"wrapper" ketika lebar tampilan kurang dari 900 piksel dan 600 piksel, masing-masing. Ini digunakan untuk responsif desain halaman web, mengubah tampilan sesuai dengan lebar layar perangkat pengguna.
+
+	•	@media screen and (max-width: 900px) { ... } dan @media screen and (max-width: 600px) { ... }: Ini adalah aturan media query yang mengubah tampilan elemen dengan kelas "carousel" dalam elemen dengan kelas "wrapper" ketika lebar tampilan kurang dari 900 piksel dan 600 piksel, masing-masing. Ini digunakan untuk responsif desain halaman web, mengubah tampilan sesuai dengan lebar layar perangkat pengguna.
 
    
-*5) fitur warna hijab -style_eva*
+5) fitur warna hijab -style_eva
+
 	•	`*` Selector: universal selector yang memilih semua elemen HTML di halaman.
 		o	`font-family: 'Nunito', sans-serif;` mengatur jenis font untuk semua teks pada halaman. 'Nunito' adalah jenis font yang diutamakan, dan jika tidak tersedia, maka menggunakan jenis font cadangan 'sans-serif'.
 		o	`margin: 0;` menghilangkan margin pada semua elemen. Ini dapat membantu menghindari margin bawaan yang berbeda pada elemen-elemen HTML.
@@ -1207,24 +1268,30 @@ Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 		o	`border: none;` menghilangkan semua border pada elemen.
 		o	`text-transform: capitalize;` mengubah semua teks menjadi kapital pada awal setiap kata.
 		o	`transition: all .2s linear;` mengatur efek transisi pada semua perubahan properti CSS selama 0.2 detik dengan animasi linier.
+
 	•	`section` Selector: Ini memilih elemen `<section>` pada halaman.
 		o	`padding: 7rem 9%;` memberikan padding sebesar 7 rem di atas dan bawah serta 9% pada sisi kiri dan kanan elemen `<section>`.
 		o	`background: #FFDCCC;` mengatur warna latar belakang elemen `<section>` menjadi #FFDCCC (warna kuning pucat).
+
 	•	`.container h3` Selector: Ini memilih elemen `<h3>` yang berada di dalam elemen dengan kelas "container."
 		o	`display: flex;` mengubah tata letak elemen `<h3>` menjadi tampilan fleksibel.
 		o	`justify-content: center;` memusatkan elemen `<h3>` secara horizontal.
 		o	`font-weight: bold;` mengatur tebal teks elemen `<h3>` menjadi tebal.
+
 	•	`.container p` Selector: Ini memilih elemen `<p>` yang berada di dalam elemen dengan kelas "container."
 		o	`margin: 0px 0 25px 0;` mengatur margin atas dan bawah elemen `<p>`, serta margin kiri dan kanan nol. Ini menghilangkan margin atas dan bawah tetapi memberikan margin pada sisi bawah elemen `<p>`. 
 		o	`text-align: center;` mengatur teks elemen `<p>` menjadi rata tengah.
 		o	`font-size: 16px;` mengatur ukuran font menjadi 16 piksel.
 		o	`line-height: 1.5;` mengatur tinggi baris menjadi 1.5, yang memengaruhi jarak antara baris teks.
+
 	•	`.img-container` Selector: Ini memilih elemen dengan kelas "img-container."
 		o	`display: flex;` mengubah tata letak elemen "img-container" menjadi tampilan fleksibel.
+
 	•	`.img-container img` Selector: Ini memilih elemen gambar `<img>` yang berada di dalam elemen dengan kelas "img-container."
 		o	`margin: 20px;` memberikan margin sebesar 20 piksel pada semua sisi gambar.
 		o	`width: 55px;` mengatur lebar gambar menjadi 55 piksel.
 		o	`height: 210px;` mengatur tinggi gambar menjadi 210 piksel.
+
 	•	`.img-container-cerah img`, `.img-container-tengah img`, `.img-container-gelap img` Selectors: Ini adalah tiga aturan yang memilih elemen gambar `<img>` yang berada di dalam elemen dengan kelas "img-container-cerah," "img-container-tengah," dan "img-container-gelap" secara berturut-turut.
 
 
@@ -1232,7 +1299,8 @@ Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 **C. JS**
 
 
-*1) index -script_yanna*
+1) index -script_yanna
+
 	1.	Toggle Menu Bar:
 	let menu = document.querySelector('#menu-bars');
 	let navbar = document.querySelector('.navbar');
@@ -1275,7 +1343,8 @@ Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 	- Fungsi tersebut mengambil elemen dengan ID "search-form" dan menghapus kelas "active", sehingga menutup formulir pencarian.
 
 
-*2) Fitur Bahan hijab -script_divana*
+2) Fitur Bahan hijab -script_divana
+
 	`var swiper = new Swiper(".mySwiper", {...});`: Ini membuat instance baru dari Swiper dengan selector ".mySwiper". Ini berarti Swiper akan diterapkan pada elemen HTML dengan kelas "mySwiper".
 	`loop: true,`: Ini mengatur Swiper untuk berputar kembali ke awal setelah mencapai akhir galeri.
 	`spaceBetween: 30,`: Ini menetapkan jarak antara setiap slide (elemen dalam galeri) sebesar 30 piksel.
@@ -1322,23 +1391,33 @@ Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 	     - `prevEl: ".swiper-button-prev",` menunjukkan bahwa tombol untuk slide sebelumnya akan diaktifkan dengan elemen yang memiliki kelas "swiper-button-prev".
 
 
-*3) fitur model hijab -yanna_script*
+3) fitur model hijab -yanna_script
+
   	•	Pertama-tama, elemen-elemen HTML diambil dari dokumen menggunakan metode document.querySelector atau document.querySelectorAll dan disimpan dalam variabel-variabel:
 		o	wrapper: Merepresentasikan elemen dengan kelas "wrapper".
 		o	carousel: Merepresentasikan elemen dengan kelas "carousel".
 		o	firstCardWidth: Menyimpan lebar dari kartu pertama dalam carousel.
 		o	arrowBtns: Menyimpan semua elemen <i> dalam elemen dengan kelas "wrapper".
 		o	carouselChildrens: Menyimpan semua elemen anak dari elemen "carousel" dalam bentuk array.
+
 	•	Beberapa variabel status dan kontrol didefinisikan:
 		o	isDragging dan isAutoPlay: Variabel yang digunakan untuk mengontrol apakah pengguna sedang menarik (dragging) carousel atau apakah autoplay aktif.
 		o	startX dan startScrollLeft: Variabel yang digunakan untuk menyimpan posisi awal kursor pengguna dan posisi awal scroll carousel.
 		o	timeoutId: Variabel yang digunakan untuk menyimpan ID timeout yang digunakan untuk autoplay.
-	•	Jumlah kartu yang dapat ditampilkan dalam carousel pada satu waktu dihitung dengan membagi lebar carousel (carousel.offsetWidth) oleh lebar kartu pertama (firstCardWidth) dan disimpan dalam variabel 			cardPerView.
+
+	•	Jumlah kartu yang dapat ditampilkan dalam carousel pada satu waktu dihitung dengan membagi lebar carousel (carousel.offsetWidth) oleh lebar kartu pertama (firstCardWidth) dan disimpan dalam variabel cardPerView.
+
 	•	Selanjutnya, beberapa kartu terakhir disalin dan dimasukkan ke awal carousel, dan beberapa kartu pertama disalin dan dimasukkan ke akhir carousel. Ini dilakukan untuk menciptakan efek gulir tak terbatas.
-	•	Kemudian, CSS class "no-transition" ditambahkan ke elemen carousel untuk menghilangkan transisi, scrollLeft diatur untuk menyembunyikan beberapa kartu duplikat di awal, dan kemudian class "no-transition" 		dihapus untuk mengembalikan transisi.
+
+	•	Kemudian, CSS class "no-transition" ditambahkan ke elemen carousel untuk menghilangkan transisi, scrollLeft diatur untuk menyembunyikan beberapa kartu duplikat di awal, dan kemudian class "no-transition" dihapus untuk mengembalikan transisi.
+
 	•	Event listener ditambahkan ke tombol panah untuk menggeser carousel ke kiri atau kanan sesuai dengan tombol yang ditekan.
-	•	Terdapat tiga fungsi yang digunakan untuk menangani operasi drag: dragStart(), dragging(), dan dragStop(). Ini digunakan untuk mengenali saat drag dimulai, menghitung pergeseran yang sesuai selama operasi 		drag, dan menghentikan operasi drag.
-	•	Fungsi infiniteScroll() digunakan untuk memastikan bahwa carousel selalu dapat digeser tak terbatas. Jika carousel sudah di awal atau akhir, maka carousel akan di-scroll ke posisi yang sesuai. Juga, 			timeout yang ada akan dihapus, dan autoplay akan dimulai jika kursor tidak berada di atas carousel.
-	•	Fungsi autoPlay() digunakan untuk mengotomatisasi gerakan carousel. Jika lebar jendela kurang dari 800 piksel atau isAutoPlay adalah false, autoplay tidak akan dijalankan. Jika autoplay dijalankan, 			carousel akan otomatis digeser setiap 2500 milidetik.
+
+	•	Terdapat tiga fungsi yang digunakan untuk menangani operasi drag: dragStart(), dragging(), dan dragStop(). Ini digunakan untuk mengenali saat drag dimulai, menghitung pergeseran yang sesuai selama operasi drag, dan menghentikan operasi drag.
+
+	•	Fungsi infiniteScroll() digunakan untuk memastikan bahwa carousel selalu dapat digeser tak terbatas. Jika carousel sudah di awal atau akhir, maka carousel akan di-scroll ke posisi yang sesuai. Juga, timeout yang ada akan dihapus, dan autoplay akan dimulai jika kursor tidak berada di atas carousel.
+
+	•	Fungsi autoPlay() digunakan untuk mengotomatisasi gerakan carousel. Jika lebar jendela kurang dari 800 piksel atau isAutoPlay adalah false, autoplay tidak akan dijalankan. Jika autoplay dijalankan, 	carousel akan otomatis digeser setiap 2500 milidetik.
+
 	•	Terdapat beberapa event listener yang mengatur interaksi pengguna dan perilaku carousel, seperti saat pengguna menekan mouse, menggeser mouse, menghentikan operasi drag, menggerakkan scroll, dan sebagainya
 	
