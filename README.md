@@ -14,7 +14,7 @@ Fakultas Vokasi
 Universitas Negeri Surabaya Tahun 2023
 
 
-1.	Pendahuluan
+	1.	Pendahuluan
    
 1.1	Tujuan Penulisan Dokumen
 Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini bertujuan sebagai panduan atau acuan baik bagi pengembang sistem maupun pengguna. Bagi pihak pengembang, dokumen ini berperan sebagai pedoman dasar yang membantu dalam perencanaan dan pelaksanaan aktivitas pengujian sistem, serta memberikan arahan untuk melakukan perbaikan dan perubahan pada sistem guna memenuhi kebutuhan pengguna dan tujuan dari website itu sendiri. Sedangkan bagi pihak pengguna, dokumen ini digunakan untuk mencatat semua spesifikasi kebutuhan dari website yang dikembangkan dan harapan yang diinginkan. Dokumen ini disusun dengan tujuan untuk mendukung proses pembuatan spesifikasi sistem informasi yang berkaitan dengan rekomendasi model, warna, dan bentuk hijab yang sesuai dengan karakteristik pengguna. Pada prinsipnya, hasil analisis sistem informasi dengan rancangan ini, diuraikan sebagai sekumpulan proses yang terorganisasi secara hierarkis memberikan solusi dan menetapkan batasan masalah agar proyek tidak menyimpang terlalu jauh dari tujuan awal atau manfaat dari website yang akan dibangun.
