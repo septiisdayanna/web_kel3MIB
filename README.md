@@ -1,35 +1,36 @@
-
-Spesifikasi Kebutuhan Perangkat
-Lunak
+Spesifikasi Kebutuhan Perangkat Lunak
 Untuk
-Website HIJABISTA INSIGHTS
-Hijab Fashion and Hijab Consultation
+**WEBSITE HIJABISTA INSIGHTS**
+*Hijab Fashion and Hijab Consultation*
 Versi 1.0 disetujui
+
 Disusun Oleh:
-Septi Isdayanna	(22091397045)
-Resti Divana Putri	(22091397060)
-Eva Fitria Novianti Putri	(22091397068)
+
+1. Septi Isdayanna		(22091397045)
+2. Resti Divana Putri		(22091397060)
+3. Eva Fitria Novianti Putri	(22091397068)
+
 D4 Manajemen Informatika
 Fakultas Vokasi
 Universitas Negeri Surabaya Tahun 2023
 
 
-	1.	Pendahuluan
+**1.	PENDAHULUAN**
    
-1.1	Tujuan Penulisan Dokumen
+**1.1	Tujuan Penulisan Dokumen**
 Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini bertujuan sebagai panduan atau acuan baik bagi pengembang sistem maupun pengguna. Bagi pihak pengembang, dokumen ini berperan sebagai pedoman dasar yang membantu dalam perencanaan dan pelaksanaan aktivitas pengujian sistem, serta memberikan arahan untuk melakukan perbaikan dan perubahan pada sistem guna memenuhi kebutuhan pengguna dan tujuan dari website itu sendiri. Sedangkan bagi pihak pengguna, dokumen ini digunakan untuk mencatat semua spesifikasi kebutuhan dari website yang dikembangkan dan harapan yang diinginkan. Dokumen ini disusun dengan tujuan untuk mendukung proses pembuatan spesifikasi sistem informasi yang berkaitan dengan rekomendasi model, warna, dan bentuk hijab yang sesuai dengan karakteristik pengguna. Pada prinsipnya, hasil analisis sistem informasi dengan rancangan ini, diuraikan sebagai sekumpulan proses yang terorganisasi secara hierarkis memberikan solusi dan menetapkan batasan masalah agar proyek tidak menyimpang terlalu jauh dari tujuan awal atau manfaat dari website yang akan dibangun.
 
-1.2	Konvensi Dokumen
+**1.2	Konvensi Dokumen**
 Standar penulisan dokumen ini disesuaikan dengan template yang diberikan. Pada dokumen ini terdapat beberapa kata yang dicetak miring digunakan untuk menunjukan bahwa kata tersebut berasal dari bahasa asing, sedangkan penulisan dengan cetak tebal sebagai petunjuk memasuki bab atau sub bab baru dan tidak ada format khusus untuk menandai bagian terpenting dokumen.
 
-1.3	Audiens yang Dituju dan Pembaca yang Disarankan
+**1.3	Audiens yang Dituju dan Pembaca yang Disarankan**
 Audiens: Audiens yang dituju dari website ini adalah para wanita Muslim yang menggunakan hijab atau berencana untuk memulai mengenakan hijab. Wanita yang berminat dalam fashion dan hijab. Menyesuaikan hijab dari bentuk wajah dan warna kulit dan sebagai platform secara online untuk keperluan fashion. Beberapa dari mereka memiliki berbagai latar belakang dan tingkat pengalaman dalam memilih hijab.
 Saran: Dokumen SKPL Website Hijabista Insights - Hijab Fashion and Hijab Consultation ini digunakan untuk menyediakan rekomendasi hijab yang cocok berdasarkan bentuk wajah dan warna kulit pengguna. Oleh karena itu, kami menyarankan kepada pembaca untuk membaca dokumen SKPL ini dengan seksama terlebih dahulu.
 
-1.4	Lingkup Produk
+**1.4	Lingkup Produk**
 Website ini berfungsi sebagai sebuah platform yang menyediakan berbagai rekomendasi mengenai hijab, termasuk model, warna, dan jenis bahan yang dapat disesuaikan dengan kebutuhan penggunanya. Untuk mencapai hal ini, website ini harus memiliki kemampuan untuk menampilkan berbagai kemungkinan pilihan bentuk wajah dan warna kulit, sehingga pengguna dapat menyesuaikan pilihan hijab sesuai dengan bentuk wajah dan warna kulit mereka. Dengan begitu, website ini dapat memberikan beberapa rekomendasi mengenai model dan warna hijab yang sesuai dengan preferensi pengguna. Selain itu, website ini juga harus mampu mengumpulkan data dari pengguna, dimana pengguna dapat memberikan informasi mengenai penggunaan hijab dalam kehidupan sehari-hari mereka. Hal ini akan memungkinkan website untuk memberikan rekomendasi mengenai jenis bahan hijab yang cocok untuk digunakan oleh pengguna tersebut. Setelah pengguna mendapatkan model, warna, dan bahan hijab yang sesuai, website ini juga harus mampu menampilkan rekomendasi beberapa toko online yang menjual hijab tersebut dengan berbagai macam harga. Hal ini bertujuan agar pengguna dapat membeli hijab tersebut dengan mudah. 
 
-1.5	Referensi 
+**1.5	Referensi**
 Dokumen-dokumen yang digunakan sebagai referensi dalam pembuatan SKPL ini adalah sebagai berikut:
 [1]	“Spesifikasi Kebutuhan Perangkat Lunak Sistem Informasi Mahasiswa Berprestasi Universitas Palangka Raya.” [Online]. Available: https://www.researchgate.net/publication/365977478
 [2]	“SPESIFIKASI KEBUTUHAN PERANGKAT LUNAK.”
@@ -39,42 +40,42 @@ Dokumen-dokumen yang digunakan sebagai referensi dalam pembuatan SKPL ini adalah
 
 
 
-2.	Deskripsi Keseluruhan
+**2.	DESKRIPSI KESELURUHAN**
    
-2.1	Perspektif Produk
+**2.1	Perspektif Produk**
 Hijabista Insights: Hijab Fashion and Hijab Consultation" adalah platform interaktif yang dirancang untuk memberikan rekomendasi hijab yang sesuai dengan bentuk wajah dan warna  kulit dari pengguna dan juga memberikan rekomendasi bahan hijab yang sesuai dengan keseharian pengguna. Dengan desain dan isi yang menarik dan informatif, website ini digunakan untuk menyediakan rekomendasi hijab yang cocok berdasarkan bentuk wajah dan warna kulit pengguna, memfasilitasi pengguna untuk memilih bahan hijab sesuai dengan keperluan (sehari-hari atau acara khusus), serta mengarahkan pengguna ke toko online yang menjual hijab dengan pilihan harga berbeda.
 
-2.2	Fungsi Produk
+**2.2	Fungsi Produk**
 Website Hijab insights memiliki beragam fungsi yang bermanfaat, khususnya bagi para wanita yang memakai hijab dikesehariannya. Berikut adalah beberapa fungsi utama dari website ini:
 Website ini memberikan rekomendasi berbagai model hijab kepada pengguna. Ini akan membantu pengguna dalam memilih model hijab yang sesuai dengan preferensi mereka.
 Selain model, website ini juga memberikan rekomendasi berbagai warna hijab yang dapat disesuaikan dengan kebutuhan pengguna. Pengguna dapat memilih warna hijab yang cocok dengan warna kulit mereka atau sesuai dengan acara tertentu. Website ini memberikan rekomendasi mengenai bahan hijab yang sesuai dengan kebutuhan pengguna. Bahan hijab dapat beragam, seperti katun, satin, sutra, dll. Rekomendasi ini membantu pengguna dalam memilih bahan hijab yang nyaman dan sesuai dengan keperluan mereka. Website ini memberikan beberapa rekomendasi toko online yang menyediakan produk hijab sesuai dengan hasil analisis sistem. Beberapa di antaranya termasuk Shopee, Tokopedia, Lazada, Bukalapak, dan lainnya. Dengan fungsi-fungsi ini, website ini bertujuan untuk memberikan rekomendasi hijab yang lebih personal dan sesuai dengan preferensi serta kebutuhan pengguna.
 
-2.3	Kelas dan Karakteristik Pengguna 
+**2.3	Kelas dan Karakteristik Pengguna**
 Analisis pengguna sistem dimaksudkan untuk mengetahui siapa saja aktor yang terlibat dalam menjalankan sistem. Sistem informasi aplikasi fasilitas umum ini sendiri menggunakan website. Pengguna sistem dibagi atas dua bagian, yaitu : 
 1. Pengguna aplikasi fasilitas umum atau end user yaitu para pengguna website. Dalam menggunakan sistem ini, pengguna diharuskan memiliki koneksi GPRS / EDGE / UMTS / HSDPA dan fasilitas kamera untuk bisa menyesuaikan bentuk wajah mereka dengan hijab yang direkomendasikan. 
 2. Admin sebagai pengelola konten secara keseluruhan memiliki fungsi- fungsi seperti menambah, mengubah dan menghapus konten informasi dalam menjalankan sistem. 
 
-2.4	Lingkungan Operasi
-Server Side
+**2.4	Lingkungan Operasi**
+1. Server Side
 Perangkat yang kami gunakan adalah Windows sebagai Operating System (Sistem Operasi)
-Client Side
+2. Client Side
 Platform Pengguna
 Platform ini dapat diakses melalui berbagai perangkat, termasuk komputer desktop, laptop, tablet, dan smartphone.
 Browser yang Didukung
 Platform akan dioptimalkan untuk berbagai browser populer termasuk Google Chrome, Mozilla Firefox, Safari, dan Microsoft Edge.
-Development Tools
+3. Development Tools
 Perangkat yang digunakan untuk pengembangan sistem dan penyimpanan database adalah:
 PhpMyAdmin sebagai sistem penyimpanan database Pengguna dan admin.
 Bahasa pemrograman menggunakan PHP, JS, CSS, HTML.
 Browser dan Development sebagai pengujian dan debug.
 
-2.5	Kendala Desain dan Implementasi(belum)
+**2.5	Kendala Desain dan Implementasi**
 Pengembangan sistem Hijab Insights ini memiliki keterbatasan-keterbatasan yaitu sebagai berikut:
 Sistem yang dibangun belum terintegrasi secara utuh.
 Keamanan website adalah hal yang penting. Pastikan untuk menginstal pembaruan keamanan secara berkala dan menggunakan alat keamanan yang sesuai untuk melindungi website dari serangan dan ancaman siber.
 Sekalipun website telah dibangun, jika tidak dipromosikan dengan baik, mungkin akan kurang dikenal oleh masyarakat umum.
 
- 2.6	Dokumentasi Pengguna
+**2.6	Dokumentasi Pengguna**Z
 Berikut panduan penggunaan aplikasi bagi pengguna tentang fitur-fitur penting pada aplikasi berbasis website Hijabista Insights: 
 1. Pilih Bentuk Wajah dan Warna Kulit:
 Platform akan menggunakan kamera untuk mengidentifikasi dan menganalisis bentuk wajah dan warna kulit pengguna. Informasi ini akan menjadi dasar untuk merekomendasikan hijab yang sesuai.
@@ -89,10 +90,10 @@ Pengguna akan dapat membandingkan harga produk hijab dari berbagai toko online, 
 6. Pengalihan ke Aplikasi Toko:
 Setelah pengguna memilih produk dan toko online, mereka akan dialihkan ke aplikasi toko terkait jika mereka ingin melakukan pembelian.
 
-2.7	Asumsi dan Ketergantungan
+**2.7	Asumsi dan Ketergantungan**
 Dalam pengembangan website Hijabista Insights - Hijab Fashion and Hijab Consultation, terdapat beberapa asumsi dan dependensi yang perlu dipertimbangkan. Asumsi dan Ketergantungan memberikan kerangka kerja untuk memahami kondisi dan ketergantungan yang mungkin mempengaruhi pengembangan dan operasionalisasi platform "Hijabista Insights". Memahami asumsi dan ketergantungan ini adalah kunci untuk mengelola risiko dan memastikan platform berfungsi sebagaimana mestinya.
 
-Asumsi
+a. Asumsi
 1. Asumsi Umum
 Pengguna memiliki akses internet stabil untuk mengakses platform.
 2. Data Pengguna
@@ -106,7 +107,7 @@ Toko online yang diarahkan pengguna memiliki persediaan hijab yang mencukupi dan
 6. Pembaruan dan Penyelenggaraan
 Platform dapat diperbarui dan diselenggarakan tanpa gangguan signifikan terhadap pengguna.
 
-Ketergantungan
+b. Ketergantungan
 1. Ketergantungan Eksternal
 Platform mengandalkan API dari toko online mitra untuk menyediakan rekomendasi produk dan harga.
 2. Pengembangan Bahasa Pemrograman
@@ -122,32 +123,61 @@ Algoritma rekomendasi harus dapat diintegrasikan dengan platform dan berjalan de
 
 
 
-3.	Kebutuhan Antarmuka Eksternal
+**3.	KEBUTUHAN ANTARMUKA EKSTERNAL**
    
-3.1	Antarmuka Pengguna
+**3.1	Antarmuka Pengguna**
 Aplikasi ini  menggunakan antarmuka berbasis web, dan pengguna mengoperasikannya dengan menggunakan keyboard dan mouse di sistem operasi windows. Pengguna utama aplikasi ini adalah semua wanita yang memakai hijab, yang memiliki tingkat kemampuan bervariasi dalam menggunakan aplikasi tersebut. oleh karena itu, aplikasi ini dirancang dengan konsep desain yang ramah untuk pengguna. Aksesnya cukup mudah dan pengguna tidak akan kesulitan dalam berpindah halaman. Warna-warna yang digunakan dalam aplikasi ini dibuat dengan hangat sehingga nyaman bagi pengguna dalam pemilihan hijab. 
 
-3.2	Antarmuka Perangkat Keras
+**3.2	Antarmuka Perangkat Keras**
 Aplikasi ini dapat diakses dengan menggunakan beberapa perangkat keras seperti mouse sebagai pointer, keyboard sebagai tombol input, dan yang terpenting yaitu handphone atau laptop untuk mengakses aplikasi dengan terhubung ke internet. Kecepatan aplikasi berbasis website ini pada saat digunakan tergantung pada juga kecepatan internet yang digunakan dan kondisi perangkat. 
 
-3.3	Antarmuka Perangkat Lunak
+**3.3	Antarmuka Perangkat Lunak**
 Aplikasi diakses menggunakan web browser.
 Dikembangkan menggunakan bahasa pemrograman html, css, java script.
 Database yang digunakan adalah mysql.
-3.4	Antarmuka Komunikasi
+
+**3.4	Antarmuka Komunikasi**
 website ini memerlukan perangkat berupa laptop, PC, atau smartphone yang terhubung ke jaringan internet. Aplikasi ini dapat dijalankan melalui web browser Google Chrome dan menggunakan formulir elektronik HTML untuk mengumpulkan data dari pengguna dengan batasan maksimal 1000 kata. Komunikasi data dalam proses pertukaran informasi antar perangkat yang terhubung dalam jaringan menggunakan protokol jaringan berbasis TCP/IP sebagai standar komunikasi jaringan.
 
 
-
-4.    	Fitur Sistem dan Kerangka Desain Fitur
+**4.	FITUR SISTEM DAN KERANGKA DESAIN FITUR**
    
-4.1 
+**4.1	Pilih Model Hijab**
+1. Deskripsi dan Prioritas:
+Fitur "Pilih Model Hijab" adalah sebuah fitur yang memungkinkan pengguna untuk mencari, melihat, dan memilih berbagai model hijab sesuai dengan berbagai kriteria. Tingkat prioritas fitur "Pilih Model Hijab" akan tergantung pada berbagai faktor, seperti tujuan, anggaran, sumber daya, dan preferensi pengguna.
+2. Stimulus dan Respon:
+Stimulus untuk menggunakan fitur "Pilih Model Hijab" dapat berasal dari pengguna yang ingin untuk membeli atau mencari inspirasi hijab, untuk menyesuaikan penampilan dengan pakaian tertentu, dan untuk menemukan hijab yang sesuai dengan bentuk wajah. Ketika pengguna memilih fitur "Pilih Model Hijab," akan muncul model hijab berdasarkan kriteria tertentu dan dapat melihat gambaran visual model hijab. 
+3. Kebutuhan Fungsional:
+REQ-1 : Mencari model hijab berdasarkan berbagai kriteria
+REQ-2 : Menampilkan gambaran visual yang jelas dari model hijab
+REQ-3 : Membandingkan beberapa model hijab sekaligus
+
+**4.2	Pilih Warna Kulit**
+1. Deskripsi dan Prioritas:
+Fitur "Pilih Warna Kulit" memungkinkan pengguna untuk menyesuaikan warna kulit dari avatar, gambar profil, atau karakter yang mereka gunakan dalam aplikasi atau situs web. Fitur ini memiliki tingkat prioritas yang dapat bervariasi tergantung pada jenis aplikasi atau situs web, tetapi dalam banyak kasus, ini bisa memiliki prioritas menengah hingga tinggi. 
+2. Stimulus dan Respon:
+Stimulus untuk menggunakan fitur "Pilih Warna Kulit" dapat berasal dari pengguna yang ingin mencerminkan diri mereka sendiri dalam karakter atau avatar mereka, atau untuk menyesuaikan karakter dengan preferensi estetika mereka. Ketika pengguna memilih fitur "Pilih Warna Kulit," mereka biasanya akan dihadapkan dengan sebuah palet warna atau pilihan yang memungkinkan mereka untuk memilih warna kulit yang diinginkan. 
+3. Kebutuhan Fungsional:
+REQ-1 : Tampilan yang responsif dan adaptif. 
+REQ-2 : Menyediakan palet warna yang beragam
+REQ-3 : Menyimpan preferensi warna kulit pengguna
+REQ-4 : Melihat pratinjau langsung dari avatar dengan warna kulit yang telah mereka pilih.
+
+**4.3	Pilih Bahan Hijab**
+1. Deskripsi dan Prioritas 
+Fitur "Pilih Bahan Hijab" memungkinkan pengguna untuk memilih bahan atau jenis kain dari hijab yang mereka inginkan. Tingkat prioritas untuk fitur "Pilih Bahan Hijab" dapat bervariasi tergantung pada tujuan bisnis, pasar target, dan kebijakan pengembangan produk. 
+2. Stimulus dan Respon 
+Pengguna mengunjungi halaman produk hijab apabila ingin memilih hijab dengan bahan yang sesuai dengan kebutuhan mereka. Saat pengguna memilih opsi "Pilih Bahan Hijab," akan muncul daftar atau galeri berbagai jenis bahan hijab yang akan disertai dengan gambar, dan deskripsi. 
+3. Kebutuhan Fungsional 
+REQ-1 : Memuat gambar-gambar bahan hijab dengan resolusi tinggi dan warna yang akurat
+REQ-2 : Menyediakan deskripsi lengkap tentang karakteristik bahan
+REQ-3 : Memungkinkan pengguna untuk mencari bahan hijab berdasarkan jenis bahan atau kata kunci.
+REQ-4 : Memungkinkan pengguna untuk mengklik atau menyentuh bahan hijab untuk memilihnya.
 
 
-
-5.  	Persyaratan Non Fungsional Lainnya
+**5. 	PERSYARATAN NON FUNGSIONAL LAINNYA**
    
-5.1	Persyaratan Kinerja
+**5.1	Persyaratan Kinerja**
 Persyaratan kinerja yang harus dipenuhi untuk memastikan performa dan responsivitas yang baik dari Website Hijab Insight, sebagai berikut:
 Waktu Respon Halaman
 Setiap halaman website harus dimuat dalam waktu maksimum 2 detik.
@@ -163,10 +193,10 @@ Website harus mampu menangani jumlah pengguna yang berinteraksi secara bersamaan
 Kinerja pada jaringan lambat
 Website harus dapat diakses dengan baik pada koneksi berkecepatan rendah tanpa mengorbankan kualitas konten.
 
-5.2	Persyaratan Keselamatan
+**5.2	Persyaratan Keselamatan**
 Website Hijabista Insights - Hijab Fashion and Hijab Consultation memberikan tindakan keamanan yang akan diimplementasikan. Keamanan data pengguna, transmisi, dan integrasi keamanan adalah prioritas utama. Perlindungan privasi dan ketersediaan layanan juga merupakan fokus penting. Pembaruan dan pemeliharaan keamanan secara teratur adalah bagian integral dari strategi keamanan keseluruhan. Dengan mengimplementasikan langkah-langkah ini, kami bertujuan untuk memberikan pengalaman pengguna yang aman dan terpercaya.
 
-5.3	Persyaratan Keamanan
+**5.3	Persyaratan Keamanan**
 Persyaratan keamanan website hijab insights  sangat penting untuk melindungi data dari pengguna, mencegah ancaman siber, serta menjaga integritas dan ketersediaan website. Berikut adalah beberapa persyaratan keamanan yang perlu dipertimbangkan dalam pengembangan dan pengelolaan website tersebut:
 Proteksi Data Pengguna
 Website harus memiliki mekanisme enkripsi data (HTTPS) untuk melindungi data pribadi dan sensitif pengguna, seperti informasi penggunaan hijab untuk keseharian user yang seperti apa.
@@ -182,7 +212,7 @@ Tingkat operator sistem, yang memungkinkan akses tanpa batasan ke seluruh fungsi
 Tingkat pemberi posting, yang memberikan akses khusus kepada fungsionalitas pemberian posting.
 Tingkat pengguna, yang memberikan akses untuk melihat dan menggunakan informasi yang ada."
 
-5.4	Atribut Kualitas Perangkat Lunak
+**5.4	Atribut Kualitas Perangkat Lunak**
 Berikut adalah contoh atribut kualitas perangkat lunak dalam konteks sebuah website Hijabista Insights:
 Keandalan 
 Aplikasi harus memberikan hasil yang akurat dan dapat diandalkan dalam menampilkan pilihan bentuk wajah dan warna kulit, dan informasi lainnya kepada pengguna. 
@@ -201,7 +231,7 @@ Website harus mampu menangani serangan siber seperti DDoS dengan mengimplementas
 Semua data pengguna harus disandikan (encrypted) menggunakan protokol HTTPS.
 Perlindungan terhadap serangan SQL Injection, Cross-Site Scripting (XSS), dan serangan umum lainnya harus ada.
 
-5.5	Atribut Bisnis
+**5.5	Atribut Bisnis**
 1. Mengoptimalisasi Pengalaman Pengguna:
 Platform bertujuan untuk memberikan pengalaman pengguna yang intuitif dan memuaskan dalam memilih hijab sesuai dengan preferensi dan karakteristik fisik pengguna.
 Meningkatkan Keterlibatan Pengguna:
@@ -228,10 +258,9 @@ Platform dapat memperoleh pendapatan dari kemitraan dengan toko online melalui p
 Menyediakan ruang iklan untuk merek hijab atau produk terkait di platform.
 
 
+**6.	PERSYARATAN LAINNYA**
 
-6.	Persyaratan Lainnya
-
-Lampiran B: Analisa Model
+*Analisa Model*
 Flowchart
 Entity Relationship Diagram
 Use Case
@@ -241,11 +270,10 @@ CDM dan PDM
 
 
 
-PENJELASAN WEB
+**PENJELASAN WEB**
+**A. HTML**
 
-A. HTML 
-
-1) Login
+*1) Login*
 	•	<!DOCTYPE html> Digunakan untuk deklarasi tipe dokumen HTML 
 	•	<html lang="en"> Merupakan sebuah tag pembuka elemen HTML dengan atribut bahasa "en"
 	•	<head></head> Merupakan sebuah tag wadah atau penampung untuk elemen HTML yang lain, dan ditempatkan di antara tag <html> dan tag <body> . didalam tag ini terdapat beberapa isi yang berisi metadata halaman 		yaitu:
@@ -267,9 +295,87 @@ A. HTML
 		o	<p>Silakan coba lagi</p>  Pesan dalam popup modal yang dicetak sebagai paragraf.
 
    
-2) Index
-   
-3) Fitur Pilih Bahan Hijab
+*2) Index*
+	•	`<!DOCTYPE html>`: Ini adalah deklarasi dokumen HTML yang menunjukkan jenis dokumen HTML yang digunakan, yaitu HTML5.
+	•	`<html lang="en">`: Ini adalah elemen root (akar) dari dokumen HTML. `lang="en"` menunjukkan bahwa bahasa yang digunakan dalam dokumen ini adalah bahasa Inggris.
+	•	`<head>`: Ini adalah bagian kepala dokumen HTML, di mana Anda dapat menambahkan metadata, tautan stylesheet, dan skrip JavaScript. Dalam bagian ini, Anda akan menemukan:
+		o	`<meta charset="UTF-8">`: Mendefinisikan set karakter UTF-8 untuk mengakomodasi karakter internasional dalam dokumen.
+		o	`<meta name="viewport" content="width=device-width, initial-scale=1.0">`: Menyediakan instruksi untuk mengatur tampilan halaman agar sesuai dengan lebar perangkat dan memastikan skala awal adalah 1:1.
+		o	`<title>Hijabista.com</title>`: Menentukan judul halaman web yang akan muncul di tab peramban.
+		o	`<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">`: Ini adalah tautan ke Font Awesome, yang memungkinkan penggunaan ikon di halaman web.
+		o	`<link rel="stylesheet" href="css/style_yanaa.css">`: Ini adalah tautan ke file CSS yang digunakan untuk mengatur tampilan dan gaya halaman web.
+	•	`<body>`: Ini adalah elemen tubuh dokumen HTML, di mana konten utama halaman web ditempatkan. Di dalam elemen `<body>`, Anda akan menemukan:
+		o	Header 
+			~	`<header>`: Ini adalah elemen header halaman web yang berisi logo, menu navigasi, dan ikon-ikon.
+			~	`<a href="#" class="logo"><img src="img/logofixx.png"></a>`: Ini adalah tautan berisi logo dengan gambar "logofixx.png".
+			~	`<nav class="navbar">`: Ini adalah elemen navigasi yang berisi daftar tautan menu.
+			~	`<a class="active" href="#home">home</a>`: Tautan menu ke bagian "home" halaman dengan atribut `class="active"`, yang mungkin menunjukkan bahwa ini adalah halaman aktif.
+			~	`<a href="#about_us">about us</a>`: Tautan menu ke bagian "about us".
+			~	`<a href="#rekomendasi">rekomendasi</a>`: Tautan menu ke bagian "rekomendasi".
+			~	`<a href="#shop">shop</a>`: Tautan menu ke bagian "shop".
+			~	`<a href="#contact">contact</a>`: Tautan menu ke bagian "contact".
+			~	`<div class="icons">`: Ini adalah bagian yang berisi ikon-ikon.
+			~	`<i class="fas fa-bars" id="menu-bars"></i>`: Ikon garis tiga yang mungkin digunakan untuk menu navigasi responsif.
+			~	`<i class="fas fa-search" id="search-icon"></i>`: Ikon pencarian.
+			~	`<a href="#" class="fas fa-heart"></a>`: Ikon hati dengan tautan kosong.
+			~	`<a href="login.html" class="fas fa-user"></a>`: Ikon pengguna dengan tautan ke "login.html".
+		o	Form
+			~	`<!-- search form awal-->`: Ini adalah komentar yang memberikan keterangan tentang bagian selanjutnya.
+			~	`<form action="" id="search-form">`: Ini adalah elemen formulir pencarian dengan atribut id "search-form" dan tindakan kosong (action="").
+			~	`<input type="search" placeholder="search here..." name="" id="search-box">`: Ini adalah elemen input yang digunakan untuk memasukkan kata kunci pencarian dengan atribut placeholder yang memberikan petunjuk ke pengguna.
+			~	`<label for="search-box" class="fas fa-search"></label>`: Ini adalah label yang terhubung dengan input pencarian menggunakan atribut "for".
+			~	`<i class="fas fa-times" id="close"></i>`: Ikon silang yang mungkin digunakan untuk menutup formulir pencarian.
+		o	Section
+			~	Home
+				-	`<section class="home" id="home">`: Ini adalah bagian "home" dari halaman web dengan atribut id "home".
+				-	`<div class="container-home">`: Ini adalah div kontainer untuk konten bagian "home".
+				-	`<div class="wrapper">`: Ini adalah div pembungkus untuk mengelompokkan konten.
+				-	`<div class="content">`: Ini adalah div yang berisi konten teks.
+				-	`<h3>Hijab Fashion and Hijab Consultation</h3>`: Teks judul.
+				-	`<p>Temukan gaya hijab yang paling sesuai dengan kebutuhan dan karakteristikmu sekarang!</p>`: Paragraf deskripsi.
+				-	`<a href="#about_us" class="btn">read more</a>`: Tautan "read more" dengan atribut href ke bagian "about us" dan atribut class "btn".
+				-	`<div class="image">`: Ini adalah div yang berisi gambar.
+				-	`<img src="img/logoutama.png" alt="logo utama hijab">`: Gambar dengan atribut src dan alt.
+			~	About Us
+				-	<section class="about_us" id="about_us"> : Ini adalah bagian "About Us" dari halaman web. `class="about_us"` adalah kelas CSS untuk gaya, dan `id="about_us"` adalah ID yang dapat digunakan untuk menghubungkan tautan di halaman.
+				-	<h3 class="heading">about us</h3> : Terdapat judul "about us" yang dibungkus dalam tag `<h3>`.
+				-	<div class="row">
+				-	<div class="img">
+				-	<img src="img/logodua.png" alt="logo about us"> : Ada gambar logo (`<img>`) yang ditautkan ke "img/logodua.png" dan memiliki atribut "alt" untuk deskripsi gambar.
+				-	</div>
+				-	<div class="content">
+				-	<!-- Konten teks tentang perusahaan atau organisasi -->
+				-	</div>
+				-	</div>
+				-	</section>
+			~	Rekomendasi
+				-	<section class="rekomendasi" id="rekomendasi"> : Ini adalah bagian "Rekomendasi" dari halaman web.
+				-	<h3 class="heading">rekomendasi</h3> : Ada judul "rekomendasi" dalam tag `<h3>`.
+				-	<div class="box-container"> : Di dalam `div` dengan kelas "box-container", terdapat tiga kotak (`<div class="box2">`) yang berisi gambar, judul, deskripsi, dan tautan ke halaman-halaman terkait.
+				-	<!-- Tiga kotak (box) yang masing-masing berisi gambar, judul, deskripsi, dan tautan -->
+				-	</div>
+				-	</section>
+			~	Shop
+				-	<section class="shop" id="shop"> : Ini adalah bagian "Shop" dari halaman web.
+				-	<h3 class="heading">shop</h3> : Terdapat judul "shop" dalam tag `<h3>`.
+				-	<div class="container-shop"> : Di dalam `div` dengan kelas "container-shop", terdapat daftar toko online dengan gambar dan tautan ke situs web toko online.
+				-	<!-- Pilihan toko online dengan gambar dan tautan ke situs web toko online -->
+				-	</div>
+				-	</section>
+			~	Contact
+				-	<section class="contact" id="contact"> : Ini adalah bagian "Contact" dari halaman web.
+				-	<div class="contactus">
+				-	<h3 class="heading">contact us</h3> : Terdapat judul "contact us" dalam tag `<h3>`.
+				-	<div class="box"> : Di dalam `div` dengan kelas "box", terdapat tiga sub-bagian: formulir kontak, informasi kontak, dan peta Google Maps.
+				-	<!-- Konten kontak, termasuk formulir, informasi kontak, dan peta Google Maps -->
+				-	</div>
+				-	</div>
+				-	</section>
+			~	Javascript
+				-	<script src="js/script_yanna.js"></script> : Ini adalah tautan ke file JavaScript "script_yanna.js". File JavaScript ini akan digunakan untuk mengendalikan perilaku dinamis halaman web.
+
+
+*3) Fitur Pilih Bahan Hijab*
 	<!DOCTYPE html>
 	<html lang="en">
 	<head>
@@ -516,7 +622,7 @@ A. HTML
 	3. `</body>`: Penutup dari elemen `<body>`, menandakan akhir dari konten yang akan ditampilkan di halaman web.
 	4. `</html>`: Penutup dari elemen `<html>`, menandakan akhir dari dokumen HTML.
 
-4) fitur pilih model hijab
+*4) fitur pilih model hijab*
 	•	<!DOCTYPE html> Digunakan untuk deklarasi tipe dokumen HTML 
 	•	<html lang="en"> Merupakan sebuah tag pembuka elemen HTML dengan atribut bahasa "en"
 	•	<head></head> Merupakan sebuah tag wadah atau penampung untuk elemen HTML yang lain, dan ditempatkan di antara tag <html> dan tag <body> . didalam tag ini terdapat beberapa isi yang berisi metadata halaman 		yaitu:
@@ -536,16 +642,27 @@ A. HTML
 	•	<script src="js/yanna_script.js"></script>  Digunakan untuk menambahkan tautan ke file JS eksternal untuk mengatur logika pada halaman web. Disini saya menggunakan file yanna_script.js yang berada didalam 		folder js.
 
    
-5) fitur pilih warna hijab
+*5) fitur pilih warna hijab*
+	•	`<!DOCTYPE html>`: Ini adalah deklarasi tipe dokumen yang mengindikasikan bahwa halaman web menggunakan standar HTML.
+	•	`<html lang="en">`: Ini adalah elemen `<html>` yang mengawali dokumen HTML. `lang="en"` mengindikasikan bahwa bahasa yang digunakan dalam halaman web ini adalah bahasa Inggris.
+	•	`<head>`: Bagian ini berisi elemen-elemen yang memberikan informasi tentang dokumen, seperti metadata dan tautan ke berkas CSS. Berikut adalah elemen-elemen dalam `<head>`:
+		o	`<meta charset="UTF-8">`: Ini adalah elemen meta yang menentukan karakter encoding dokumen sebagai UTF-8, yang digunakan untuk mendukung karakter-karakter internasional.
+		o	`<meta name="viewport" content="width=device-width, initial-scale=1.0*">`: Ini adalah elemen meta yang digunakan untuk mengatur tampilan halaman web pada perangkat berbasis ponsel. Ini memungkinkan halaman untuk menyesuaikan lebar tampilan dengan lebar perangkat dan mengatur faktor skala awal.
+		o	`<title>Rekomendasi Model Hijab</title>`: Ini adalah judul halaman web yang akan ditampilkan di bilah judul browser.
+		o	`<link rel="stylesheet" href="css/style_eva.css">`: Ini adalah tautan ke berkas CSS eksternal yang digunakan untuk mengatur tampilan dan gaya halaman web.
+	•	`<body>`: Ini adalah bagian utama halaman web yang berisi konten yang akan ditampilkan kepada pengguna. Bagian `<body>` berisi beberapa elemen:
+		o	Section
+			~	`<section class="fiturwarna" id="fiturwarna">`: Ini adalah elemen `<section>` yang memiliki atribut `class` dan `id`. `class` digunakan untuk merujuk elemen ini dalam CSS atau JavaScript, sementara `id` adalah identifikasi unik untuk elemen ini.
+			~	`<h3>Pilih warna kulit yang sesuai dengan wajah Anda!</h3>`: Ini adalah elemen heading level 3 yang berisi judul bagian.
+			~	`<p>Pilih Rekomendasi Warna Kulit Dibawah Ini Yang Sesuai Dengan Warna Kulit Anda Untuk Melihat Rekomendasi Warna Hijab</p>`: Ini adalah elemen paragraf yang memberikan deskripsi atau petunjuk kepada pengguna.
+			~	`<div class="img-container">`: Ini adalah elemen `<div>` yang digunakan untuk mengelompokkan elemen-elemen gambar bersamaan dengan deskripsi. Ini membungkus semua gambar dan deskripsi warna kulit.
+	•	Gambar-gambar: Digunakan untuk menampilkan gambar wajah dengan berbagai warna kulit, seperti kulit cerah, kulit tengah, dan kulit gelap.
+	•	Elemen-elemen `<div>` berkelas `img-container-cerah`, `img-container-tengah`, dan `img-container-gelap`: Ini adalah elemen-elemen `<div>` yang digunakan untuk mengelompokkan gambar-gambar yang sesuai dengan warna kulit tertentu.
 
 
+**B. CSS**
 
-
-
-
-B. CSS
-
-1) Login
+*1) Login*
 	* {
 	    padding: 0;
 	    margin: 0;
@@ -706,8 +823,88 @@ B. CSS
 	1. `bottom: 32px;`: Ini mengubah posisi elemen dengan kelas "pop-up-modal" menjadi 32 piksel dari bagian bawah tampilan pengguna.
 	2. `opacity: 1;`: Ini membuat elemen terlihat dengan pengaturan kejernihan (transparansi) 1 (elemen sepenuhnya terlihat).
 
-2) Index
-3) Fitur Pilih Bahan Hijab -style divana
+
+*2) Index*
+	•	`@import`: `@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400 ;600;700&display=swap');`: Ini adalah aturan CSS yang mengimpor font dari Google Fonts dengan nama "Nunito" dalam berbagai bobot (weight) yang disediakan. Font ini akan digunakan di seluruh situs web.
+	•	`:root`: Ini adalah kelas yang digunakan untuk menentukan variabel CSS yang akan digunakan dalam seluruh situs web. Dalam contoh ini, variabel yang ditetapkan adalah:
+		o	`--green`: Warna hijau
+		o	`--black`: Warna hitam
+		o	`--light-color`: Warna terang
+		o	`--box-shadow`: Sifat bayangan kotak yang digunakan untuk efek bayangan.
+	•	`*` (selektor universal): Ini memengaruhi semua elemen HTML di halaman web. Aturan-aturan yang diterapkan di sini termasuk mengatur font, margin, padding, box-sizing, dekorasi teks, penghapusan batas, mengubah teks menjadi huruf kapital, dan efek transisi.
+	•	`html`: Ini mengatur beberapa sifat untuk elemen `html`, termasuk ukuran font, menghilangkan overflow horizontal, mengatur perilaku scrolling, dan pengaturan lainnya.
+	•	`.btn`: Ini adalah aturan untuk elemen-elemen dengan kelas "btn". Ini mengatur tampilan tombol, termasuk margin, font size, warna teks, latar belakang, border, dan lainnya.
+	•	`.btn:hover`: Ini adalah aturan yang berlaku ketika tombol dengan kelas "btn" disorot oleh kursor mouse. Ini mengubah tampilan tombol saat dihover, seperti mengubah warna latar belakang, jarak antar huruf, dan warna teks.
+	•	`.heading`: Ini adalah aturan untuk elemen dengan kelas "heading". Ini mengatur tampilan elemen judul, seperti teks tengah, warna teks, ukuran font, transformasi teks menjadi huruf kapital, padding, dan posisi elemen.
+	•	Gaya untuk elemen-elemen di bagian "home", "about us", "rekomendasi", "shop", dan "contact style". Setiap bagian memiliki aturan CSS khusus untuk mengatur tampilan elemen-elemen yang ada dalam masing-masing bagian halaman.
+		o	Home Style
+			~	`.home`: Ini adalah selektor untuk elemen dengan kelas "home".
+				-	`background-color`: Mengatur warna latar belakang menjadi merah muda (#fb6376).
+				-	`padding`: Memberikan padding sebesar 2 rem (16 piksel) di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+			~	`.home .container-home .wrapper`: Ini adalah selektor untuk elemen dengan kelas "wrapper" yang berada dalam elemen dengan kelas "container-home" yang berada dalam elemen dengan kelas "home".
+				-	`display`: Mengatur tampilan menjadi flex (membuat elemen dalam satu baris dan dapat diatur ulang).
+				-	`align-items`: Mengatur seluruh item (flex) untuk berada di tengah secara vertikal.
+				-	`flex-wrap`: Memungkinkan item-item tersebut untuk melintasi beberapa baris jika tidak cukup ruang.
+				-	`gap`: Memberikan jarak antara elemen-elemen dalam "wrapper" sebesar 2 rem.
+				-	`padding-top`: Memberikan padding sebesar 9 rem di bagian atas.
+			~	`.home .container-home .wrapper .content`: Ini adalah selektor untuk elemen dengan kelas "content" yang berada dalam "wrapper".
+				-	`flex`: Mengatur flex-grow, flex-shrink, dan flex-basis, dalam hal ini, flex-grow adalah 1, flex-shrink adalah 1, dan flex-basis adalah 45 rem.
+			~	`.home .container-home .wrapper .image`: Ini adalah selektor untuk elemen dengan kelas "image" yang berada dalam "wrapper".
+				-	`flex`: Seperti sebelumnya, mengatur properti flex.
+			~	`.home .container-home .wrapper .image img`: Ini adalah selektor untuk elemen gambar (img) yang berada dalam elemen dengan kelas "image".
+				-	`width`: Mengatur lebar gambar menjadi 400 piksel.
+				-	`position`: Mengatur posisi gambar menjadi relatif.
+				-	`top`: Menggeser gambar sebesar 24 piksel dari atas.
+			~	`.home .container-home .wrapper .content h3`: Ini adalah selektor untuk elemen h3 yang berada dalam elemen dengan kelas "content".
+				-	`color`: Mengatur warna teks menjadi hitam (#000000).
+				-	`font-size`: Mengatur ukuran font menjadi 5 rem.
+			~	`.home .container-home .wrapper p`: Ini adalah selektor untuk elemen paragraf (p) dalam "wrapper".
+				-	`color`: Mengatur warna teks menjadi hitam.
+				-	`font-size`: Mengatur ukuran font menjadi 1.5 rem.
+				-	`padding`: Memberikan padding 1 rem di atas dan bawah.
+				-	`line-height`: Mengatur tinggi baris menjadi 2 rem.
+		o	About Us Style
+			~	`.about_us`: Ini adalah selektor untuk elemen dengan kelas "about_us".
+				-	`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+				-	`background-color`: Mengatur warna latar belakang menjadi merah muda muda (#ffdccc).
+			~	`.about_us .row`: Ini adalah selektor untuk elemen dengan kelas "row" yang berada dalam "about_us".
+				-	`display`: Mengatur tampilan menjadi flex.
+				-	`flex-wrap`: Memungkinkan item-item tersebut untuk melintasi beberapa baris jika tidak cukup ruang.
+				-	`gap`: Memberikan jarak antara elemen-elemen dalam "row" sebesar 1.5 rem.
+				-	`align-items`: Mengatur seluruh item (flex) untuk berada di tengah secara vertikal.
+			~	Selektor-selektor lain dalam "about_us" memiliki properti serupa dengan yang ada di "home" (seperti flex, font-size, warna teks, dsb.), tetapi mereka diterapkan pada elemen-elemen yang sesuai dalam "about_us".
+		o	Rekomendasi Style
+			~	`.rekomendasi`: Ini adalah selektor untuk elemen dengan kelas "rekomendasi".
+				-	`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+				-	`background-color`: Mengatur warna latar belakang menjadi merah muda (#fb6376).
+			~	`.rekomendasi .box-container`: Ini adalah selektor untuk elemen dengan kelas "box-container" dalam "rekomendasi".
+				-	`display`: Mengatur tampilan menjadi grid dengan beberapa kolom, sesuai dengan lebar elemen.
+				-	`grid-template-columns`: Mengatur lebar kolom sesuai dengan konten, dengan ukuran minimal 28 rem dan sebesar 1 fr (fr adalah fraksi dari ruang yang tersedia).
+				-	`gap`: Memberikan jarak antara elemen-elemen dalam "box-container" sebesar 5 rem.
+			~	Selektor-selektor lain dalam "rekomendasi" mengatur properti-properti seperti warna, ukuran font, dan efek bayangan (box-shadow) pada elemen-elemen dalam "box-container".
+		o	Shop Style
+			~	`.shop`: Ini adalah selektor untuk elemen dengan kelas "shop".
+				-	`display`: Mengatur tampilan menjadi flex.
+				-	`padding`: Memberikan padding sebesar 2 rem di atas dan bawah serta 9% dari lebar layar di sisi kiri dan kanan.
+				-	`background-color`: Mengatur warna latar belakang menjadi merah muda muda (#fcb1a6).
+			~	Selektor-selektor lain dalam "shop" mengatur properti-properti seperti warna, ukuran font, dan posisi elemen dalam "shop".
+		o	Contact Style
+			~	`.contactus`: Ini adalah selektor untuk elemen dengan kelas "contactus".
+				-	`position`: Mengatur posisi elemen menjadi relatif.
+				-	`width`: Mengatur lebar elemen menjadi 100%.
+				-	`padding`: Memberikan padding sebesar 40 piksel di atas dan bawah serta 20 piksel di sisi kiri dan kanan.
+				-	`background-color`: Mengatur warna latar belakang menjadi coklat tua (#5d2a42).
+			~	Selektor-selektor lain dalam "contactus" mengatur properti-properti seperti warna teks, font-size, dan tampilan grid untuk mengatur susunan elemen-elemen di dalamnya.
+	•	Header dan search form: Kode ini mengatur tampilan header dan kotak pencarian.
+		o	`header`: Mengatur header situs.
+		o	`img`: Mengatur gaya gambar dalam header.
+		o	`.navbar`: Mengatur tautan navigasi di header.
+		o	`#search-form`: Mengatur tampilan kotak pencarian yang muncul saat pencarian aktif.
+		o	`.active`: Mengatur tampilan untuk elemen yang aktif.
+	•	Media Queries: Terdapat beberapa media queries yang digunakan untuk mengatur tampilan situs web pada berbagai lebar layar. Ini termasuk mengatur ukuran font, tata letak elemen, dan beberapa perubahan gaya lainnya sesuai dengan lebar layar tertentu.
+
+
+*3) Fitur Pilih Bahan Hijab -style divana*
 	@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 	
 	/* Same Color Variables */
@@ -925,7 +1122,7 @@ B. CSS
 	Aturan untuk Elemen dengan kelas `.swiper-pagination-bullet-active`:
 	- `background: #5d2a42;`: Ini menetapkan latar belakang elemen dengan kelas "swiper-pagination-bullet-active" menjadi warna #5d2a42 (ungu tua).
 
-4) fitur model hijab -yanna_style
+*4) fitur model hijab -yanna_style*
 	•	@import: Ini adalah aturan CSS yang digunakan untuk mengimpor file eksternal, dalam hal ini, file font dari Google Fonts. Ini akan mengimpor font Nunito dengan berbagai varian berat yang akan digunakan di 		seluruh halaman.
 	•	*{ ... }: Ini adalah pemilih universal. Ini akan memengaruhi semua elemen di halaman web. Properti yang didefinisikan di sini termasuk:
 			o	font-family: Mengatur font yang digunakan untuk semua elemen ke "Nunito" dengan alternatif "sans-serif".
@@ -953,13 +1150,42 @@ B. CSS
 	•	@media screen and (max-width: 900px) { ... } dan @media screen and (max-width: 600px) { ... }: Ini adalah aturan media query yang mengubah tampilan elemen dengan kelas "carousel" dalam elemen dengan kelas 		"wrapper" ketika lebar tampilan kurang dari 900 piksel dan 600 piksel, masing-masing. Ini digunakan untuk responsif desain halaman web, mengubah tampilan sesuai dengan lebar layar perangkat pengguna.
 
    
-5) fitur warna hijab -style_eva
-	
+*5) fitur warna hijab -style_eva*
+	•	`*` Selector: universal selector yang memilih semua elemen HTML di halaman.
+		o	`font-family: 'Nunito', sans-serif;` mengatur jenis font untuk semua teks pada halaman. 'Nunito' adalah jenis font yang diutamakan, dan jika tidak tersedia, maka menggunakan jenis font cadangan 'sans-serif'.
+		o	`margin: 0;` menghilangkan margin pada semua elemen. Ini dapat membantu menghindari margin bawaan yang berbeda pada elemen-elemen HTML.
+		o	`padding: 0;` menghilangkan padding pada semua elemen. Ini juga membantu menghilangkan padding bawaan.
+		o	`box-sizing: border-box;` mengatur model kotak elemen sebagai "border-box," yang berarti ukuran elemen mencakup border dan padding, bukan hanya konten. Ini memastikan elemen tetap dalam batas yang ditentukan.
+		o	`text-decoration: none;` menghilangkan dekorasi teks seperti garis bawah dari tautan.
+		o	`outline: none;` menghilangkan outline atau garis tepi yang muncul saat elemen menerima fokus.
+		o	`border: none;` menghilangkan semua border pada elemen.
+		o	`text-transform: capitalize;` mengubah semua teks menjadi kapital pada awal setiap kata.
+		o	`transition: all .2s linear;` mengatur efek transisi pada semua perubahan properti CSS selama 0.2 detik dengan animasi linier.
+	•	`section` Selector: Ini memilih elemen `<section>` pada halaman.
+		o	`padding: 7rem 9%;` memberikan padding sebesar 7 rem di atas dan bawah serta 9% pada sisi kiri dan kanan elemen `<section>`.
+		o	`background: #FFDCCC;` mengatur warna latar belakang elemen `<section>` menjadi #FFDCCC (warna kuning pucat).
+	•	`.container h3` Selector: Ini memilih elemen `<h3>` yang berada di dalam elemen dengan kelas "container."
+		o	`display: flex;` mengubah tata letak elemen `<h3>` menjadi tampilan fleksibel.
+		o	`justify-content: center;` memusatkan elemen `<h3>` secara horizontal.
+		o	`font-weight: bold;` mengatur tebal teks elemen `<h3>` menjadi tebal.
+	•	`.container p` Selector: Ini memilih elemen `<p>` yang berada di dalam elemen dengan kelas "container."
+		o	`margin: 0px 0 25px 0;` mengatur margin atas dan bawah elemen `<p>`, serta margin kiri dan kanan nol. Ini menghilangkan margin atas dan bawah tetapi memberikan margin pada sisi bawah elemen `<p>`. 
+		o	`text-align: center;` mengatur teks elemen `<p>` menjadi rata tengah.
+		o	`font-size: 16px;` mengatur ukuran font menjadi 16 piksel.
+		o	`line-height: 1.5;` mengatur tinggi baris menjadi 1.5, yang memengaruhi jarak antara baris teks.
+	•	`.img-container` Selector: Ini memilih elemen dengan kelas "img-container."
+		o	`display: flex;` mengubah tata letak elemen "img-container" menjadi tampilan fleksibel.
+	•	`.img-container img` Selector: Ini memilih elemen gambar `<img>` yang berada di dalam elemen dengan kelas "img-container."
+		o	`margin: 20px;` memberikan margin sebesar 20 piksel pada semua sisi gambar.
+		o	`width: 55px;` mengatur lebar gambar menjadi 55 piksel.
+		o	`height: 210px;` mengatur tinggi gambar menjadi 210 piksel.
+	•	`.img-container-cerah img`, `.img-container-tengah img`, `.img-container-gelap img` Selectors: Ini adalah tiga aturan yang memilih elemen gambar `<img>` yang berada di dalam elemen dengan kelas "img-container-cerah," "img-container-tengah," dan "img-container-gelap" secara berturut-turut.
 
 
-C. JS
+**C. JS**
 
-1) index -script_yanna
+
+*1) index -script_yanna*
 	1.	Toggle Menu Bar:
 	let menu = document.querySelector('#menu-bars');
 	let navbar = document.querySelector('.navbar');
@@ -1000,7 +1226,7 @@ C. JS
 	- Kemudian, saat elemen ini diklik, sebuah fungsi dijalankan.
 	- Fungsi tersebut mengambil elemen dengan ID "search-form" dan menghapus kelas "active", sehingga menutup formulir pencarian.
 
-2) Fitur Bahan hijab -script_divana
+*2) Fitur Bahan hijab -script_divana*
 	`var swiper = new Swiper(".mySwiper", {...});`: Ini membuat instance baru dari Swiper dengan selector ".mySwiper". Ini berarti Swiper akan diterapkan pada elemen HTML dengan kelas "mySwiper".
 	`loop: true,`: Ini mengatur Swiper untuk berputar kembali ke awal setelah mencapai akhir galeri.
 	`spaceBetween: 30,`: Ini menetapkan jarak antara setiap slide (elemen dalam galeri) sebesar 30 piksel.
@@ -1046,17 +1272,18 @@ C. JS
 	     - `nextEl: ".swiper-button-next",` menunjukkan bahwa tombol untuk slide berikutnya akan diaktifkan dengan elemen yang memiliki kelas "swiper-button-next".
 	     - `prevEl: ".swiper-button-prev",` menunjukkan bahwa tombol untuk slide sebelumnya akan diaktifkan dengan elemen yang memiliki kelas "swiper-button-prev".
 
-   3) fitur model hijab -yanna_script
+
+*3) fitur model hijab -yanna_script*
   	•	Pertama-tama, elemen-elemen HTML diambil dari dokumen menggunakan metode document.querySelector atau document.querySelectorAll dan disimpan dalam variabel-variabel:
-			o	wrapper: Merepresentasikan elemen dengan kelas "wrapper".
-			o	carousel: Merepresentasikan elemen dengan kelas "carousel".
-			o	firstCardWidth: Menyimpan lebar dari kartu pertama dalam carousel.
-			o	arrowBtns: Menyimpan semua elemen <i> dalam elemen dengan kelas "wrapper".
-			o	carouselChildrens: Menyimpan semua elemen anak dari elemen "carousel" dalam bentuk array.
+		o	wrapper: Merepresentasikan elemen dengan kelas "wrapper".
+		o	carousel: Merepresentasikan elemen dengan kelas "carousel".
+		o	firstCardWidth: Menyimpan lebar dari kartu pertama dalam carousel.
+		o	arrowBtns: Menyimpan semua elemen <i> dalam elemen dengan kelas "wrapper".
+		o	carouselChildrens: Menyimpan semua elemen anak dari elemen "carousel" dalam bentuk array.
 	•	Beberapa variabel status dan kontrol didefinisikan:
-			o	isDragging dan isAutoPlay: Variabel yang digunakan untuk mengontrol apakah pengguna sedang menarik (dragging) carousel atau apakah autoplay aktif.
-			o	startX dan startScrollLeft: Variabel yang digunakan untuk menyimpan posisi awal kursor pengguna dan posisi awal scroll carousel.
-			o	timeoutId: Variabel yang digunakan untuk menyimpan ID timeout yang digunakan untuk autoplay.
+		o	isDragging dan isAutoPlay: Variabel yang digunakan untuk mengontrol apakah pengguna sedang menarik (dragging) carousel atau apakah autoplay aktif.
+		o	startX dan startScrollLeft: Variabel yang digunakan untuk menyimpan posisi awal kursor pengguna dan posisi awal scroll carousel.
+		o	timeoutId: Variabel yang digunakan untuk menyimpan ID timeout yang digunakan untuk autoplay.
 	•	Jumlah kartu yang dapat ditampilkan dalam carousel pada satu waktu dihitung dengan membagi lebar carousel (carousel.offsetWidth) oleh lebar kartu pertama (firstCardWidth) dan disimpan dalam variabel 			cardPerView.
 	•	Selanjutnya, beberapa kartu terakhir disalin dan dimasukkan ke awal carousel, dan beberapa kartu pertama disalin dan dimasukkan ke akhir carousel. Ini dilakukan untuk menciptakan efek gulir tak terbatas.
 	•	Kemudian, CSS class "no-transition" ditambahkan ke elemen carousel untuk menghilangkan transisi, scrollLeft diatur untuk menyembunyikan beberapa kartu duplikat di awal, dan kemudian class "no-transition" 		dihapus untuk mengembalikan transisi.
@@ -1066,6 +1293,3 @@ C. JS
 	•	Fungsi autoPlay() digunakan untuk mengotomatisasi gerakan carousel. Jika lebar jendela kurang dari 800 piksel atau isAutoPlay adalah false, autoplay tidak akan dijalankan. Jika autoplay dijalankan, 			carousel akan otomatis digeser setiap 2500 milidetik.
 	•	Terdapat beberapa event listener yang mengatur interaksi pengguna dan perilaku carousel, seperti saat pengguna menekan mouse, menggeser mouse, menghentikan operasi drag, menggerakkan scroll, dan sebagainya
 	
-	      		
-
-
