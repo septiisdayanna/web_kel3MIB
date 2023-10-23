@@ -78,7 +78,7 @@ Platform akan dioptimalkan untuk berbagai browser populer termasuk Google Chrome
 3. Development Tools
 Perangkat yang digunakan untuk pengembangan sistem dan penyimpanan database adalah:
 PhpMyAdmin sebagai sistem penyimpanan database Pengguna dan admin.
-Bahasa pemrograman menggunakan PHP, JS, CSS, HTML.
+Bahasa pemrograman menggunakan JS, CSS, HTML.
 Browser dan Development sebagai pengujian dan debug.
 
 **2.5	Kendala Desain dan Implementasi**
@@ -126,7 +126,7 @@ _b. Ketergantungan_
 1. Ketergantungan Eksternal
 Platform mengandalkan API dari toko online mitra untuk menyediakan rekomendasi produk dan harga.
 2. Pengembangan Bahasa Pemrograman
-Ketersediaan sumber daya dan dukungan untuk bahasa pemrograman yang digunakan dalam pengembangan (PHP, HTML, CSS, JavaScript) harus dijamin.
+Ketersediaan sumber daya dan dukungan untuk bahasa pemrograman yang digunakan dalam pengembangan (HTML, CSS, JavaScript) harus dijamin.
 3. Ketersediaan Server dan Hosting
 Layanan hosting dan server harus stabil dan dapat diandalkan untuk menjalankan platform secara efisien.
 4. Ketersediaan Database Management System
@@ -153,7 +153,6 @@ Aplikasi ini dapat diakses dengan menggunakan beberapa perangkat keras seperti m
 
 Aplikasi diakses menggunakan web browser.
 Dikembangkan menggunakan bahasa pemrograman html, css, java script.
-Database yang digunakan adalah mysql.
 
 **3.4	Antarmuka Komunikasi**
 
