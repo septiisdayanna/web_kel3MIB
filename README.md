@@ -1,5 +1,5 @@
 # Tampilan Web
-![Web](https://septiisdayanna.github.io/web_kel3MIB/)
+https://septiisdayanna.github.io/web_kel3MIB/
 
 
 # SRS Web
